@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="welib L2 MinHash、EAI、领域标签体系与 L3 规则过滤实验的实际运行结果。">
+<title>welib 数据管线 · L2 / EAI / Labels / L3 实验实录</title>
+<style>
+:root{
+  --paper:#eef0f4;--surface:#fff;--surface2:#f6f7fa;--ink:#1b232f;--soft:#586373;
+  --faint:#8b95a4;--line:#d7dbe4;--accent:#2c5fa8;--accent2:#1f477f;
+  --accent-soft:rgba(44,95,168,.10);--ok:#18703a;--ok-soft:rgba(24,112,58,.10);
+  --warn:#946600;--warn-soft:rgba(210,157,12,.13);--bad:#a02b20;--bad-soft:rgba(190,50,38,.10);
+  --mono:"SFMono-Regular","JetBrains Mono",Menlo,Consolas,monospace;
+  --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans SC","PingFang SC","Microsoft YaHei",sans-serif;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Noto Serif SC",serif;
+  --shadow:0 1px 2px rgba(20,30,48,.05),0 8px 26px rgba(20,30,48,.05)
+}
+@media(prefers-color-scheme:dark){:root{
+  --paper:#0e131a;--surface:#161d27;--surface2:#131a23;--ink:#e6eaf1;--soft:#9aa6b5;
+  --faint:#6b7686;--line:#28323f;--accent:#78a9ed;--accent2:#a2c6f4;
+  --accent-soft:rgba(110,160,232,.14);--ok:#7bd695;--ok-soft:rgba(70,190,115,.12);
+  --warn:#edc969;--warn-soft:rgba(224,180,60,.12);--bad:#ff9d90;--bad-soft:rgba(255,95,78,.12);
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.25)
+}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.6 var(--sans)}
+a{color:var(--accent2)}code{font-family:var(--mono);font-size:.9em;overflow-wrap:anywhere}
+.mast{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--paper) 90%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.mastin{max-width:1180px;margin:auto;padding:12px 22px;display:flex;align-items:center;gap:18px;justify-content:space-between}
+.brand{font:600 18px/1.25 var(--serif)}.back{border:1px solid var(--line);background:var(--surface);padding:6px 11px;border-radius:8px;text-decoration:none;font-size:12px;color:var(--soft)}
+.back:hover{border-color:var(--accent);color:var(--accent)}
+.layout{max-width:1180px;margin:0 auto;padding:28px 22px 80px;display:grid;grid-template-columns:190px minmax(0,1fr);gap:28px}
+.toc{position:sticky;top:74px;align-self:start;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:var(--shadow)}
+.toc b{display:block;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);padding:3px 7px 8px}
+.toc a{display:block;text-decoration:none;color:var(--soft);border-radius:7px;padding:6px 7px;font-size:12px}.toc a:hover{background:var(--accent-soft);color:var(--accent2)}
+main{min-width:0}.hero{margin:3px 0 28px}.eyebrow{font:700 11px/1 var(--mono);letter-spacing:.12em;color:var(--accent);text-transform:uppercase}
+h1{font:600 clamp(28px,4vw,45px)/1.1 var(--serif);letter-spacing:-.02em;margin:10px 0 11px}h2{font:600 27px/1.2 var(--serif);margin:0}h3{font-size:15px;margin:0 0 9px}
+.lede{font-size:15px;color:var(--soft);max-width:78ch;margin:0}.stamp{font:11px var(--mono);color:var(--faint);margin-top:12px}
+.truth{border:1px solid color-mix(in srgb,var(--warn) 45%,var(--line));border-left:4px solid var(--warn);background:var(--warn-soft);padding:13px 16px;border-radius:10px;margin:18px 0;color:var(--ink)}
+.truth b{color:var(--warn)}section{scroll-margin-top:76px;margin:0 0 38px}.secthead{display:flex;align-items:baseline;gap:12px;border-bottom:1px solid var(--line);padding-bottom:9px;margin-bottom:14px}.stage{font:700 11px var(--mono);color:#fff;background:var(--accent);padding:3px 7px;border-radius:5px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:12px 0}.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow);min-width:0}.card.full{grid-column:1/-1}
+.metricgrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin:12px 0}.metric{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:13px}.metric .v{font:700 clamp(20px,3vw,28px)/1.1 var(--mono);color:var(--accent2)}.metric .k{font-size:11px;color:var(--soft);margin-top:6px}
+.status{display:inline-flex;align-items:center;gap:6px;border-radius:20px;padding:3px 9px;font-size:11px;font-weight:700}.status.ok{color:var(--ok);background:var(--ok-soft)}.status.warn{color:var(--warn);background:var(--warn-soft)}.status.bad{color:var(--bad);background:var(--bad-soft)}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}th,td{text-align:left;border-bottom:1px solid var(--line);padding:8px 9px;vertical-align:top}th{font-size:10px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint)}td.num{text-align:right;font-family:var(--mono)}tr:last-child td{border-bottom:0}
+ul{margin:7px 0;padding-left:19px}li+li{margin-top:4px}.muted{color:var(--soft)}.small{font-size:12px}.badtext{color:var(--bad)}.oktext{color:var(--ok)}
+.codebox{font:11px/1.55 var(--mono);color:var(--soft);background:var(--surface2);border:1px solid var(--line);border-radius:8px;padding:10px 12px;white-space:pre-wrap;overflow-wrap:anywhere;margin-top:9px}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:14px 0}.flowitem{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px}.flowitem b{display:block}.flowitem span{font-size:11px;color:var(--soft)}.flowitem::after{content:"→";position:absolute;right:-9px;top:50%;z-index:2;color:var(--faint)}.flowitem:last-child::after{display:none}.flowitem.separate{border-color:var(--warn);background:var(--warn-soft)}
+.domains{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px 16px;margin-top:10px}.domain{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;align-items:center;border-bottom:1px dotted var(--line);padding:4px 0}.domain span:last-child{font:700 11px var(--mono);color:var(--accent2)}
+.foot{border-top:1px solid var(--line);padding-top:15px;color:var(--faint);font-size:11px}
+@media(max-width:800px){.layout{grid-template-columns:1fr}.toc{position:static;display:flex;gap:4px;overflow:auto}.toc b{display:none}.toc a{white-space:nowrap}.metricgrid{grid-template-columns:repeat(2,1fr)}.flow{grid-template-columns:1fr}.flowitem::after{display:none}.domains{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grid,.domains{grid-template-columns:1fr}.metricgrid{grid-template-columns:1fr 1fr}.mastin,.layout{padding-left:14px;padding-right:14px}.brand{font-size:15px}}
+</style>
+</head>
+<body>
+<header class="mast"><div class="mastin"><div class="brand">welib 数据管线 · 实验实录</div><a class="back" href="index.html">← 返回 L4 / L5 对比</a></div></header>
+<div class="layout">
+<nav class="toc" aria-label="页面目录"><b>目录</b><a href="#overview">总览</a><a href="#l2">L2 · MinHash</a><a href="#eai">EAI · 质量标签</a><a href="#labels">领域标签体系</a><a href="#l3">L3 · 规则过滤</a><a href="#relation">管线关系</a><a href="#artifacts">实验资产</a></nav>
+<main>
+<div class="hero" id="overview">
+  <div class="eyebrow">Observed results · no extrapolation</div>
+  <h1>L2 / EAI / Labels / L3<br>实际运行结果</h1>
+  <p class="lede">这里记录已经运行的 benchmark、已经生成的标签和已经测量的指标。数字来自当前实验日志与产物；没有把阶段性样本结果外推成全量生产效果。</p>
+  <div class="stamp">状态快照：2026-07-21 · 统计单位以记录为准</div>
+</div>
+
+<div class="truth"><b>最重要的边界：</b>目前四组工作彼此独立。L2 MinHash 是 100M–900M 字符 benchmark；EAI 是 200 本推理测试；领域体系的 95.8% 是旧 26 类的模型—模型一致率；L3 是 500 本规则过滤 benchmark。尚未运行把 L2、EAI、领域标签和 L3 串起来的联合过滤实验，也没有完成 welib 全量生产处理。</div>
+
+<section id="l2">
+  <div class="secthead"><span class="stage">L2</span><h2>文档级 MinHash 去重</h2><span class="status ok">benchmark 完成</span></div>
+  <div class="metricgrid"><div class="metric"><div class="v">3</div><div class="k">成功规模档</div></div><div class="metric"><div class="v">4,827</div><div class="k">累计输入文档</div></div><div class="metric"><div class="v">2</div><div class="k">累计移除文档</div></div><div class="metric"><div class="v">532s</div><div class="k">900M 档耗时</div></div></div>
+  <div class="grid">
+    <div class="card"><h3>固定配置</h3><ul><li>文档级 MinHash；英文 SpaCy tokenizer</li><li>5-gram，14 buckets × 8 hashes = 112 hashes</li><li><code>xxhash64</code>；64 tasks/workers</li><li>四阶段：signatures → buckets → cluster → filter</li></ul></div>
+    <div class="card"><h3>结果解读</h3><p class="muted">三个成功结果只证明这组 benchmark 能跑通。样本中几乎没有近重复：300M 和 900M 各移除 1 篇，100M 未移除文档；它们不是 welib 全量去重结果。</p></div>
+    <div class="card full"><table><thead><tr><th>规模</th><th>输入文档</th><th>输入字符</th><th>输出文档</th><th>移除</th><th>耗时</th></tr></thead><tbody>
+      <tr><td>100M</td><td class="num">397</td><td class="num">359,009,449</td><td class="num">397</td><td class="num">0</td><td class="num">75s</td></tr>
+      <tr><td>300M</td><td class="num">1,050</td><td class="num">1,077,278,807</td><td class="num">1,049</td><td class="num">1</td><td class="num">238s</td></tr>
+      <tr><td>900M</td><td class="num">3,380</td><td class="num">3,231,223,711</td><td class="num">3,379</td><td class="num">1</td><td class="num">532s</td></tr>
+    </tbody></table></div>
+    <div class="card full"><h3>另一个任务不是成功结果</h3><p class="muted">独立的 <code>yelv-codedata</code> 全量 code-dedup 任务因 Ray driver dead 终止，stage-3 clusters = 0；其陈旧 heartbeat 和临时文件后来被清理。该失败任务不能与上面的三个成功 benchmark 合并报告。</p></div>
+  </div>
+</section>
+
+<section id="eai">
+  <div class="secthead"><span class="stage">EAI</span><h2>蒸馏模型多维质量标签</h2><span class="status warn">生成完成，结构不稳定</span></div>
+  <div class="metricgrid"><div class="metric"><div class="v">200/200</div><div class="k">写出记录</div></div><div class="metric"><div class="v">~79s</div><div class="k">墙钟时间（含加载）</div></div><div class="metric"><div class="v oktext">32</div><div class="k">严格 schema 有效</div></div><div class="metric"><div class="v badtext">168</div><div class="k">严格 schema 无效</div></div></div>
+  <div class="grid">
+    <div class="card"><h3>运行配置</h3><ul><li>模型：<code>eai-distill-0.5b</code></li><li>200 本，8 文件 × 25；两个模型进程</li><li>脚本暴露 4 张 H200、每进程 2 张，但代码只调用 <code>model.to(cuda)</code>，未使用 TP/DP；实际相当于 2 张 GPU</li><li><code>max_batch_tokens=8192</code>；<code>max_new_tokens=500</code></li><li>取首/中/尾合计最多 30k 字符；tokenizer 截到 4096 tokens</li><li>约 24s 用于模型加载；无 Python exception</li></ul></div>
+    <div class="card"><h3>模型期望的 10 行</h3><ol><li>FDC / Dewey</li><li>Bloom cognitive process</li><li>Bloom knowledge domain</li><li>Document type v1</li><li>Extraction artifacts</li><li>Missing content</li><li>Document type v2</li><li>Reasoning depth</li><li>Technical correctness</li><li>Educational level</li></ol><p class="small muted">README 文案写“12 categories”，但其输出 schema 实际定义 10 行。</p></div>
+    <div class="card"><h3>输出行数分布</h3><table><thead><tr><th>行数</th><th>记录数</th></tr></thead><tbody><tr><td>10</td><td class="num">151</td></tr><tr><td>9</td><td class="num">19</td></tr><tr><td>11</td><td class="num">14</td></tr><tr><td>12</td><td class="num">4</td></tr><tr><td>1</td><td class="num">3</td></tr><tr><td>5 / 7 / 15 / 16 / 18 / 21 / 53 / 125 / 250</td><td class="num">各 1</td></tr></tbody></table></div>
+    <div class="card"><h3>严格验证结果</h3><p><b class="oktext">有效 32 / 200（16%）</b><br><b class="badtext">无效 168 / 200（84%）</b></p><p class="muted">异常包括：同一数字重复到 250 行、无界数字字符串、FDC 数量错误、字段缺失和维度错位。推理脚本把原始 generation 直接写入 <code>classification</code>，没有 parser、schema validation 或 retry，所以日志仍显示 0 errors。</p></div>
+    <div class="card full"><p><b>当前下游状态：</b><span class="badtext">EAI 输出没有被 L3 或其他下游消费。</span>因此“200/200 写出”只表示文件写入完成，不表示 200 条分类有效。</p></div>
+  </div>
+</section>
+
+<section id="labels">
+  <div class="secthead"><span class="stage">LABELS</span><h2>领域标签体系</h2><span class="status warn">已扩展，未做人类金标验证</span></div>
+  <div class="metricgrid"><div class="metric"><div class="v">300</div><div class="k">记录</div></div><div class="metric"><div class="v">295</div><div class="k">唯一书籍</div></div><div class="metric"><div class="v">47</div><div class="k">当前主领域</div></div><div class="metric"><div class="v">139</div><div class="k">STEM 记录</div></div></div>
+  <div class="grid">
+    <div class="card"><h3>体系演进</h3><table><thead><tr><th>版本</th><th>规模 / 类别</th><th>说明</th></tr></thead><tbody><tr><td>早期</td><td>23 → 24 → 26 类</td><td>人工设计的闭集主领域</td></tr><tr><td>v2</td><td>200 条 / 27 类</td><td>新增材料科学</td></tr><tr><td>v3</td><td>200 条 / 30 类</td><td>新增天文学、考古学、公共卫生</td></tr><tr><td>v4-open</td><td>300 条 / 47 主领域</td><td>新增 100 条，偏 STEM</td></tr></tbody></table></div>
+    <div class="card"><h3>300 条来源</h3><table><thead><tr><th>provenance</th><th>数量</th></tr></thead><tbody><tr><td><code>legacy_opus_gold_not_human_verified</code></td><td class="num">120</td></tr><tr><td><code>codex_reviewed_from_content_label</code></td><td class="num">154</td></tr><tr><td><code>codex_reviewed_hard_stem_excerpt</code></td><td class="num">26</td></tr></tbody></table><p class="small muted">300 条对应 295 本书；另 5 条是同书不同 excerpt。新增 100 条中 STEM 为 62 条。</p></div>
+    <div class="card full"><h3>唯一已经测过的一致率：旧 120 条 / 26 类</h3><table><thead><tr><th>方案</th><th>细分类 exact-match</th><th>粗分类</th><th>指标性质</th></tr></thead><tbody><tr><td>25 类，无消歧规则</td><td class="num">86.7%</td><td class="num">90.8%</td><td>Opus reference vs Sonnet candidate</td></tr><tr><td>26 类 + 14 条消歧规则</td><td class="num">95.8%</td><td class="num">96.7%</td><td>Opus reference vs Sonnet candidate</td></tr></tbody></table><p class="small badtext"><b>这不是人工 ground-truth F1。</b>30 类和 47 类版本都没有重新测量该指标，旧 95.8% 不能外推。</p></div>
+    <div class="card full"><h3>当前 47 个主领域 · 完整分布（300 条）</h3><div class="domains">
+      <div class="domain"><span>政治/法律</span><span>25</span></div><div class="domain"><span>文学</span><span>22</span></div><div class="domain"><span>金融/经济</span><span>21</span></div><div class="domain"><span>医学</span><span>18</span></div><div class="domain"><span>CS/编程</span><span>18</span></div><div class="domain"><span>工程/EE</span><span>16</span></div><div class="domain"><span>心理学</span><span>13</span></div><div class="domain"><span>生物</span><span>13</span></div><div class="domain"><span>数学</span><span>12</span></div><div class="domain"><span>哲学</span><span>12</span></div><div class="domain"><span>历史</span><span>10</span></div><div class="domain"><span>社会学/人类学</span><span>10</span></div><div class="domain"><span>化学</span><span>10</span></div><div class="domain"><span>宗教</span><span>9</span></div><div class="domain"><span>艺术/影视/音乐</span><span>7</span></div><div class="domain"><span>语言学</span><span>7</span></div><div class="domain"><span>教育</span><span>6</span></div><div class="domain"><span>军事</span><span>6</span></div><div class="domain"><span>管理/商业</span><span>6</span></div><div class="domain"><span>物理</span><span>5</span></div><div class="domain"><span>材料科学</span><span>5</span></div><div class="domain"><span>统计/概率</span><span>4</span></div><div class="domain"><span>生活/休闲/实用</span><span>4</span></div><div class="domain"><span>地球科学/地理环境</span><span>4</span></div><div class="domain"><span>农业/农学</span><span>3</span></div><div class="domain"><span>天文学/宇宙学</span><span>3</span></div><div class="domain"><span>公共卫生/流行病学/职业卫生</span><span>3</span></div><div class="domain"><span>神经科学</span><span>3</span></div><div class="domain"><span>传媒/营销</span><span>2</span></div><div class="domain"><span>药学/药理学</span><span>2</span></div><div class="domain"><span>工业工程/运筹学</span><span>2</span></div><div class="domain"><span>精神病学/精神卫生</span><span>2</span></div><div class="domain"><span>人工智能/机器学习</span><span>2</span></div><div class="domain"><span>计算化学</span><span>2</span></div><div class="domain"><span>考古学</span><span>1</span></div><div class="domain"><span>大气科学</span><span>1</span></div><div class="domain"><span>水文学/水资源工程</span><span>1</span></div><div class="domain"><span>教育技术</span><span>1</span></div><div class="domain"><span>营养学</span><span>1</span></div><div class="domain"><span>信息系统/信息管理</span><span>1</span></div><div class="domain"><span>建筑学/城市规划</span><span>1</span></div><div class="domain"><span>生物医学工程/生物力学</span><span>1</span></div><div class="domain"><span>运动医学</span><span>1</span></div><div class="domain"><span>生物信息学/计算生物学</span><span>1</span></div><div class="domain"><span>计算机图形学/可视化</span><span>1</span></div><div class="domain"><span>人机交互/无障碍计算</span><span>1</span></div><div class="domain"><span>金融数学/金融工程</span><span>1</span></div>
+    </div></div>
+    <div class="card"><h3>类别稀疏性</h3><p><b>13</b> 个主领域只有 1 条；<b>19</b> 个主领域少于 3 条。</p><p class="muted">因此 47 类候选集的长尾很明显，当前分布不能被表述成已经充分覆盖的分类器评测集。</p></div>
+    <div class="card"><h3>300 个叶路径的审计结论</h3><p class="badtext"><b>不是有效的 300-way taxonomy。</b></p><p class="muted">v4-open 曾把每本书的自由主题几乎一对一提升为 taxonomy leaf。随后抽查 10 条时确认这是层级设计错误；这些 free-form topic 不能当作 300 个可训练分类头类别。</p></div>
+  </div>
+</section>
+
+<section id="l3">
+  <div class="secthead"><span class="stage">L3</span><h2>CPU 规则质量过滤</h2><span class="status ok">benchmark 完成</span></div>
+  <div class="metricgrid"><div class="metric"><div class="v">500</div><div class="k">输入书籍</div></div><div class="metric"><div class="v">500</div><div class="k">通过</div></div><div class="metric"><div class="v">0</div><div class="k">过滤</div></div><div class="metric"><div class="v">204s</div><div class="k">运行时间</div></div></div>
+  <div class="grid"><div class="card"><h3>运行配置</h3><ul><li>500 本，8 个文件，128 CPU processes</li><li><code>--fields text</code></li><li><code>--no-file-size</code>，因此 8KB 规则关闭</li><li>garbled heuristic threshold = 0.3</li><li>English heuristic 启用；CLI 默认 threshold = 0.5</li></ul></div><div class="card"><h3>分类计数</h3><table><tbody><tr><td>Passed</td><td class="num">500</td></tr><tr><td>Filtered</td><td class="num">0</td></tr><tr><td>Too small</td><td class="num">0</td></tr><tr><td>Garbled</td><td class="num">0</td></tr><tr><td>Non-English</td><td class="num">0</td></tr></tbody></table></div><div class="card full"><p><b>结果含义：</b>在这 500 本样本和当前启用规则下，过滤器没有筛掉任何记录。该结果不能说明质量维度分类有效，也不能说明全量语料过滤率为 0。</p></div></div>
+</section>
+
+<section id="relation">
+  <div class="secthead"><span class="stage">STATUS</span><h2>当前管线关系</h2></div>
+  <div class="flow"><div class="flowitem separate"><b>L2 MinHash</b><span>独立 benchmark</span></div><div class="flowitem separate"><b>EAI</b><span>独立 200 本生成</span></div><div class="flowitem separate"><b>Domain labels</b><span>独立候选标注集</span></div><div class="flowitem separate"><b>L3 rules</b><span>独立 500 本 benchmark</span></div></div>
+  <div class="card"><h3>L3 当前没有消费这些字段</h3><p class="muted">EAI <code>classification</code>、26/30/47 类领域标签、Educational level、Technical correctness、Reasoning depth、Extraction artifacts、Missing content。</p><p><b class="badtext">所以目前没有“L2-EAI + label system + L3”的联合实验结果。</b></p></div>
+</section>
+
+<section id="artifacts">
+  <div class="secthead"><span class="stage">FILES</span><h2>实验资产位置</h2></div>
+  <div class="grid">
+    <div class="card"><h3>L2 MinHash</h3><div class="codebox">ROOT=/inspire/hdd/project/qproject-fundationmodel/public/yelv_bench
+dedupwork_dedup_s1_100M/dedup_out
+dedupwork_dedup_s2_300M/dedup_out
+dedupwork_dedup_s3_900M/dedup_out
+runlog/dedup.log</div></div>
+    <div class="card"><h3>EAI</h3><div class="codebox">MODEL=.../cyzhou/ckpts/eai-distill-0.5b
+INPUT=.../bench_eai_200
+OUTPUT=.../out_eai
+merged/eai_classify/classify_documents_distributed.py
+eai_bench.sh
+runlog/eai_inst0.log
+runlog/eai_inst1.log</div></div>
+    <div class="card"><h3>Domain labels</h3><div class="codebox">classifier_gold_300.json
+classifier_gold_extension_100_stem.json
+classifier_gold_300_summary.json
+classifier_taxonomy_v4_open.json
+classifier_taxonomy_v4_open.md
+classifier_gold_200.json
+classifier_taxonomy_v3.md
+classifier_handoff.md</div></div>
+    <div class="card"><h3>L3 rules</h3><div class="codebox">INPUT=.../bench_cpu_500
+OUTPUT=.../out_filter
+merged/filter/filter_documents.py
+filter_bench.sh
+runlog/filter.log
+runlog/filter_time.txt</div></div>
+  </div>
+</section>
+<div class="foot">本页只陈列已观察到的运行结果。百分比、计数与运行状态均保留其原始实验范围，不作全量效果推断。</div>
+</main>
+</div>
+</body>
+</html>
