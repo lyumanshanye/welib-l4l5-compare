@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Welib L2 审核入口</title>
+<style>
+body{margin:0;background:#f4f7fb;color:#172033;font:15px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:850px;margin:48px auto;padding:0 20px}.card{background:#fff;border:1px solid #dbe3ef;border-radius:12px;padding:24px;box-shadow:0 4px 16px #1720330d}
+h1{margin:0 0 8px;font-size:25px}h2{font-size:17px;margin:24px 0 6px}.muted{color:#64748b}.warning{margin:18px 0;padding:12px 14px;background:#fff1f2;border:1px solid #f2a7ad;border-radius:8px;color:#7f1d1d}
+code{display:block;margin-top:8px;padding:10px;background:#f1f5f9;border-radius:6px;overflow-wrap:anywhere}.button{display:inline-block;margin:8px 8px 0 0;padding:10px 14px;border-radius:7px;background:#2457c5;color:#fff;text-decoration:none;font-weight:700}.secondary{background:#475569}ul{padding-left:22px}
+</style>
+</head>
+<body><main><div class="card">
+<h1>Welib L2 重复书审核入口</h1>
+<div class="muted">轻量页面；不加载约 4 MB 的完整 496 对正文，适合飞书内置浏览器。</div>
+<div class="warning"><b>最终唯一处理目录</b><code>/inspire/hdd2/project/special-project-1/public/ruihang/ocr-vlm-pipeline-results/parquets/en_no_vlm/</code></div>
+<h2>L2 是什么</h2>
+<p>L2 是文档级书籍去重：规范化整本书文本，用 5-word MinHash 找重复候选，再聚类并决定保留哪一本。它不是 L3 的质量或领域分类。</p>
+<h2>历史正式实验存档口径</h2>
+<ul><li>旧 OCR 数据上的参数基线：5-gram、14×8、xxhash64、seed=1、norm_numbers=true。</li><li>历史审核快照包含 496 对；不能当作最终 Parquet 目录的正式结果。</li><li>最终目录需要重新做 schema 审计、全量候选生成和输出校验。</li></ul>
+<a class="button" href="l2_duplicate_review.html?v=710725e">打开完整 496 对审核页</a>
+<a class="button secondary" href="experiments.html#l2">返回实验总览</a>
+<h2>飞书说明文档</h2>
+<p><a href="https://yaf2qum85lq.feishu.cn/docx/R44sdbtH6oUCBIxdeW6cudyvntc">Welib L2 参数与审核说明 V3（群编辑权限）</a></p>
+</div></main></body></html>
