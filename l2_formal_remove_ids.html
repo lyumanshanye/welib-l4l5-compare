@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Welib L2 formal remove_ids</title>
+<style>
+body{margin:0;background:#f4f7fb;color:#172033;font:14px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+header{position:sticky;top:0;background:#fff;border-bottom:1px solid #dbe3ef;padding:18px 22px;z-index:2}
+main{max-width:1280px;margin:18px auto;padding:0 18px}
+h1{margin:0 0 6px;font-size:22px}.muted{color:#64748b}.warn{margin-top:12px;padding:10px 12px;border:1px solid #e6c47a;background:#fff7e6;border-radius:8px;color:#704000}
+.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}input,select{border:1px solid #b9c5d6;border-radius:7px;padding:8px 10px;background:#fff}input{min-width:320px;flex:1}
+.links a{display:inline-block;margin:8px 8px 0 0;color:#2457c5;font-weight:700;text-decoration:none}
+table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #dbe3ef}
+th,td{border-bottom:1px solid #edf1f6;padding:8px 10px;text-align:left;vertical-align:top}
+th{position:sticky;top:134px;background:#f8fafc;z-index:1}code{overflow-wrap:anywhere}.keep{color:#13795b;font-weight:700}.remove{color:#9f1239;font-weight:700}
+@media(max-width:760px){th:nth-child(7),td:nth-child(7),th:nth-child(8),td:nth-child(8){display:none}input{min-width:100%}}
+</style>
+</head>
+<body>
+<header>
+<h1>Welib L2 历史 formal remove_ids</h1>
+<div class="muted">历史 OCR v1 formal production 快照：496 条候选边，708 本，332 个簇；按 DataTrove union-find 根节点规则删除 376 本。</div>
+<div class="warn"><b>风险口径：</b>这个清单只能说明旧 OCR v1 快照在“每簇保留字典序最小 book_id”规则下会删哪些书。去得太狠通常表现为大簇里混入不同标题/不同主题书；去得太宽松通常表现为同名同 ISBN 仍分散在多个小簇或没有候选边。最终目录仍必须在 <code>/inspire/hdd2/project/special-project-1/public/ruihang/ocr-vlm-pipeline-results/parquets/en_no_vlm/</code> 上重跑。</div>
+<div class="links"><a href="formal_production_remove_ids.csv">下载 CSV</a><a href="l2_duplicate_review.html">完整 496 对审核页</a><a href="l2_duplicate_review_lite.html">轻量入口</a></div>
+<div class="controls"><input id="q" type="search" placeholder="搜索 book_id、keep_id、title、authors、cluster_id"><select id="action"><option value="all">全部 708 本</option><option value="remove" selected>只看 remove 376 本</option><option value="keep">只看 keep 332 本</option></select><span id="count" class="muted"></span></div>
+</header>
+<main><table><thead><tr><th>action</th><th>cluster</th><th>book_id</th><th>keep_id</th><th>size</th><th>edges</th><th>title</th><th>authors</th></tr></thead><tbody id="rows"></tbody></table></main>
+<script>
+function parseCsv(text){
+  const rows=[];let row=[],field="",q=false;
+  for(let i=0;i<text.length;i++){const c=text[i],n=text[i+1];
+    if(q&&c=='"'&&n=='"'){field+='"';i++;continue}
+    if(c=='"'){q=!q;continue}
+    if(!q&&c==','){row.push(field);field="";continue}
+    if(!q&&(c=='\n'||c=='\r')){if(c=='\r'&&n=='\n')i++;row.push(field);if(row.some(x=>x.length))rows.push(row);row=[];field="";continue}
+    field+=c
+  }
+  if(field.length||row.length){row.push(field);rows.push(row)}
+  const head=rows.shift();return rows.map(r=>Object.fromEntries(head.map((h,i)=>[h,r[i]||""])))
+}
+const tbody=document.querySelector("#rows"), q=document.querySelector("#q"), action=document.querySelector("#action"), count=document.querySelector("#count");
+let data=[];
+function esc(s){return (s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+function render(){
+  const query=q.value.trim().toLowerCase(), a=action.value;
+  const rows=data.filter(r=>(a=="all"||r.action==a)&&(!query||Object.values(r).join(" ").toLowerCase().includes(query)));
+  count.textContent=`显示 ${rows.length} / ${data.length}`;
+  tbody.innerHTML=rows.map(r=>`<tr><td class="${r.action}">${r.action}</td><td>${esc(r.cluster_id)}</td><td><code>${esc(r.book_id)}</code></td><td><code>${esc(r.keep_id)}</code></td><td>${esc(r.cluster_size)}</td><td>${esc(r.edge_count)}</td><td>${esc(r.title)}</td><td>${esc(r.authors)}</td></tr>`).join("");
+}
+fetch("formal_production_remove_ids.csv").then(r=>r.text()).then(t=>{data=parseCsv(t);render()});
+q.addEventListener("input",render);action.addEventListener("change",render);
+</script>
+</body>
+</html>

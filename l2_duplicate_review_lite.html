@@ -18,8 +18,10 @@ code{display:block;margin-top:8px;padding:10px;background:#f1f5f9;border-radius:
 <h2>L2 是什么</h2>
 <p>L2 是文档级书籍去重：规范化整本书文本，用 5-word MinHash 找重复候选，再聚类并决定保留哪一本。它不是 L3 的质量或领域分类。</p>
 <h2>历史正式实验存档口径</h2>
-<ul><li>旧 OCR 数据上的参数基线：5-gram、14×8、xxhash64、seed=1、norm_numbers=true。</li><li>历史审核快照包含 496 对；不能当作最终 Parquet 目录的正式结果。</li><li>最终目录需要重新做 schema 审计、全量候选生成和输出校验。</li></ul>
-<a class="button" href="l2_duplicate_review.html?v=710725e">打开完整 496 对审核页</a>
+<ul><li>旧 OCR 数据上的参数基线：5-gram、14×8、xxhash64、seed=1、norm_numbers=true。</li><li>历史审核快照包含 496 对、708 本；按每簇保留根节点规则会删除 376 本。</li><li>最终 Parquet 目录需要重新做 schema 审计、全量候选生成和输出校验。</li></ul>
+<a class="button" href="l2_duplicate_review.html">打开完整 496 对审核页</a>
+<a class="button" href="l2_formal_remove_ids.html">查看 formal remove_ids</a>
+<a class="button secondary" href="formal_production_remove_ids.csv">下载 remove_ids CSV</a>
 <a class="button secondary" href="experiments.html#l2">返回实验总览</a>
 <h2>飞书说明文档</h2>
 <p><a href="https://yaf2qum85lq.feishu.cn/docx/R44sdbtH6oUCBIxdeW6cudyvntc">Welib L2 参数与审核说明 V3（群编辑权限）</a></p>

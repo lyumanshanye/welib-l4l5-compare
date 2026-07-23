@@ -1,0 +1,715 @@
+cluster_id,cluster_size,edge_count,keep_id,action,book_id,title,authors
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,keep,welib_0399ecaddee0af3ab009,"N-ACETYLGLUTAMATE SYNTHASE DEFICIENCY — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_05e511b55e1a6423349e,"FAMILIAL ADENOMATOUS POLYPOSIS — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_1063906f9bfb752ee174,"MEDIUM-CHAIN ACYL-COENZYME A DEHYDROGENASE DEFICIENCY — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_15ad3af643e8d7017617,"THANATOPHORIC DYSPLASIA — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_1fe0ef028ca015ff8463,"SPONDYLOPERIPHERAL DYSPLASIA — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_34bc8ff039db24a8a995,GLUTARIC — ACIDEMIA — Disclaimer,ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_37ca8b6dcabef6334f64,"NORRIE DISEASE — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_45142f1e28b34789f049,"TYPE 1 GAUCHER DISEASE — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_4c497e6a9590edae7fb6,"47,XYY SYNDROME — Disclaimer — FORWARD",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_62a3df57d9b859410abd,"SPONDYLOEPIPHYSEAL DYSPLASIA CONGENITA — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_707f20116b86f212dfd6,"VON HIPPEL-LINDAU SYNDROME — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_790731bd87cf90fc874d,"HOLT-ORAM SYNDROME — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_79fbd179ee78a3249d7c,"ARGININOSUCCINIC ACIDURIA — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_82f22b1f4954d802a61d,"TYPE 2 GAUCHER DISEASE — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_8f9b693a224800577955,"CONGENITAL BILATERAL ABSENCE OF THE VAS DEFERENS — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_b2eed309db9ee03b960f,"ISOBUTYRYL-COA DEHYDROGENASE DEFICIENCY — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_c4aa170fc269452eda79,"TYROSINEMIA — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_e8e23a99c7fe54e6966e,"CROUZONODERMOSKELETAL SYNDROME — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0001,19,101,welib_0399ecaddee0af3ab009,remove,welib_e94e4e59fd8d0d8a7ba0,CARNITINE — PALMITOYLTRANSFERASE — Disclaimer,ICON Group International
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,keep,welib_00b7dc83e4bbedee095b,The 2000-2005 World Outlook for Dolls and Figures (Strategic Planning Series),"Research Group, The Dolls, Figures Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_38f42799bf9c80295b7d,The 2000-2005 World Outlook for Personal Stationery (Strategic Planning Series),"Research Group, The Personal Stationery Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_73ff89dc680173779a6c,The 2000-2005 World Outlook for Ready-to-drink Coffee (Strategic Planning Series),"Research Group, The Ready-to-drink Coffee Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_8b078d23c0badb5ba376,The 2000-2005 World Outlook for Yellow Fats (Strategic Planning Series),"Research Group, The Yellow Fats Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_8d478a61a41a470c8688,The 2000-2005 World Outlook for Olive Oil (Strategic Planning Series),"Research Group, The Olive Oil Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_923e1291df36a7e6ac9a,The 2000-2005 World Outlook for Business Software (Strategic Planning Series),(书目库未提供作者)
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_956924339ab2812cb191,The 2000-2005 World Outlook for Eggs (Strategic Planning Series),(书目库未提供作者)
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_9c0d44a6714d800a88c3,The 2000-2005 World Outlook for Toys and Games (Strategic Planning Series),"Research Group, The Toys, Games Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_a12a51d255fa3da9d62c,The 2000-2005 World Outlook for Razors and Blades (Strategic Planning Series),"Research Group, The Razors, Blades Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_b98bfa7bcf6545880363,The 2000-2005 World Outlook for Dishwashers (Strategic Planning Series),"Research Group, The Dishwashers Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_e716e628631f0f1e7788,The 2000-2005 World Outlook for Milk Beverages (Strategic Planning Series),"Research Group, The Milk Beverages Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_ed8564e3b31040108266,The 2000-2005 World Outlook for Refrigerators (Strategic Planning Series),"Research Group, The Refrigerators Research Group"
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_f9b964855ffaaa7b2ad4,The 2000-2005 World Outlook for Photographic Equipment and Supplies (Strategic Planning Series),(书目库未提供作者)
+formal_production_C0002,14,38,welib_00b7dc83e4bbedee095b,remove,welib_fe262d63b8589cd0132d,The 2000-2005 World Outlook for Paints and Allied Products (Strategic Planning Series),(书目库未提供作者)
+formal_production_C0003,4,4,welib_363b983940d5f119ffb9,keep,welib_363b983940d5f119ffb9,Geographical Distribution of Financial Flows to Developing Countries,Organisation for Economic Co-operation and Development
+formal_production_C0003,4,4,welib_363b983940d5f119ffb9,remove,welib_cc31a99c82a731125193,Geographical Distribution of Financial Flows to Developing Countries 2009,Organisation for Economic Co-operation and Development
+formal_production_C0003,4,4,welib_363b983940d5f119ffb9,remove,welib_dff5d1eeaaf3fc9bda4d,"Répartition Géographique des Ressources Financières Allouées Aux Pays en développement 2019 Versements, Engagements, Indicateurs Par Pays",Organisation for Economic Co-operation and Development
+formal_production_C0003,4,4,welib_363b983940d5f119ffb9,remove,welib_f9d97ad41b3ab8ed5228,Geographical Distribution of Financial Flows to Developing Countries 2009,Organisation for Economic Co-operation and Development
+formal_production_C0004,4,4,welib_57c5be84652b66595c04,keep,welib_57c5be84652b66595c04,"The 2009-2014 World Outlook for User Account Provisioning Technologies — 1 INTRODUCTION 1 — Chaired Professor of Management Science INSEAD (Singapore and Fontainebleau, France)","Professor Philip M. Parker, Ph.D."
+formal_production_C0004,4,4,welib_57c5be84652b66595c04,remove,welib_8c0a72d3bbd121f24afd,The 2007-2012 World Outlook for Computer Microchips,Philip M. Parker
+formal_production_C0004,4,4,welib_57c5be84652b66595c04,remove,welib_dd5fecd05da6b59c033d,The 2009-2014 World Outlook for Very High- Field MRI Systems — The 2009-2014 World Outlook for Very High-Field MRI Systems — 1 INTRODUCTION 1,"Professor Philip M. Parker, Ph.D."
+formal_production_C0004,4,4,welib_57c5be84652b66595c04,remove,welib_f0e06f3f7910d7863e8d,The 2003-2008 World Outlook for Automotive Parts and Accessories — 1 INTRODUCTION 11 — 2.1 The Worldwide Market Potential for Automotive parts and accessories 24,"Philip M. Parker, Ph.d."
+formal_production_C0005,3,3,welib_0a253ae096819af58348,keep,welib_0a253ae096819af58348,Suicide by Democracy,Michael Starks
+formal_production_C0005,3,3,welib_0a253ae096819af58348,remove,welib_9b6a62649dd2bee7267c,Suicide by Democracy,Michael Starks
+formal_production_C0005,3,3,welib_0a253ae096819af58348,remove,welib_be01b0699d2a1a7940dd,Suicide by Democracy,Michael Starks
+formal_production_C0006,3,3,welib_0e7ce6fb5eed6297b7e9,keep,welib_0e7ce6fb5eed6297b7e9,Time Series Analysis and Its Applications,Robert H. Shumway
+formal_production_C0006,3,3,welib_0e7ce6fb5eed6297b7e9,remove,welib_24ff5e23f40b0db9aab2,Time Series Analysis and Its Applications,Robert H. Shumway
+formal_production_C0006,3,3,welib_0e7ce6fb5eed6297b7e9,remove,welib_6493d0fb803cce94ba14,Time series analysis and its applications,Robert H. Shumway
+formal_production_C0007,3,3,welib_13145529d4352e0b2ca9,keep,welib_13145529d4352e0b2ca9,"Information Security (IS) Equipment and Services in India: A Strategic Reference, 2007 — 1 INTRODUCTION & METHODOLOGY....1 — 2 INFORMATION SECURITY (IS) EQUIPMENT AND SERVICES IN INDIA....5","Philip M. Parker, Ph.D."
+formal_production_C0007,3,3,welib_13145529d4352e0b2ca9,remove,welib_869c66247277ecbe24db,"Information Technology (IT) Hardware in India: A Strategic Reference, 2006 — 1 INTRODUCTION & METHODOLOGY....1 — 3 FINANCIAL INDICATORS: COMPUTER INTEGRATED SYSTEMS DESIGN......12","Philip M. Parker, Ph.D."
+formal_production_C0007,3,3,welib_13145529d4352e0b2ca9,remove,welib_d01cb704abb73d492e2b,"Wind Energy Equipment in India: A Strategic Reference, 2006 — 1 INTRODUCTION & METHODOLOGY....1 — 3 FINANCIAL INDICATORS: STEAM, GAS AND HYDRAULIC TURBINES AND TURBINE GENERATOR SET UNITS ....9","Philip M. Parker, Ph.D."
+formal_production_C0008,3,3,welib_2baef56c9add259bd801,keep,welib_2baef56c9add259bd801,Introduction to the mathematical and statistical foundations of econometrics,Herman J. Bierens
+formal_production_C0008,3,3,welib_2baef56c9add259bd801,remove,welib_4f151e7b32b99391eea7,Introduction to the mathematical and statistical foundations of econometrics,Herman J. Bierens
+formal_production_C0008,3,3,welib_2baef56c9add259bd801,remove,welib_d040f262d084419c4662,Introduction to the mathematical and statistical foundations of econometrics,Herman J. Bierens
+formal_production_C0009,3,3,welib_456160e8b110f5e23fa0,keep,welib_456160e8b110f5e23fa0,Introduction to robotics,John J. Craig
+formal_production_C0009,3,3,welib_456160e8b110f5e23fa0,remove,welib_6e3addf9123dd9937eeb,Introduction to Robotics,John J. Craig
+formal_production_C0009,3,3,welib_456160e8b110f5e23fa0,remove,welib_7c7f109efb335d8e97b0,Introduction to Robotics,John J. Craig
+formal_production_C0010,3,2,welib_45e2a5e6ed84b660168b,keep,welib_45e2a5e6ed84b660168b,CLARITIN-D — Disclaimer — FORWARD,ICON Group International
+formal_production_C0010,3,2,welib_45e2a5e6ed84b660168b,remove,welib_4b7424cd8252a60a8e75,Taking charge of ADHD,Russell Barkley
+formal_production_C0010,3,2,welib_45e2a5e6ed84b660168b,remove,welib_8731346114e83d472472,CLIMARA — Disclaimer — FORWARD,ICON Group International
+formal_production_C0011,3,3,welib_4792dfd06fc54797f09e,keep,welib_4792dfd06fc54797f09e,Variational analysis and differentiation,B. Sh Mordukhovich
+formal_production_C0011,3,3,welib_4792dfd06fc54797f09e,remove,welib_65f08eb48130d4873ec2,Variational analysis and differentiation,B. Sh Mordukhovich
+formal_production_C0011,3,3,welib_4792dfd06fc54797f09e,remove,welib_ef34b8f0ce5863ef8f19,Variational analysis and differentiation,B. Sh Mordukhovich
+formal_production_C0012,3,3,welib_5790a32b5f9035846533,keep,welib_5790a32b5f9035846533,Analysis of variance for random models,"Hardeo Sahai, Hardeo Sahai, Mario M. Ojeda"
+formal_production_C0012,3,3,welib_5790a32b5f9035846533,remove,welib_9dd88026b7cb82d6ade5,Analysis of variance for random models,"Hardeo Sahai, Hardeo Sahai, Mario M. Ojeda"
+formal_production_C0012,3,3,welib_5790a32b5f9035846533,remove,welib_b29b1823370d1382bb14,Analysis of variance for random models,"Hardeo Sahai, Hardeo Sahai, Mario M. Ojeda"
+formal_production_C0013,3,3,welib_6b7360aef7aa71fe5393,keep,welib_6b7360aef7aa71fe5393,"Problems and Solutions of Atomic, Nuclear, and Particle Physics — Problems and Solutions on Atomic, Nuclear and Particle Physics — The Physics Coaching Class University of Science and Technology of China",Yung-Kuo Lim
+formal_production_C0013,3,3,welib_6b7360aef7aa71fe5393,remove,welib_7c4cd2e4694cfb32f6d0,"Problems and Solutions of Atomic, Nuclear, and Particle Physics — Problems and Solutions on Atomic, Nuclear and Particle Physics — The Physics Coaching Class University of Science and Technology of China",Yung-Kuo Lim
+formal_production_C0013,3,3,welib_6b7360aef7aa71fe5393,remove,welib_b42a8b2d5ea5d42fa938,"Problems and Solutions of Atomic, Nuclear, and Particle Physics — Problems and Solutions on Atomic, Nuclear and Particle Physics — The Physics Coaching Class University of Science and Technology of China",Yung-Kuo Lim
+formal_production_C0014,3,3,welib_81c8e1341274c893e91c,keep,welib_81c8e1341274c893e91c,Textiles — Tests for colour fastness — — Textiles — Tests for colour fastness — Part C05: Colour fastness to washing — Test 5 — CEN,Part C05: Colour fastness to washing: Test 5
+formal_production_C0014,3,3,welib_81c8e1341274c893e91c,remove,welib_9bdf143ea504ef8c6349,Textiles — Tests for colour fastness — — Textiles — Tests for colour fastness Part C03: Colour fastness to washing: Test 3 — CEN,Part C03: Colour fastness to washing: Test 3
+formal_production_C0014,3,3,welib_81c8e1341274c893e91c,remove,welib_f135a3dc4d7e78ca25f9,Textiles — Tests for colour fastness — — Textiles — Tests for colour fastness Part C01: Colour fastness to washing: Test 1 — CEN,Part C01: Colour fastness to washing: Test 1
+formal_production_C0015,3,3,welib_87438faa19dad258dda5,keep,welib_87438faa19dad258dda5,The C+ + Programming Language,Bjarne Stroustrup
+formal_production_C0015,3,3,welib_87438faa19dad258dda5,remove,welib_dc46a036ebc68f992941,The C+ + Programming Language,Bjarne Stroustrup
+formal_production_C0015,3,3,welib_87438faa19dad258dda5,remove,welib_f4165014284dc45734aa,The C+ + Programming Language,Bjarne Stroustrup
+formal_production_C0016,2,1,welib_0039c48d8abebd5c0742,keep,welib_0039c48d8abebd5c0742,Nonparametric Monte Carlo tests and their applications,"Zhu, Lixing Ph. D."
+formal_production_C0016,2,1,welib_0039c48d8abebd5c0742,remove,welib_f67ba7d5a85048d583f4,Nonparametric Monte Carlo tests and their applications,"Zhu, Lixing Ph. D."
+formal_production_C0017,2,1,welib_0052941f1c4753826cbf,keep,welib_0052941f1c4753826cbf,Quantum systems in chemistry and physics,Alfonso Hernandez-Laguna
+formal_production_C0017,2,1,welib_0052941f1c4753826cbf,remove,welib_31c8200e668643f9301b,Quantum systems in chemistry and physics,Alfonso Hernandez-Laguna
+formal_production_C0018,2,1,welib_0132e4b8d415564a6b23,keep,welib_0132e4b8d415564a6b23,The Subthalamic Nucleus,Enrico Marani
+formal_production_C0018,2,1,welib_0132e4b8d415564a6b23,remove,welib_45f8354e2455618f245b,The Subthalamic Nucleus,Enrico Marani
+formal_production_C0019,2,1,welib_013f0fb284c06b757af2,keep,welib_013f0fb284c06b757af2,Specification for residual current operated circuit-breakers without integral overcurrent protection for household and similar uses (RCCB's) — — 1 Scope — 3 Definitions,Implementation of
+formal_production_C0019,2,1,welib_013f0fb284c06b757af2,remove,welib_154d8c05ab906e4683b1,Specification for residual current operated circuit-breakers with integral overcurrent protection for household and similar uses (RCBO's) — — 1 Scope — 3 Definitions,Implementation of
+formal_production_C0020,2,1,welib_018139e26cf79fe33cc3,keep,welib_018139e26cf79fe33cc3,802.1X port-based authentication,Edwin Lyle Brown
+formal_production_C0020,2,1,welib_018139e26cf79fe33cc3,remove,welib_c44df16246010131cdc3,802.1X port-based authentication,Edwin Lyle Brown
+formal_production_C0021,2,1,welib_01bb0d8976269f3e9f4a,keep,welib_01bb0d8976269f3e9f4a,Einführung in die elektrische Messtechnik — Vorwort — Inhaltsverzeichnis,Thomas Mühl
+formal_production_C0021,2,1,welib_01bb0d8976269f3e9f4a,remove,welib_c3e2bd1538c0df587be2,Einführung in die elektrische Messtechnik — Inhaltsverzeichnis — STUDIUM,Thomas Mühl
+formal_production_C0022,2,1,welib_02298aaa1ac181769997,keep,welib_02298aaa1ac181769997,Stark effect in a hydrogenic atom or ion,Nanny Fröman
+formal_production_C0022,2,1,welib_02298aaa1ac181769997,remove,welib_e1ca29313382e1671c80,Stark effect in a hydrogenic atom or ion,Nanny Fröman
+formal_production_C0023,2,1,welib_023ab7d69624e5a482a9,keep,welib_023ab7d69624e5a482a9,Academic Writing,"Bailey, Stephen"
+formal_production_C0023,2,1,welib_023ab7d69624e5a482a9,remove,welib_47f131c8581c5e182ec9,Academic Writing,"Bailey, Stephen"
+formal_production_C0024,2,1,welib_0257be94afbb4f583e9c,keep,welib_0257be94afbb4f583e9c,Introduction to Quantum Optics,Gilbert Grynberg
+formal_production_C0024,2,1,welib_0257be94afbb4f583e9c,remove,welib_e3ff11c4e087ea8c073d,Introduction to Quantum Optics,Gilbert Grynberg
+formal_production_C0025,2,1,welib_027ae732c08bbf74d751,keep,welib_027ae732c08bbf74d751,The Jossey-Bass Academic Administrator's Guide to Budgets and Financial Management,Margaret J. Barr
+formal_production_C0025,2,1,welib_027ae732c08bbf74d751,remove,welib_2c80898bfacb9e7524e0,The Jossey-Bass Academic Administrator's Guide to Budgets and Financial Management,Margaret J. Barr
+formal_production_C0026,2,1,welib_037fe8b6a5a9a5b346d0,keep,welib_037fe8b6a5a9a5b346d0,2005 demographic Yearbook,United Nations
+formal_production_C0026,2,1,welib_037fe8b6a5a9a5b346d0,remove,welib_fca298f0da22be430733,Demographic Yearbook 2004,United Nations. Statistical Division
+formal_production_C0027,2,1,welib_0455222c324c265c4de7,keep,welib_0455222c324c265c4de7,Figments of reality,"Ian Stewart, Jack Cohen"
+formal_production_C0027,2,1,welib_0455222c324c265c4de7,remove,welib_922c3d572e2da241b8cc,Figments of reality,"Ian Stewart, Jack Cohen"
+formal_production_C0028,2,1,welib_04c9069941e6d6706f4c,keep,welib_04c9069941e6d6706f4c,Stress in Health and Disease,"Bengt B. Arnetz, Rolf Ekman, Arvid Carlsson"
+formal_production_C0028,2,1,welib_04c9069941e6d6706f4c,remove,welib_a68ecd20e61d72a09eb8,Stress in Health and Disease,"Bengt B. Arnetz, Rolf Ekman, Arvid Carlsson"
+formal_production_C0029,2,1,welib_053569aca5ba5e09715e,keep,welib_053569aca5ba5e09715e,Specification for — Face-to-face dimensions for flanged automatic steam traps — CEN,Cooperating organizations
+formal_production_C0029,2,1,welib_053569aca5ba5e09715e,remove,welib_2588f45dda24556c762c,"Specification for — Temperatures and humidities for conditioning and testing paints, varnishes and their raw materials — — Paints and varnishes and their raw materials — Temperatures and humidities for conditioning and testing",Cooperating organizations
+formal_production_C0030,2,1,welib_05dc7fe4dd85bc1923af,keep,welib_05dc7fe4dd85bc1923af,Biosecurity,"Brian Rappert, Chandré Gould"
+formal_production_C0030,2,1,welib_05dc7fe4dd85bc1923af,remove,welib_7d35cfbc57e065e9f64b,Biosecurity,"Brian Rappert, Chandré Gould"
+formal_production_C0031,2,1,welib_05fd076095a18ca0e00b,keep,welib_05fd076095a18ca0e00b,Oldeholtwolde,Lykke Johansen
+formal_production_C0031,2,1,welib_05fd076095a18ca0e00b,remove,welib_d09a488b40e138b71043,Oldeholtwolde,Lykke Johansen
+formal_production_C0032,2,1,welib_0614c81bd8c1e854be12,keep,welib_0614c81bd8c1e854be12,Inside volatility filtering,Alireza Javaheri
+formal_production_C0032,2,1,welib_0614c81bd8c1e854be12,remove,welib_3f45596b95796bfb773f,Inside Volatility Arbitrage,Alireza Javaheri
+formal_production_C0033,2,1,welib_069856e4daf33aeca85c,keep,welib_069856e4daf33aeca85c,The Quran — This translation of the Quran is copyright free First published by Goodword Books 2009 Reprinted 2012 (twice) — Map of Arabian Peninsula at the Time of the Revelation of the Quran XXV,FARIDA KHANAM
+formal_production_C0033,2,1,welib_069856e4daf33aeca85c,remove,welib_4a2d20e41834c66562af,The Quran — This translation of the Quran is copyright free — Reprinted 2019,THE QURAN
+formal_production_C0034,2,1,welib_06d662116b1005dbdbc2,keep,welib_06d662116b1005dbdbc2,"Your CV in English — INTERVIEWS — Yannick Aubry, Guide pratique et juridique de l'expatrié",Votre CV pour l'international
+formal_production_C0034,2,1,welib_06d662116b1005dbdbc2,remove,welib_d8df9f121db5fb25acda,Your CV in English — Ce guide vous aidera à : — Valoriser en anglais votre expérience et vos compétences,Votre CV pour l'international
+formal_production_C0035,2,1,welib_074d0e099bc53caf6178,keep,welib_074d0e099bc53caf6178,Cross-Platform Development in C++,Syd Logan
+formal_production_C0035,2,1,welib_074d0e099bc53caf6178,remove,welib_4720aed1936ba3f23183,Cross-Platform Development in C++,Syd Logan
+formal_production_C0036,2,1,welib_07ab04089925f9402bd7,keep,welib_07ab04089925f9402bd7,Enlightenment Geography,Robert J. Mayhew
+formal_production_C0036,2,1,welib_07ab04089925f9402bd7,remove,welib_f8dc6daea032d43bd45c,Enlightenment Geography,Robert J. Mayhew
+formal_production_C0037,2,1,welib_08681fc583072e425c27,keep,welib_08681fc583072e425c27,Essentials of Environmental Toxicology,W. William Hughes
+formal_production_C0037,2,1,welib_08681fc583072e425c27,remove,welib_f9d85fa7586d9b078a9d,Essentials of Environmental Toxicology,W. William Hughes
+formal_production_C0038,2,1,welib_089afffed17ea08a877c,keep,welib_089afffed17ea08a877c,Telecommunication system engineering,Roger L. Freeman
+formal_production_C0038,2,1,welib_089afffed17ea08a877c,remove,welib_707bc02a82a653b7158d,Telecommunication system engineering,Roger L. Freeman
+formal_production_C0039,2,1,welib_08b5c957cfb1177db2fa,keep,welib_08b5c957cfb1177db2fa,Classification Algorithms for Codes and Designs (Algorithms and Computation in Mathematics),Petteri Kaski
+formal_production_C0039,2,1,welib_08b5c957cfb1177db2fa,remove,welib_aaa9ddddac8c2a6ead05,Classification Algorithms for Codes and Designs (Algorithms and Computation in Mathematics),Petteri Kaski
+formal_production_C0040,2,1,welib_09e4c316ca56653325ed,keep,welib_09e4c316ca56653325ed,Moral panics,"Erich Goode, Nachman Ben-Yehuda"
+formal_production_C0040,2,1,welib_09e4c316ca56653325ed,remove,welib_1e8f11bb00eefaebcd46,Moral panics,"Erich Goode, Nachman Ben-Yehuda"
+formal_production_C0041,2,1,welib_0a904f2e5639afe976e8,keep,welib_0a904f2e5639afe976e8,Training counselling supervisors,"Elizabeth Holloway, Michael Carroll"
+formal_production_C0041,2,1,welib_0a904f2e5639afe976e8,remove,welib_df76940b0c88082bc51c,Training counselling supervisors,"Elizabeth Holloway, Michael Carroll"
+formal_production_C0042,2,1,welib_0acf8b4966b065a9cf89,keep,welib_0acf8b4966b065a9cf89,Regression methods in biostatistics,Eric Vittinghoff
+formal_production_C0042,2,1,welib_0acf8b4966b065a9cf89,remove,welib_dba345491d6e203a998c,Regression methods in biostatistics,Eric Vittinghoff
+formal_production_C0043,2,1,welib_0aea3b804e463f2ae73d,keep,welib_0aea3b804e463f2ae73d,Bridge over Troubled Waters,Ahsan Uddin Ahmed
+formal_production_C0043,2,1,welib_0aea3b804e463f2ae73d,remove,welib_2896be330312fd98343e,Bridge over Troubled Waters,Ahsan Uddin Ahmed
+formal_production_C0044,2,1,welib_0baaff271e6cea9e8095,keep,welib_0baaff271e6cea9e8095,Principles of Statistical Physics,Boris M. Smirnov
+formal_production_C0044,2,1,welib_0baaff271e6cea9e8095,remove,welib_aab4a02c3e6450021511,Principles of Statistical Physics,Boris M. Smirnov
+formal_production_C0045,2,1,welib_0bdde2de0cc31ef7f5a3,keep,welib_0bdde2de0cc31ef7f5a3,Non-life insurance mathematics,Thomas Mikosch
+formal_production_C0045,2,1,welib_0bdde2de0cc31ef7f5a3,remove,welib_dbcc55bbfa7302eac411,Non-life insurance mathematics,Thomas Mikosch
+formal_production_C0046,2,1,welib_0c1b6f11123877f16041,keep,welib_0c1b6f11123877f16041,Integrated Frequency Synthesizers for Wireless Systems,"Andrea Leonardo Lacaita, Salvatore Levantino, Carlo Samori"
+formal_production_C0046,2,1,welib_0c1b6f11123877f16041,remove,welib_705b1f4b09bbb9f3313f,Integrated Frequency Synthesizers for Wireless Systems,"Andrea Leonardo Lacaita, Salvatore Levantino, Carlo Samori"
+formal_production_C0047,2,1,welib_0d022c99ae068edb27be,keep,welib_0d022c99ae068edb27be,Emotional Governance,B. Richards
+formal_production_C0047,2,1,welib_0d022c99ae068edb27be,remove,welib_ae9dbe9927b388dd8d43,Emotional Governance — Preview 10 — Authentic expression or fake sentiment? 40,"Politics, Media and Terror"
+formal_production_C0048,2,1,welib_0d99349b03f2809408cd,keep,welib_0d99349b03f2809408cd,"DATA STRUCTURES & ALGORITHMS — Data Structures and Algorithms in Java, Second Edition — Trademarks",IN JAVA™
+formal_production_C0048,2,1,welib_0d99349b03f2809408cd,remove,welib_10dbb3169e2d4d47895c,Data structures & algorithms in Java,Mitchell Waite
+formal_production_C0049,2,1,welib_0dd79b986f7401005e23,keep,welib_0dd79b986f7401005e23,Angewandte Mathematik Mit MathCAD Band 4,Josef Trala
+formal_production_C0049,2,1,welib_0dd79b986f7401005e23,remove,welib_408570aa62c28f2f1609,"Angewandte Mathematik mit Mathcad, Lehr- und Arbeitsbuch: Band 4",Josef Trölß
+formal_production_C0050,2,1,welib_0df714728982d4e2947e,keep,welib_0df714728982d4e2947e,Practical occupational medicine.,Raymond M. Agius
+formal_production_C0050,2,1,welib_0df714728982d4e2947e,remove,welib_cd4ebfab2e2ee0d4cfde,Practical occupational medicine.,Raymond M. Agius
+formal_production_C0051,2,1,welib_0e8aea69f2ef189a885f,keep,welib_0e8aea69f2ef189a885f,Trade in Services in the Asia-Pacific Region (National Bureau of Economic Research-East Asia Seminar on Economics),"Takatoshi Itō, Anne O. Krueger"
+formal_production_C0051,2,1,welib_0e8aea69f2ef189a885f,remove,welib_a97ade4b43d3c6d72d05,Trade in Services in the Asia-Pacific Region (National Bureau of Economic Research-East Asia Seminar on Economics),"Takatoshi Itō, Anne O. Krueger"
+formal_production_C0052,2,1,welib_0f28d847c11b8e9f5a85,keep,welib_0f28d847c11b8e9f5a85,Java Testing and Design,Frank Cohen
+formal_production_C0052,2,1,welib_0f28d847c11b8e9f5a85,remove,welib_27599afd6a0b27376bbe,Java Testing and Design,Frank Cohen
+formal_production_C0053,2,1,welib_0f7363d36bcf65aed361,keep,welib_0f7363d36bcf65aed361,Desktop- virtualisierung — 1. Auflage 2010 — Vorwort,Robert Vogel
+formal_production_C0053,2,1,welib_0f7363d36bcf65aed361,remove,welib_ddc8c555a05db37eb702,Desktop-virtualisierung — 1. Auflage 2010 — Vorwort,Robert Vogel
+formal_production_C0054,2,1,welib_0fb6ef94f00fbf24c068,keep,welib_0fb6ef94f00fbf24c068,"Epistemology of Development, Evolution, and Genetics",Richard M. Burian
+formal_production_C0054,2,1,welib_0fb6ef94f00fbf24c068,remove,welib_fad4aca8c730d733e53b,"Epistemology of Development, Evolution, and Genetics",Richard Burian
+formal_production_C0055,2,1,welib_1061b76a2f7acd711ca9,keep,welib_1061b76a2f7acd711ca9,Fundamentals of Classical Statistical Thermodynamics,"Denis James Evans, Debra Joy Searles, Stephen Rodney Williams"
+formal_production_C0055,2,1,welib_1061b76a2f7acd711ca9,remove,welib_e8b4279b0c506b0e5d5e,Fundamentals of Classical Statistical Thermodynamics,"Denis James Evans, Debra Joy Searles, Stephen Rodney Williams"
+formal_production_C0056,2,1,welib_111eb79519da227f71d4,keep,welib_111eb79519da227f71d4,PIC Microcontrollers (Newnes Know It All) (Newnes Know It All),Tim Wilmshurst
+formal_production_C0056,2,1,welib_111eb79519da227f71d4,remove,welib_6ce9a149f91ba10ce4b2,PIC Microcontrollers (Newnes Know It All) (Newnes Know It All),Tim Wilmshurst
+formal_production_C0057,2,1,welib_118405ee88f66123b1e0,keep,welib_118405ee88f66123b1e0,Modern chromatographic analysis of vitamins.,A. P. de Leenheer
+formal_production_C0057,2,1,welib_118405ee88f66123b1e0,remove,welib_3710b650aaa617c27f58,Modern chromatographic analysis of vitamins.,A. P. de Leenheer
+formal_production_C0058,2,1,welib_1210e0a3a3f8cca954d5,keep,welib_1210e0a3a3f8cca954d5,Renormalization Group Analysis of the Hierarchical Model in Statistical Mechanics,"P. Collet, J.-P Eckmann"
+formal_production_C0058,2,1,welib_1210e0a3a3f8cca954d5,remove,welib_b8d06fd4c4d6e00c76bf,Renormalization Group Analysis of the Hierarchical Model in Statistical Mechanics,"P. Collet, J.-P Eckmann"
+formal_production_C0059,2,1,welib_125f581506776fed9a35,keep,welib_125f581506776fed9a35,"Sealing materials for metallic threaded joints in contact with 1st, 2nd and 3rd family gases and hot water — Sealing materials for metallic threaded joints in contact with 1st, 2nd and 3rd family gases and hot water — Part 2: Non-hardening jointing compounds — CEN",Part 2. Non-hardening jointing compounds
+formal_production_C0059,2,1,welib_125f581506776fed9a35,remove,welib_6779f74f43fccbff5dd1,"Sealing materials for metallic threaded joints in contact with 1st, 2nd and 3rd family gases and hot water — Sealing materials for metallic threaded joints in contact with 1st, 2nd and 3rd family gases and hot water — Part 1: Anaerobic jointing compounds — CEN",Part 1. Anaerobic jointing compounds
+formal_production_C0060,2,1,welib_12612a937f3857bc591c,keep,welib_12612a937f3857bc591c,"Implications of Emerging Micro- and Nanotechnologies — THE NATIONAL ACADEMIES PRESS · 500 Fifth Street, N.W. · Washington, DC 20001 — COMMITTEE ON IMPLICATIONS OF EMERGING MICRO- AND NANOTECHNOLOGIES",NATIONAL RESEARCH COUNCIL
+formal_production_C0060,2,1,welib_12612a937f3857bc591c,remove,welib_5130931f86b0e2ee833d,"Implications of Emerging Micro- and Nanotechnologies — THE NATIONAL ACADEMIES PRESS · 500 Fifth Street, N.W. · Washington, DC 20001 — COMMITTEE ON IMPLICATIONS OF EMERGING MICRO- AND NANOTECHNOLOGIES",NATIONAL RESEARCH COUNCIL
+formal_production_C0061,2,1,welib_127f397398eb6e50954d,keep,welib_127f397398eb6e50954d,The effects of drugs on communication disorders,Deanie Vogel
+formal_production_C0061,2,1,welib_127f397398eb6e50954d,remove,welib_d59125168b7cd161984e,Communication Disorders in Childhood Cancer,Bruce E. Murdoch
+formal_production_C0062,2,1,welib_12ad08aa623f7c361ab7,keep,welib_12ad08aa623f7c361ab7,Fight Against Cancer,Patrice Pinell
+formal_production_C0062,2,1,welib_12ad08aa623f7c361ab7,remove,welib_56fbf63ba4236378ee3a,Fight Against Cancer,Patrice Pinell
+formal_production_C0063,2,1,welib_12c3a1ca8301b27fe4e6,keep,welib_12c3a1ca8301b27fe4e6,How to Behave,Samuel R. Wells
+formal_production_C0063,2,1,welib_12c3a1ca8301b27fe4e6,remove,welib_ef3d12507063fa77eb6a,How to Behave,Samuel R. Wells
+formal_production_C0064,2,1,welib_12d9852ffb86dba15811,keep,welib_12d9852ffb86dba15811,Praktische Organisationsanalyse,Zita Küng
+formal_production_C0064,2,1,welib_12d9852ffb86dba15811,remove,welib_763b393769449acf56c7,Zita Küng — Vorwort — Dank,Was wird hier eigentlich gespielt?
+formal_production_C0065,2,1,welib_1330fe954ac88caa270e,keep,welib_1330fe954ac88caa270e,501 Questions and Answers for Company Directors and Company Secretaries (501 Questions & Answers S.),Roger Mason
+formal_production_C0065,2,1,welib_1330fe954ac88caa270e,remove,welib_976a88a71e8cac3a87d6,501 Q&A'S — 501 questions and answers for company directors and company secretaries — one,FOR COMPANY DIRECTORS AND COMPANY SECRETARIES
+formal_production_C0066,2,1,welib_15243398bed80228d9c5,keep,welib_15243398bed80228d9c5,"Fasteners — Surface discontinuities — — Fasteners — Surface discontinuities — Part 1: Bolts, screws and studs for general requirements — CEN",British Standard
+formal_production_C0066,2,1,welib_15243398bed80228d9c5,remove,welib_36caa365206c37c0d4fa,"Fasteners — Surface discontinuities — — Fasteners — Surface discontinuities — Part 3: Bolts, screws and studs for special requirements — CEN",Cooperating organizations
+formal_production_C0067,2,1,welib_152b1cc02c775b6e1487,keep,welib_152b1cc02c775b6e1487,Die Parkinson-Krankheit,"Manfred Gerlach, Heinz Reichmann, Peter Riederer"
+formal_production_C0067,2,1,welib_152b1cc02c775b6e1487,remove,welib_8b2e9c51098db588009d,Die Parkinson-Krankheit,"Manfred Gerlach, Heinz Reichmann, Peter Riederer"
+formal_production_C0068,2,1,welib_154925028672f06126a0,keep,welib_154925028672f06126a0,Włodzimierz Gajda — Wszystkie znaki występujące w tekście są zastrzeżonymi znakami firmowymi bądź towarowymi ich właścicieli. — Materialy graficzne na okładce zostały wykorzystane za zgodą Shutterstock.,Rozproszony system kontroli wersji
+formal_production_C0068,2,1,welib_154925028672f06126a0,remove,welib_8a6ae7981200bccaa9fe,Włodzimierz Gajda — Wszystkie znaki występujące w tekście są zastrzeżonymi znakami firmowymi bądź towarowymi ich właścicieli. — Materialy graficzne na okładce zostały wykorzystane za zgodą Shutterstock.,Rozproszony system kontroli wersji
+formal_production_C0069,2,1,welib_1596d15f79ba6b746938,keep,welib_1596d15f79ba6b746938,Microsoft Excel 2010,Wayne L. Winston
+formal_production_C0069,2,1,welib_1596d15f79ba6b746938,remove,welib_97b1d7324eaff33718be,Microsoft Excel 2010,Wayne L. Winston
+formal_production_C0070,2,1,welib_168695bd74ae923c0247,keep,welib_168695bd74ae923c0247,Kompaktwissen Gefäßchirurgie — SpringerMedizin — Inhaltsverzeichnis,Differenzierte Diagnostik und Therapie
+formal_production_C0070,2,1,welib_168695bd74ae923c0247,remove,welib_cf2c1932ec24334eee97,Kompaktwissen Gefäßchirurgie — SpringerMedizin — Inhaltsverzeichnis,Differenzierte Diagnostik und Therapie
+formal_production_C0071,2,1,welib_16972522d98406bd2b50,keep,welib_16972522d98406bd2b50,"Intelligence, Security and Policing Post-9/11","J. Moran, Mark Phythian"
+formal_production_C0071,2,1,welib_16972522d98406bd2b50,remove,welib_18ca54204848aa42ecdc,"Intelligence, security and policing post-9/11",Jon Moran
+formal_production_C0072,2,1,welib_17b20c30726e3a933383,keep,welib_17b20c30726e3a933383,Mathematik für Physiker Band 1,"Helmut Fischer, Helmut Kaul"
+formal_production_C0072,2,1,welib_17b20c30726e3a933383,remove,welib_d0c01c9f50576795a6ff,Mathematik für Physiker — Vorwort — Wegweiser,Teubner Studienbücher Mathematik
+formal_production_C0073,2,1,welib_17bc83b5032d7fb3b3ce,keep,welib_17bc83b5032d7fb3b3ce,Numerische Behandlung gewöhnlicher und partieller Differenzialgleichungen,(书目库未提供作者)
+formal_production_C0073,2,1,welib_17bc83b5032d7fb3b3ce,remove,welib_f85173eb22b5f30659c4,Numerische Behandlung gewöhnlicher und partieller Differenzialgleichungen,Claus-Dieter Munz
+formal_production_C0074,2,1,welib_17e725493292b85670b5,keep,welib_17e725493292b85670b5,"Mud Volcanoes, Geodynamics and Seismicity: Proceedings of the NATO Advanced Research Workshop on Mud Volcanism, Geodynamics and Seismicity, Baku, Azerbaijan, ... IV",Giovanni Martinelli
+formal_production_C0074,2,1,welib_17e725493292b85670b5,remove,welib_ee9edde15dcb929f1b07,"Mud Volcanoes, Geodynamics and Seismicity: Proceedings of the NATO Advanced Research Workshop on Mud Volcanism, Geodynamics and Seismicity, Baku, Azerbaijan, ... IV",Giovanni Martinelli
+formal_production_C0075,2,1,welib_186c7581f998942d5144,keep,welib_186c7581f998942d5144,Liberal Democracy and Environmentalism,M. L. J. Wissenburg
+formal_production_C0075,2,1,welib_186c7581f998942d5144,remove,welib_30ff45f5c712257f7688,Liberal Democracy and Environmentalism,M. L. J. Wissenburg
+formal_production_C0076,2,1,welib_19169684298cbf6a425c,keep,welib_19169684298cbf6a425c,Tinkering,Symposium on Tinkering (2006 Novartis Foundation)
+formal_production_C0076,2,1,welib_19169684298cbf6a425c,remove,welib_9b52997c7d19f53475b3,Tinkering,Symposium on Tinkering (2006 Novartis Foundation)
+formal_production_C0077,2,1,welib_19a8273750a039d8a6eb,keep,welib_19a8273750a039d8a6eb,Jerusalem,"Tamar Mayer, Suleiman A. Mourad"
+formal_production_C0077,2,1,welib_19a8273750a039d8a6eb,remove,welib_3200ebfc3f78484034c1,Jerusalem,"Tamar Mayer, Suleiman A. Mourad"
+formal_production_C0078,2,1,welib_19c858681e518b2d04ec,keep,welib_19c858681e518b2d04ec,Norbert Elias,Robert Van Krieken
+formal_production_C0078,2,1,welib_19c858681e518b2d04ec,remove,welib_3cbc3d2300d128bb650c,Norbert Elias,Robert Van Krieken
+formal_production_C0079,2,1,welib_19ef3e395ac4c7d809dd,keep,welib_19ef3e395ac4c7d809dd,The Employment Effects of Technological Change,Jens Rubart
+formal_production_C0079,2,1,welib_19ef3e395ac4c7d809dd,remove,welib_77de7651b40d8385f6e9,The Employment Effects of Technological Change,Jens Rubart
+formal_production_C0080,2,1,welib_1a1bf7a3f8640d600165,keep,welib_1a1bf7a3f8640d600165,Environmental and natural resources economics,Steven C. Hackett
+formal_production_C0080,2,1,welib_1a1bf7a3f8640d600165,remove,welib_94f37aa51e25f142c528,Environmental and natural resources economics,Steven C. Hackett
+formal_production_C0081,2,1,welib_1a6cfbc7288c7c4fc541,keep,welib_1a6cfbc7288c7c4fc541,Application of transition metal catalysts in organic synthesis,L. Brandsma
+formal_production_C0081,2,1,welib_1a6cfbc7288c7c4fc541,remove,welib_9d113df4e8472cb9e095,Application of transition metal catalysts in organic synthesis,Lambert Brandsma
+formal_production_C0082,2,1,welib_1ad333eef1c3895a2ce3,keep,welib_1ad333eef1c3895a2ce3,Adventures in order and chaos,George Contopoulos
+formal_production_C0082,2,1,welib_1ad333eef1c3895a2ce3,remove,welib_77bb3e4cc5855a692dd0,Adventures in order and chaos,George Contopoulos
+formal_production_C0083,2,1,welib_1b074feb9820bdcb3f48,keep,welib_1b074feb9820bdcb3f48,The human frontal lobes,"Bruce L. Miller, Jeffrey L. Cummings"
+formal_production_C0083,2,1,welib_1b074feb9820bdcb3f48,remove,welib_8844be9cffbfae6efdc1,The human frontal lobes,"Bruce L. Miller, Jeffrey L. Cummings"
+formal_production_C0084,2,1,welib_1b65397897e286a30df1,keep,welib_1b65397897e286a30df1,Reciprocating internal combustion engines — Safety requirements for design and construction of engines for use in potentially explosives atmospheres — — Cross-references — Foreword....3,National foreword
+formal_production_C0084,2,1,welib_1b65397897e286a30df1,remove,welib_4680f6e1706079961080,Reciprocating internal combustion engines — Safety requirements for the design and construction of engines for use in potentially explosive atmospheres — — Cross-references — Foreword.... 3,National foreword
+formal_production_C0085,2,1,welib_1b8f4d5056185cf3d2c7,keep,welib_1b8f4d5056185cf3d2c7,"Practical Unit Testing — To my wife, Agnieszka, for all her support, and for having faith that I would eventually finish the book. — 1.5. Tools Introduction ...... 9",with JUnit and Mockito
+formal_production_C0085,2,1,welib_1b8f4d5056185cf3d2c7,remove,welib_dab10ba48d1b34d103ec,"Practical Unit Testing with TestNG and Mockito — To my wife, Agnieszka, for all her support, and for having faith that I would eventually finish the book. — 1.5. Tools Introduction ...... 9",Tomek Kaczanowski
+formal_production_C0086,2,1,welib_1c3cf1d7bbd945edc118,keep,welib_1c3cf1d7bbd945edc118,National Accounts of Oecd Countries,Organisation for Economic Co-operation and Development
+formal_production_C0086,2,1,welib_1c3cf1d7bbd945edc118,remove,welib_419a32f923930f71c768,National Accounts of Oecd Countries,Organisation for Economic Co-operation and Development
+formal_production_C0087,2,1,welib_1c690f200d9d42eec82d,keep,welib_1c690f200d9d42eec82d,Cyber China,Françoise Mengin
+formal_production_C0087,2,1,welib_1c690f200d9d42eec82d,remove,welib_c96b24de1e3b66e6fdad,Cyber China,Françoise Mengin
+formal_production_C0088,2,1,welib_1d157d6705fd2d196c4e,keep,welib_1d157d6705fd2d196c4e,A political and economic dictionary of the Middle East,David Seddon
+formal_production_C0088,2,1,welib_1d157d6705fd2d196c4e,remove,welib_99338fcdce0ec0fda3cf,A political and economic dictionary of the Middle East,David Seddon
+formal_production_C0089,2,1,welib_1dffe311b6e9884d9069,keep,welib_1dffe311b6e9884d9069,Globalisation and the Labour Market,"Bob Anderton, Paul Brenton, John Whalley"
+formal_production_C0089,2,1,welib_1dffe311b6e9884d9069,remove,welib_ddda84d7cb402544cd32,Globalisation and the Labour Market,"Bob Anderton, Paul Brenton, John Whalley"
+formal_production_C0090,2,1,welib_1e972fc948f8f22b1dde,keep,welib_1e972fc948f8f22b1dde,Cooperation in Primates and Humans,"Peter M. Kappeler, Carel van Schaik"
+formal_production_C0090,2,1,welib_1e972fc948f8f22b1dde,remove,welib_ca38adcf4c098977f6f8,Cooperation in Primates and Humans,"Peter M. Kappeler, Carel van Schaik"
+formal_production_C0091,2,1,welib_1efdd4a90eb4f4dac315,keep,welib_1efdd4a90eb4f4dac315,Design and emotion,International Conference on Design and Emotion (3rd 2002 Loughborough University)
+formal_production_C0091,2,1,welib_1efdd4a90eb4f4dac315,remove,welib_295ffc7556c9b2590db4,Design and Emotion,"Deana McDonagh, Diane Gyi, Paul Hekkert"
+formal_production_C0092,2,1,welib_1f3a46a149493ad56998,keep,welib_1f3a46a149493ad56998,"Stochastic Models, Statistics and Their Applications","Ansgar Steland, Ewaryst Rafajłowicz, Krzysztof Szajowski"
+formal_production_C0092,2,1,welib_1f3a46a149493ad56998,remove,welib_ee8f03106d7d983e2e02,"Stochastic Models, Statistics and Their Applications","Ansgar Steland, Ewaryst Rafajłowicz, Krzysztof Szajowski"
+formal_production_C0093,2,1,welib_1f58f846a02326e48d1c,keep,welib_1f58f846a02326e48d1c,Flexible sheets for waterproofing — Determination of visible defects — — Cross-references — Flexible sheets for waterproofing - Determination of visible defects - Part 1: Bitumen sheets for roof waterproofing,Part 1: Bitumen sheets for roof waterproofing
+formal_production_C0093,2,1,welib_1f58f846a02326e48d1c,remove,welib_54405cdc4b899805ff07,Precast concrete products — Test method for glass-fibre reinforced cement — Cross-references — Precast concrete products — Test method for glass-fibre reinforced cement — Part 1: Measuring the consistency of the matrix — ‘Slump test’ method,National foreword
+formal_production_C0094,2,1,welib_1f5e3ee0bc03ad75e174,keep,welib_1f5e3ee0bc03ad75e174,National Accounts of OECD Countries,OECD Publishing
+formal_production_C0094,2,1,welib_1f5e3ee0bc03ad75e174,remove,welib_4807cc49967135f60578,Financial Accounts Flows — NATIONAL ACCOUNTS OF OECD COUNTRIES COMPTES NATIONAUX DES PAYS DE L'OCDE — FLUX,National Accounts
+formal_production_C0095,2,1,welib_1fd12cff58ffc07e61b2,keep,welib_1fd12cff58ffc07e61b2,The complete personalized promise Bible for men,James R. Riddle
+formal_production_C0095,2,1,welib_1fd12cff58ffc07e61b2,remove,welib_a3cf6f42dc525a4b3462,The Complete Personalized Promise Bible,James Riddle
+formal_production_C0096,2,1,welib_2002ec75a9b1278cd9b4,keep,welib_2002ec75a9b1278cd9b4,Block Theory of Finite Group Algebras,Markus Linckelmann
+formal_production_C0096,2,1,welib_2002ec75a9b1278cd9b4,remove,welib_81c5e18d47c1254fe6da,Block Theory of Finite Group Algebras,Markus Linckelmann
+formal_production_C0097,2,1,welib_2002fac6d887930da927,keep,welib_2002fac6d887930da927,"QuickTime for .NET and COM Developers — The QuickTime logo is a trademark of Apple Computer, Inc., used by Morgan Kaufmann with permission. — Morgan Kaufmann Publishers is an imprint of Elsevier. 500 Sansome Street, Suite 400, San Francisco, CA 94111",John Cromie
+formal_production_C0097,2,1,welib_2002fac6d887930da927,remove,welib_a4d558e4238adbaabd2e,"About the Author — QuickTime — Whenever the fickle weather in the northwest of Ireland permits, John gets out and about birding or walking in the mountains, and he is actively involved in nature conservation.",What's in This Book?
+formal_production_C0098,2,1,welib_20218866b3b8d86a3d35,keep,welib_20218866b3b8d86a3d35,Advanced FPGA design,Steve Kilts
+formal_production_C0098,2,1,welib_20218866b3b8d86a3d35,remove,welib_5c701b3ff2f374fabd76,Advanced FPGA design,Steve Kilts
+formal_production_C0099,2,1,welib_20e688a0c11ae8e87ca6,keep,welib_20e688a0c11ae8e87ca6,Introduction to optical waveguide analysis,Kenji Kawano
+formal_production_C0099,2,1,welib_20e688a0c11ae8e87ca6,remove,welib_8234ac49abc8cbc44f92,Introduction to Optical Waveguide Analysis,Kenji Kawano
+formal_production_C0100,2,1,welib_20f5033fda53918c5c99,keep,welib_20f5033fda53918c5c99,A Natural Introduction to Probability Theory,Ronald Meester
+formal_production_C0100,2,1,welib_20f5033fda53918c5c99,remove,welib_73e4b109115f16af3785,A Natural Introduction to Probability Theory,Ronald Meester
+formal_production_C0101,2,1,welib_219f0d7e9b9b0c365ccd,keep,welib_219f0d7e9b9b0c365ccd,Methods in ENZYMOLOGY — [1] Transgene-Induced RNA Interference as a Tool for Plant Functional Genomics — Abstract,David R. Engelke
+formal_production_C0101,2,1,welib_219f0d7e9b9b0c365ccd,remove,welib_ba2d8766691f09451d6f,METHODS IN ENZYMOLOGY — [1] Transgene-Induced RNA Interference as a Tool for Plant Functional Genomics — Abstract,EDITORS-IN-CHIEF
+formal_production_C0102,2,1,welib_23160d95f5a93a549243,keep,welib_23160d95f5a93a549243,The Failure of the Middle East Peace Process?,Guy Ben-Porat
+formal_production_C0102,2,1,welib_23160d95f5a93a549243,remove,welib_dc92133bae0cb7136b31,Failure of the Middle East Peace Process,Guy Ben-Porat
+formal_production_C0103,2,1,welib_23b474c1656cfcbd6493,keep,welib_23b474c1656cfcbd6493,Nova's GMAT math bible,Jeff Kolby
+formal_production_C0103,2,1,welib_23b474c1656cfcbd6493,remove,welib_2554c5fb76a2ed9a6303,Nova's GRE math bible,Jeff Kolby
+formal_production_C0104,2,1,welib_249761962ad3a6318112,keep,welib_249761962ad3a6318112,Learning SciPy for Numerical and Scientific Computing - Second Edition,"Sergio J. Rojas G., Erik A Christensen, Francisco J. Blanco-Silva"
+formal_production_C0104,2,1,welib_249761962ad3a6318112,remove,welib_fa9aa0eb75d9ee2463e3,Learning SciPy for Numerical and Scientific Computing - Second Edition,"Sergio J. Rojas G., Erik A Christensen, Francisco J. Blanco-Silva"
+formal_production_C0105,2,1,welib_24e37f057c2fb6b6a691,keep,welib_24e37f057c2fb6b6a691,Linear programming,George Bernard Dantzig
+formal_production_C0105,2,1,welib_24e37f057c2fb6b6a691,remove,welib_599975f5d208b62b9642,Linear programming,George Bernard Dantzig
+formal_production_C0106,2,1,welib_255c0342b2c60c05627d,keep,welib_255c0342b2c60c05627d,Prions,"H.W. Doerr, A. Schmidt, H. Herwald"
+formal_production_C0106,2,1,welib_255c0342b2c60c05627d,remove,welib_ef37e1d186878911f322,Prions,"H.W. Doerr, A. Schmidt, H. Herwald"
+formal_production_C0107,2,1,welib_2598be4767265e30db96,keep,welib_2598be4767265e30db96,Web Content Caching and Distribution,"Fred Douglis, Brian D. Davison"
+formal_production_C0107,2,1,welib_2598be4767265e30db96,remove,welib_f881ae8b8e1bc55aeb30,Web Content Caching and Distribution,"Fred Douglis, Brian D. Davison"
+formal_production_C0108,2,1,welib_259e371ec5ba1536210a,keep,welib_259e371ec5ba1536210a,Lévy Processes and Stochastic Calculus,David Applebaum
+formal_production_C0108,2,1,welib_259e371ec5ba1536210a,remove,welib_ceafe45c817a46f01768,Lévy Processes and Stochastic Calculus,David Applebaum
+formal_production_C0109,2,1,welib_259fe8041316fd5d7599,keep,welib_259fe8041316fd5d7599,Optimal Treatment Strategies in End-stage Renal Failure — OXFORD — CONTRIBUTORS,CLAUDE JACOBS
+formal_production_C0109,2,1,welib_259fe8041316fd5d7599,remove,welib_d17157a888c8ef06a6c0,Портал бесплатной медицинской литературы MedWedi.ru — OXFORD — CONTRIBUTORS,CLAUDE JACOBS
+formal_production_C0110,2,1,welib_261c9d95934b3a86804c,keep,welib_261c9d95934b3a86804c,Macroeconomics,N. Gregory Mankiw
+formal_production_C0110,2,1,welib_261c9d95934b3a86804c,remove,welib_7560441b74a19c3e73eb,Macroeconomics,N. Gregory Mankiw
+formal_production_C0111,2,1,welib_26c54be9a83f58f1ccf8,keep,welib_26c54be9a83f58f1ccf8,Theory of Remote Image Formation,Richard E. Blahut
+formal_production_C0111,2,1,welib_26c54be9a83f58f1ccf8,remove,welib_d33e8bf6db3ad49a589a,Theory of Remote Image Formation,Richard E. Blahut
+formal_production_C0112,2,1,welib_281f572031a2e4892ac7,keep,welib_281f572031a2e4892ac7,Hypercomplex iterations,Yumei Dang
+formal_production_C0112,2,1,welib_281f572031a2e4892ac7,remove,welib_e1f11f1af4ba7b01bf2a,Hypercomplex iterations,Yumei Dang
+formal_production_C0113,2,1,welib_287756806a4c5e717566,keep,welib_287756806a4c5e717566,Egalitarian politics in the age of globalization,"Björn Hettne, András Inotai, Osvaldo Sunkel"
+formal_production_C0113,2,1,welib_287756806a4c5e717566,remove,welib_6a9f3f7d179dcb8ff885,Egalitarian politics in the age of globalization,"Björn Hettne, András Inotai, Osvaldo Sunkel"
+formal_production_C0114,2,1,welib_28b863b1108696529b69,keep,welib_28b863b1108696529b69,Moonshine,James Lepowsky
+formal_production_C0114,2,1,welib_28b863b1108696529b69,remove,welib_448a93281cd89a39295d,Moonshine,James Lepowsky
+formal_production_C0115,2,1,welib_2a53067b1c32b297146d,keep,welib_2a53067b1c32b297146d,Maintaining Minority Languages in Transnational Contexts,"Anne Pauwels, Joseph Lo Bianco"
+formal_production_C0115,2,1,welib_2a53067b1c32b297146d,remove,welib_c971477953935763934d,Maintaining Minority Languages in Transnational Contexts,"A. Pauwels, J. Winter, J. Lo Bianco"
+formal_production_C0116,2,1,welib_2a639a2ddbafd0a37dc3,keep,welib_2a639a2ddbafd0a37dc3,THE CRUSADES — Very Short Introductions available now: — A Very Short Introduction,Christopher Tyerman
+formal_production_C0116,2,1,welib_2a639a2ddbafd0a37dc3,remove,welib_acb6a5bff0116d52cd50,Very Short Introductions available now: — The Crusades: A Very Short Introduction — ARCHITECTURE,ANARCHISM Colin Ward
+formal_production_C0117,2,1,welib_2b81537ad2824da4555c,keep,welib_2b81537ad2824da4555c,Beyond Brain Death,H. Tristram Engelhardt Jr.
+formal_production_C0117,2,1,welib_2b81537ad2824da4555c,remove,welib_dab7bbc688536b7f0de4,Beyond Brain Death,H. Tristram Engelhardt Jr.
+formal_production_C0118,2,1,welib_2c158d9cdde4e430c982,keep,welib_2c158d9cdde4e430c982,Franklin Roosevelt's Foreign Policy and the Welles Mission,J. Rofe
+formal_production_C0118,2,1,welib_2c158d9cdde4e430c982,remove,welib_467a1e1b0905182c0e73,FRANKLIN ROOSEVELT'S FOREIGN POLICY AND THE WELLES MISSION.,J. SIMON ROFE
+formal_production_C0119,2,1,welib_2c1857b10aab24a88531,keep,welib_2c1857b10aab24a88531,Mary,Miri Rubin
+formal_production_C0119,2,1,welib_2c1857b10aab24a88531,remove,welib_bc95a70eea18a5b616dc,Mary,Miri Rubin
+formal_production_C0120,2,1,welib_2c75b41834bfe4456956,keep,welib_2c75b41834bfe4456956,Closets for use with chemicals — — Foreword — 1 Scope,Part 2: Specification for permanently installed closets
+formal_production_C0120,2,1,welib_2c75b41834bfe4456956,remove,welib_93915603a7c8f0fdd0fc,Closets for use with chemicals — — Foreword — 1 Scope,Part 1: Specification for portable closets
+formal_production_C0121,2,1,welib_2d08ea7f01c88ff5d5c0,keep,welib_2d08ea7f01c88ff5d5c0,Supervision in Teacher Education,Edger Stones
+formal_production_C0121,2,1,welib_2d08ea7f01c88ff5d5c0,remove,welib_8184a043fd13d08978ff,Supervision in Teacher Education,Edger Stones
+formal_production_C0122,2,1,welib_2d217776e5a2f991b76c,keep,welib_2d217776e5a2f991b76c,Power of attorney handbook,Edward A. Haman
+formal_production_C0122,2,1,welib_2d217776e5a2f991b76c,remove,welib_4ed5b023965d755d680d,"Power of Attorney Handbook, 6th Edition",Edward Haman
+formal_production_C0123,2,1,welib_2e0ca40404b3c4de3e1c,keep,welib_2e0ca40404b3c4de3e1c,Lévy Laplacian,M. N. Feller
+formal_production_C0123,2,1,welib_2e0ca40404b3c4de3e1c,remove,welib_6116950ea3d02637fb17,Lévy Laplacian,M. N. Feller
+formal_production_C0124,2,1,welib_2e95d846c25d58ab8e00,keep,welib_2e95d846c25d58ab8e00,"The Second World War (6) — Chronology — First published in Great Britain in 2002 by Osprey Publishing, Elms Court, Chapel Way, Botley, Oxford OX2 9LP UK.",Essential Histories
+formal_production_C0124,2,1,welib_2e95d846c25d58ab8e00,remove,welib_fc9172ad4551ecae644a,Northwest Europe 1944-1945,"Russell Hart, Stephen Hart, Andrew A. Wiest"
+formal_production_C0125,2,1,welib_2eb1466d9bff339b6644,keep,welib_2eb1466d9bff339b6644,Labour — Force — Statistics,Statistiques de la population active
+formal_production_C0125,2,1,welib_2eb1466d9bff339b6644,remove,welib_f686130e499e957f91b0,Labour Force Statistics 1978/1998,Organisation for Economic Co-operation and Development
+formal_production_C0126,2,1,welib_2ef86e4a9fbd1cccb51c,keep,welib_2ef86e4a9fbd1cccb51c,National foreword — Cross-references — Foreword,— aid enquirers to understand the text;
+formal_production_C0126,2,1,welib_2ef86e4a9fbd1cccb51c,remove,welib_455e44500aeb0a4be86b,National foreword — Cross-references — Foreword,— aid enquirers to understand the text;
+formal_production_C0127,2,1,welib_300eef48932ecc71d153,keep,welib_300eef48932ecc71d153,"Nurse's Pocket Guide: Diagnoses, Interventions, and Rationales (Nurse's Pocket Guide: Diagnoses, Interventions & Rationales)",Doenges
+formal_production_C0127,2,1,welib_300eef48932ecc71d153,remove,welib_739e37be5085acce7afb,Nurse's pocket guide,"Doenges, Marilynn E."
+formal_production_C0128,2,1,welib_3086c566deacc37e17fd,keep,welib_3086c566deacc37e17fd,Superpower rivalry and conflict,Chandra Chari
+formal_production_C0128,2,1,welib_3086c566deacc37e17fd,remove,welib_5c05d5fb03224f5107d4,Superpower rivalry and conflict,Chandra Chari
+formal_production_C0129,2,1,welib_30e1020c88a3c32c08ba,keep,welib_30e1020c88a3c32c08ba,Laboratory glassware — Bottles — — Cross-references — Laboratory glassware - Bottles - Part 2: Conical neck bottles (ISO 4796-2:2000),Part 2: Conical neck bottles
+formal_production_C0129,2,1,welib_30e1020c88a3c32c08ba,remove,welib_617655fa2afe03e32966,Laboratory glassware — Bottles — — Cross-references — Foreword,Part 3: Aspirator bottles
+formal_production_C0130,2,1,welib_31772e1ea583906f026c,keep,welib_31772e1ea583906f026c,Cambridge Imperial and Post-Colonial Studies Series,(书目库未提供作者)
+formal_production_C0130,2,1,welib_31772e1ea583906f026c,remove,welib_65eb9a12b4a8df85e63e,Cambridge Imperial and Post-Colonial Studies Series,(书目库未提供作者)
+formal_production_C0131,2,1,welib_31a45dd8bd3a1f2a46aa,keep,welib_31a45dd8bd3a1f2a46aa,Next Generation Society. Technological and Legal Issues,Alexander B. Sideridis
+formal_production_C0131,2,1,welib_31a45dd8bd3a1f2a46aa,remove,welib_58d32fb91d9386b354df,Next Generation Society. Technological and Legal Issues,Alexander B. Sideridis
+formal_production_C0132,2,1,welib_31d17423e8244d768a3b,keep,welib_31d17423e8244d768a3b,Web 2.0 Patterns,"Duane Nickull, Dion Hinchcliffe, James Governor"
+formal_production_C0132,2,1,welib_31d17423e8244d768a3b,remove,welib_564655e1d6deb6da4f83,"Web 2.0 Architectures — Published by O'Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472. — May 2009:","James Governor, Dion Hinchcliffe, and Duane Nickull"
+formal_production_C0133,2,1,welib_320bf91a31fd1fbafbe8,keep,welib_320bf91a31fd1fbafbe8,Staging motherhood,Jozefina Komporaly
+formal_production_C0133,2,1,welib_320bf91a31fd1fbafbe8,remove,welib_3a60954ab12384348ed3,Staging Motherhood,J. Komporaly
+formal_production_C0134,2,1,welib_324659f413696670a136,keep,welib_324659f413696670a136,Lehman Brothers,Vault (Firm)
+formal_production_C0134,2,1,welib_324659f413696670a136,remove,welib_b323b0bb568c8c56a99f,Lehman Brothers,Vault (Firm)
+formal_production_C0135,2,1,welib_32be297c912cace4207d,keep,welib_32be297c912cace4207d,Trg;Standing Order Sbn (Hc),Simon Bulmer
+formal_production_C0135,2,1,welib_32be297c912cace4207d,remove,welib_d3b3eb6d39d8b7fdfd95,Trg;Standing Order Sbn (Hc),Simon Bulmer
+formal_production_C0136,2,1,welib_332bd7d8264a90895438,keep,welib_332bd7d8264a90895438,Security Manual — 1 BASICS 1 — 6 PROTECTION OF PREMISES AND ALARM SYSTEMS 50,David Brooksbank
+formal_production_C0136,2,1,welib_332bd7d8264a90895438,remove,welib_6b9585d79e4d0ac1f02f,Security Manual — 1 BASICS 1 — 6 PROTECTION OF PREMISES AND ALARM SYSTEMS 50,David Brooksbank
+formal_production_C0137,2,1,welib_34044d62440b903b8134,keep,welib_34044d62440b903b8134,Information Security and Ethics,Marian Quigley
+formal_production_C0137,2,1,welib_34044d62440b903b8134,remove,welib_3bf67e94ad4ee3f48543,Information Security and Ethics,Marian Quigley
+formal_production_C0138,2,1,welib_34abe14635f50e680107,keep,welib_34abe14635f50e680107,Joe Celko's SQL Programming Style (The Morgan Kaufmann Series in Data Management Systems),Joe Celko
+formal_production_C0138,2,1,welib_34abe14635f50e680107,remove,welib_a0dd587b0ed4c0f91a18,Joe Celko's SQL Programming Style (The Morgan Kaufmann Series in Data Management Systems),Joe Celko
+formal_production_C0139,2,1,welib_34ed0c9b39a7587c8be3,keep,welib_34ed0c9b39a7587c8be3,MANKELL HENNING — Algeriet-Sverige — Prolog,Den femte kvinnan
+formal_production_C0139,2,1,welib_34ed0c9b39a7587c8be3,remove,welib_96ee79513015f8ede838,Henning Mankell — Algeriet-Sverige — Prolog,Den femte kvinnan
+formal_production_C0140,2,1,welib_34fff9563fc0fb171e59,keep,welib_34fff9563fc0fb171e59,"Table of integrals, series and products",I. S. Gradshteĭn
+formal_production_C0140,2,1,welib_34fff9563fc0fb171e59,remove,welib_7a5c06ac6621102c31d4,"Table of integrals, series and products",I. S. Gradshteĭn
+formal_production_C0141,2,1,welib_358dfd02e6ecc1d70ec3,keep,welib_358dfd02e6ecc1d70ec3,THE ARAB CONQUEST OF EGYPT AND THE LAST THIRTY YEARS OF THE ROMAN DOMINION — And the Last Thirty Years of the Roman Dominion — Reviews,Alfred J. Butler
+formal_production_C0141,2,1,welib_358dfd02e6ecc1d70ec3,remove,welib_d0ae401bade70ad56dd7,THE ARAB CONQUEST OF EGYPT AND THE LAST THIRTY YEARS OF THE ROMAN DOMINION — DOMINION — And the Last Thirty Years of the Roman Dominion,Alfred J. Butler
+formal_production_C0142,2,1,welib_361900fb1f89262bf747,keep,welib_361900fb1f89262bf747,Java Data Objects,Robin M. Roos
+formal_production_C0142,2,1,welib_361900fb1f89262bf747,remove,welib_51f89bbf4661e64467ee,Java Data Objects,Robin M. Roos
+formal_production_C0143,2,1,welib_376fda9defbcbffed552,keep,welib_376fda9defbcbffed552,Water quality — — Foreword — 0 Introduction,"Part 2: Physical, chemical and biochemical methods —"
+formal_production_C0143,2,1,welib_376fda9defbcbffed552,remove,welib_a9f583e8d2b22f875e63,Water quality — — Foreword — 0 Introduction,"Part 2: Physical, chemical and biochemical methods —"
+formal_production_C0144,2,1,welib_37e21ee55a7555a3073e,keep,welib_37e21ee55a7555a3073e,Applied Data Mining,Paolo Giudici
+formal_production_C0144,2,1,welib_37e21ee55a7555a3073e,remove,welib_53af597eebf6e4ed2219,Applied Data Mining,Paolo Giudici
+formal_production_C0145,2,1,welib_38fc604d6b3359a39386,keep,welib_38fc604d6b3359a39386,Embedded Linux (Landmark),John Lombardo
+formal_production_C0145,2,1,welib_38fc604d6b3359a39386,remove,welib_d2723698984529bca4c7,Embedded Linux (Landmark),John Lombardo
+formal_production_C0146,2,1,welib_3b6916e41753d479a28a,keep,welib_3b6916e41753d479a28a,Solvent Effects and Chemical Reactivity,"Orlando Tapia, Juan Bautista Bertrán"
+formal_production_C0146,2,1,welib_3b6916e41753d479a28a,remove,welib_fba06380f3b8e229ec50,Solvent Effects and Chemical Reactivity,"Orlando Tapia, Juan Bautista Bertrán"
+formal_production_C0147,2,1,welib_3c9e48ced121fdf065c4,keep,welib_3c9e48ced121fdf065c4,"DENTINOGENESIS IMPERFECTA — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0147,2,1,welib_3c9e48ced121fdf065c4,remove,welib_495704e6e586fb9ff2c7,"AMELOGENESIS IMPERFECTA — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0148,2,1,welib_3d57047a2353c571b128,keep,welib_3d57047a2353c571b128,Human and environmental security,"Felix Dodds, Tim Pippard"
+formal_production_C0148,2,1,welib_3d57047a2353c571b128,remove,welib_ca7047d815f4f0cfdd7f,Human and environmental security,"Felix Dodds, Tim Pippard"
+formal_production_C0149,2,1,welib_3d6aea582a06989f50c8,keep,welib_3d6aea582a06989f50c8,Cerebral Signal Transduction,Maarten E. A. Reith
+formal_production_C0149,2,1,welib_3d6aea582a06989f50c8,remove,welib_e49edfb32d57b9cc93da,Cerebral Signal Transduction,Maarten E. A. Reith
+formal_production_C0150,2,1,welib_3d98d83400f76ffb79b4,keep,welib_3d98d83400f76ffb79b4,Cardiac markers,Alan H. B. Wu
+formal_production_C0150,2,1,welib_3d98d83400f76ffb79b4,remove,welib_886b2516d7d3f89ce1c7,Cardiac markers,Alan H. B. Wu
+formal_production_C0151,2,1,welib_3d9eec6be830e7662f85,keep,welib_3d9eec6be830e7662f85,Guide to Hellenistic Literature (Blackwell Guides to Classical Literature),Kathryn Gutzwiller
+formal_production_C0151,2,1,welib_3d9eec6be830e7662f85,remove,welib_41960da305ae7e308c2a,Guide to Hellenistic Literature (Blackwell Guides to Classical Literature),Kathryn Gutzwiller
+formal_production_C0152,2,1,welib_3dcf84cdcddd772454f1,keep,welib_3dcf84cdcddd772454f1,SPSS advanced models 15.0,SPSS Inc (Chicago)
+formal_production_C0152,2,1,welib_3dcf84cdcddd772454f1,remove,welib_ac0371b76c570c5d1ca1,SPSS advanced models 15.0,SPSS Inc (Chicago)
+formal_production_C0153,2,1,welib_3f36d910bb6cbc6dbe16,keep,welib_3f36d910bb6cbc6dbe16,"Economic Development and Social Change — George Stathakis is at the Department of Economics, University of Crete, Rethymno, Greece and Gianni Vaggi is at the Faculty of Economics, University of Pavia, Italy. — Distribution and value from William Petty to Adam Smith",George Stathakis and Gianni Vaggi
+formal_production_C0153,2,1,welib_3f36d910bb6cbc6dbe16,remove,welib_6b557e4cf7e1937c7de2,"Economic Development and Social Change — George Stathakis is at the Department of Economics, University of Crete, Rethymno, Greece and Gianni Vaggi is at the Faculty of Economics, University of Pavia, Italy. — Distribution and value from William Petty to Adam Smith",George Stathakis and Gianni Vaggi
+formal_production_C0154,2,1,welib_3f4602b9f4669d921fb0,keep,welib_3f4602b9f4669d921fb0,Plasticity,Weimin Han
+formal_production_C0154,2,1,welib_3f4602b9f4669d921fb0,remove,welib_9647994849b2cf6454ae,Plasticity,Weimin Han
+formal_production_C0155,2,1,welib_3f87c12689f537a0b74a,keep,welib_3f87c12689f537a0b74a,"IRMA Lectures in Mathematics and Theoretical Physics 21 — Faà di Bruno Hopf Algebras, Dyson–Schwinger Equations, and Lie–Butcher Series — Editors",Christian Kassel and Vladimir G. Turaev
+formal_production_C0155,2,1,welib_3f87c12689f537a0b74a,remove,welib_8e48e162aa6c47441760,"IRMA Lectures in Mathematics and Theoretical Physics 21 — Faà di Bruno Hopf Algebras, Dyson–Schwinger Equations, and Lie–Butcher Series — Editors",Christian Kassel and Vladimir G. Turaev
+formal_production_C0156,2,1,welib_3f8862a87de9dc988412,keep,welib_3f8862a87de9dc988412,Handbook of Usability Testing,"Jeffrey Rubin, Jeffrey Rubin, Dana Chisnell, Jared Spool"
+formal_production_C0156,2,1,welib_3f8862a87de9dc988412,remove,welib_952402138e10b7bb2551,Handbook of Usability Testing,"Jeffrey Rubin, Jeffrey Rubin, Dana Chisnell, Jared Spool"
+formal_production_C0157,2,1,welib_3f98a84707bbac9b96b0,keep,welib_3f98a84707bbac9b96b0,Sams teach yourself C++ in 24 hours,Jesse Liberty
+formal_production_C0157,2,1,welib_3f98a84707bbac9b96b0,remove,welib_9d64f185759b95231f1e,Sams teach yourself C++ in 24 hours,Jesse Liberty
+formal_production_C0158,2,1,welib_3fc0315e87a3c4cdb6be,keep,welib_3fc0315e87a3c4cdb6be,"Psychology as Philosophy Philosophy as Psychology — REALITY PRESS LAS VEGAS — All rights reserved. No part of this publication may be reproduced, distributed, or transmitted without the express consent of the author.",Michael Starks
+formal_production_C0158,2,1,welib_3fc0315e87a3c4cdb6be,remove,welib_e8ac76e8af6b96086306,Suicidal Utopian Delusions in the 21st Century,Michael Starks
+formal_production_C0159,2,1,welib_40058c02dd7ace37e0cd,keep,welib_40058c02dd7ace37e0cd,Word 2007 Macros & VBA Made Easy,Guy Hart-Davis
+formal_production_C0159,2,1,welib_40058c02dd7ace37e0cd,remove,welib_900ead4a18b1c0e04327,Word 2007 Macros & VBA Made Easy,Guy Hart-Davis
+formal_production_C0160,2,1,welib_40afcaacd0fbaa1adf22,keep,welib_40afcaacd0fbaa1adf22,O ORÁCULO DA NOITE — Sumário — Capa,SIDARTA RIBEIRO
+formal_production_C0160,2,1,welib_40afcaacd0fbaa1adf22,remove,welib_dfad6377682f0daca90e,O ORÁCULO DA NOITE — Sumário — Capa,SIDARTA RIBEIRO
+formal_production_C0161,2,1,welib_413a0f0b371df993cfe8,keep,welib_413a0f0b371df993cfe8,Calibration of vibration and shock pick-ups — — 1 Scope — 2 Apparatus,Committees responsible for this British Standard
+formal_production_C0161,2,1,welib_413a0f0b371df993cfe8,remove,welib_7cf915307a19374ad9c7,Calibration of vibration and shock pick-ups — — 1 Scope — 2 Apparatus,Committees responsible for this British Standard
+formal_production_C0162,2,1,welib_41f41917b4a225e3f276,keep,welib_41f41917b4a225e3f276,"Cloud Computing—Implementation, Management, and Security — Foreword — CRC Press",John W. Rittinghouse
+formal_production_C0162,2,1,welib_41f41917b4a225e3f276,remove,welib_b166f6dea660e1e27d25,"Cloud Computing — Implementation, — Management,",and Security
+formal_production_C0163,2,1,welib_43210fc164af054490f3,keep,welib_43210fc164af054490f3,Products and systems for the protection and repair of concrete structures — Test methods — Reactive functions related to epoxy resins — — Cross-references — Foreword....2,National foreword
+formal_production_C0163,2,1,welib_43210fc164af054490f3,remove,welib_a512216cdb271ef0b003,Products and systems for the protection and repair of concrete structures — Test methods — Reactive functions related to epoxy resins — — Cross-references — Products and systems for the protection and repair of concrete structures - Test methods - Reactive functions related to epoxy resins - Part 1: Determination of epoxy equivalent,Part 1: Determination of epoxy equivalent
+formal_production_C0164,2,1,welib_437a47af7ecaa3ae2f6d,keep,welib_437a47af7ecaa3ae2f6d,HASIDISM ON THE MARGIN — 7. In and Around the Law: Antinomianism and Mitzvot in Izbica/Radzin Hasidism 205 — Conclusion 249,SHAUL MAGID
+formal_production_C0164,2,1,welib_437a47af7ecaa3ae2f6d,remove,welib_c33d30be0e9041464a3b,HASIDISM ON THE MARGIN — 7. In and Around the Law: Antinomianism and Mitzvot in Izbica/Radzin Hasidism 205 — Conclusion 249,SHAUL MAGID
+formal_production_C0165,2,1,welib_43f2c621b9785c7da9c5,keep,welib_43f2c621b9785c7da9c5,Specification for — Low voltage switchgear and controlgear for industrial use — Mounting rails — Top hat rails 75 mm wide for snap-on mounting of equipment — Low voltage switchgear and controlgear for industrial use Mounting rails,Cooperating organizations
+formal_production_C0165,2,1,welib_43f2c621b9785c7da9c5,remove,welib_7e45af62c734081e4df0,Specification for — Low voltage switchgear and controlgear for industrial use — — Top hat rails 35 mm wide for snap-on mounting of equipment,Mounting rails
+formal_production_C0166,2,1,welib_4428d92f316b8236b1b2,keep,welib_4428d92f316b8236b1b2,Making the Most of Haccp,(书目库未提供作者)
+formal_production_C0166,2,1,welib_4428d92f316b8236b1b2,remove,welib_f1e115ff1d1c12507c60,Auditing in the Food Industry,"M. Dillon, Chris Griffith"
+formal_production_C0167,2,1,welib_445517e2f1cba7964f2d,keep,welib_445517e2f1cba7964f2d,Plays — SCENE: The octagon room at Sir Robert Chiltern's house in Grosvenor Square — УДК 821,Oscar Wilde
+formal_production_C0167,2,1,welib_445517e2f1cba7964f2d,remove,welib_ce0f35f37de9774a9e4b,An Ideal Husband (Webster's French Thesaurus Edition),Oscar Wilde
+formal_production_C0168,2,1,welib_449056749723bb53fe0e,keep,welib_449056749723bb53fe0e,Hyperbolic systems of balance laws,Alberto Bressan
+formal_production_C0168,2,1,welib_449056749723bb53fe0e,remove,welib_ca042bbcdb74407fe2ae,Hyperbolic systems of balance laws,Alberto Bressan
+formal_production_C0169,2,1,welib_46326d5034ff52348f84,keep,welib_46326d5034ff52348f84,Master Math,Debra Anne Ross
+formal_production_C0169,2,1,welib_46326d5034ff52348f84,remove,welib_f90326dd15a851c54d85,Master Math,Debra Anne Ross
+formal_production_C0170,2,1,welib_46b5acd141563dd50fc5,keep,welib_46b5acd141563dd50fc5,Hack Attacks Revealed,John Chirillo
+formal_production_C0170,2,1,welib_46b5acd141563dd50fc5,remove,welib_dbf318cecda31a589826,Hack Attacks Revealed,John Chirillo
+formal_production_C0171,2,1,welib_46c7f459b604b2cd852f,keep,welib_46c7f459b604b2cd852f,Jk Lassers Small Business Taxes 2010 Your Complete Guide To A Better Bottom Line,Barbara Weltman
+formal_production_C0171,2,1,welib_46c7f459b604b2cd852f,remove,welib_8d8d0230870592e96bfe,J.K. Lasser's small business taxes 2008,Barbara Weltman
+formal_production_C0172,2,1,welib_46e3097129f504275477,keep,welib_46e3097129f504275477,Routledge philosophy guidebook to Spinoza and The ethics,Genevieve Lloyd
+formal_production_C0172,2,1,welib_46e3097129f504275477,remove,welib_6e4d5ad9c6ec8c867d50,Routledge philosophy guidebook to Spinoza and The ethics,Genevieve Lloyd
+formal_production_C0173,2,1,welib_47473b2242a73b6919c8,keep,welib_47473b2242a73b6919c8,Quantitative and Empirical Analysis of Energy Markets (World Scientific Series on Energy and Resource Economics),Apostolos Serletis
+formal_production_C0173,2,1,welib_47473b2242a73b6919c8,remove,welib_bf279c9ba12bf20f1009,Quantitative and Empirical Analysis of Energy Markets (World Scientific Series on Energy and Resource Economics),Apostolos Serletis
+formal_production_C0174,2,1,welib_47f6fbd131e974b899b2,keep,welib_47f6fbd131e974b899b2,The Second World War,Robin Havers
+formal_production_C0174,2,1,welib_47f6fbd131e974b899b2,remove,welib_86ae58f76b40a0270e59,The Second World War,Robin Havers
+formal_production_C0175,2,1,welib_4a8dfbfb70ea88bc4217,keep,welib_4a8dfbfb70ea88bc4217,Cultivating diversity in fundraising,Janice Gow Pettey
+formal_production_C0175,2,1,welib_4a8dfbfb70ea88bc4217,remove,welib_b6332c98d12bdf0eb860,Cultivating diversity in fundraising,Janice Gow Pettey
+formal_production_C0176,2,1,welib_4ad0d4dfaf1097d81404,keep,welib_4ad0d4dfaf1097d81404,"The Bech, Hamilton and Zung Scales for Mood Disorders : Screening and Listening",Per Bech
+formal_production_C0176,2,1,welib_4ad0d4dfaf1097d81404,remove,welib_aef1f66e46b48d629c73,"Bech, Hamilton and Zung Scales for Mood Disorders : Screening and Listening",Per Bech
+formal_production_C0177,2,1,welib_4af446790e7742752dff,keep,welib_4af446790e7742752dff,"Jews, Judaism, and the Reformation in sixteenth-century Germany",Dean Phillip Bell
+formal_production_C0177,2,1,welib_4af446790e7742752dff,remove,welib_b8277b09e99809c25bb0,"Jews, Judaism, and the Reformation in sixteenth-century Germany",Dean Phillip Bell
+formal_production_C0178,2,1,welib_4bcdebd6a49a8d077d6b,keep,welib_4bcdebd6a49a8d077d6b,Theory of Random Sets (Probability and its Applications),Ilya Molchanov
+formal_production_C0178,2,1,welib_4bcdebd6a49a8d077d6b,remove,welib_ec00baa48da5648e10cd,Theory of Random Sets (Probability and its Applications),Ilya Molchanov
+formal_production_C0179,2,1,welib_4c289b1c96b14d926ce6,keep,welib_4c289b1c96b14d926ce6,Fit von 1 bis Hundert — Medizinische Aspekte zur Ernährung und Bewegung im Überblick — Inhaltsverzeichnis,Dietger Mathias
+formal_production_C0179,2,1,welib_4c289b1c96b14d926ce6,remove,welib_fd666d39f6f04c7e77ba,Medizinische Aspekte zur Ernährung und Bewegung im Überblick — Inhaltsverzeichnis — Ernährung,Fit von 1 bis Hundert
+formal_production_C0180,2,1,welib_4c46b29f2553e1343b2f,keep,welib_4c46b29f2553e1343b2f,The Mesoamerican Region,Organisation for Economic Co-operation and Development
+formal_production_C0180,2,1,welib_4c46b29f2553e1343b2f,remove,welib_792c52a1ba67e5bd5586,The Mesoamerican Region,Organisation for Economic Co-operation and Development
+formal_production_C0181,2,1,welib_4d0318ca1181cd79372d,keep,welib_4d0318ca1181cd79372d,Advances in nonlinear speech processing,"International Conference on Non-Linear Speech Processing (2009 Vich, Spain)"
+formal_production_C0181,2,1,welib_4d0318ca1181cd79372d,remove,welib_bc21176b0eb434655457,Advances in nonlinear speech processing,"International Conference on Non-Linear Speech Processing (2009 Vich, Spain)"
+formal_production_C0182,2,1,welib_4dce172525da4414e7bb,keep,welib_4dce172525da4414e7bb,Excel Formulas And Functions For Dummies,Peter Aitken
+formal_production_C0182,2,1,welib_4dce172525da4414e7bb,remove,welib_ca8fdb11eae6675b6a42,Microsoft Office Excel 2007 formulas & functions for dummies,Ken Bluttman
+formal_production_C0183,2,1,welib_4e0fd45cc28e5d202859,keep,welib_4e0fd45cc28e5d202859,Microsoft Small Business Server SBS 2003,S Knecht-Thurman
+formal_production_C0183,2,1,welib_4e0fd45cc28e5d202859,remove,welib_6610bf6da09be949fde8,Microsoft Small Business Server SBS 2003,S Knecht-Thurman
+formal_production_C0184,2,1,welib_4e25706e2e2f04f72988,keep,welib_4e25706e2e2f04f72988,"Introduction to health professions / Peggy S. Stanfield, Y.H. Hui",Peggy S. Stanfield
+formal_production_C0184,2,1,welib_4e25706e2e2f04f72988,remove,welib_9305e726f70b3ba4ecae,"Introduction to health professions / Peggy S. Stanfield, Y.H. Hui",Peggy S. Stanfield
+formal_production_C0185,2,1,welib_4ecfc1661199a01bafa1,keep,welib_4ecfc1661199a01bafa1,Introduction to fiber optics,John Crisp
+formal_production_C0185,2,1,welib_4ecfc1661199a01bafa1,remove,welib_5f9553a265f0c0e0f7b8,Introduction to fiber optics,John Crisp
+formal_production_C0186,2,1,welib_4ef37fbed0eccfde9fc7,keep,welib_4ef37fbed0eccfde9fc7,Geneeskundig jaarboek 2018,"J.M.A. Sitsen, E.C. Vasbinder"
+formal_production_C0186,2,1,welib_4ef37fbed0eccfde9fc7,remove,welib_e44e648b11ca5ab7126c,GENEESKUNDIG JAARBOEK — Inhoud — Rubrieken,132 $^{e}$ editie
+formal_production_C0187,2,1,welib_4f3552e5e774b64846cb,keep,welib_4f3552e5e774b64846cb,Programming the Parallel Port,Dhananjay Gadre
+formal_production_C0187,2,1,welib_4f3552e5e774b64846cb,remove,welib_c716c4d316d7e3bb6e84,Programming the Parallel Port,Dhananjay Gadre
+formal_production_C0188,2,1,welib_52ef27a56f5becb246e2,keep,welib_52ef27a56f5becb246e2,Strategic Narratives,Alister Miskimmon
+formal_production_C0188,2,1,welib_52ef27a56f5becb246e2,remove,welib_661646b32be769285ce0,Strategic Narratives,Alister Miskimmon
+formal_production_C0189,2,1,welib_53128f8e3b6e940e13ac,keep,welib_53128f8e3b6e940e13ac,Discrete Mathematics Using a Computer,"John O'Donnell, Cordelia Hall, Rex Page"
+formal_production_C0189,2,1,welib_53128f8e3b6e940e13ac,remove,welib_bc56080f3d99399fe2c3,Discrete Mathematics Using a Computer,"John O'Donnell, Cordelia Hall, Rex Page"
+formal_production_C0190,2,1,welib_537a161011d2b0ec5dfb,keep,welib_537a161011d2b0ec5dfb,Royal Romances,K. Samuelian
+formal_production_C0190,2,1,welib_537a161011d2b0ec5dfb,remove,welib_c3ad99b2cbd6bad570a1,Royal romances,Kristin Flieger Samuelian
+formal_production_C0191,2,1,welib_54fd0e7c267e2eada944,keep,welib_54fd0e7c267e2eada944,Selected topics in complex analysis,V. Ya Eiderman
+formal_production_C0191,2,1,welib_54fd0e7c267e2eada944,remove,welib_83baa86c0983158f7ab3,Selected topics in complex analysis,V. Ya Eiderman
+formal_production_C0192,2,1,welib_5771b5270e1b227c7763,keep,welib_5771b5270e1b227c7763,Handbook of flavor characterization,"Kathryn D. Deibler, Jeannine Delwiche"
+formal_production_C0192,2,1,welib_5771b5270e1b227c7763,remove,welib_e62debdca30cf643bc07,Handbook of flavor characterization,"Kathryn D. Deibler, Jeannine Delwiche"
+formal_production_C0193,2,1,welib_58664dab992025cec632,keep,welib_58664dab992025cec632,National Accounts of Oecd Countries Detailed Tables 1988-1998,Organisation for Economic Co-operation and Development
+formal_production_C0193,2,1,welib_58664dab992025cec632,remove,welib_add93a6fa8c3713d362f,National Accounts of Oecd Countries,Organisation for Economic Co-operation and Development
+formal_production_C0194,2,1,welib_59521fcd8d06015acb54,keep,welib_59521fcd8d06015acb54,React Native for iOS Development,Akshat Paul
+formal_production_C0194,2,1,welib_59521fcd8d06015acb54,remove,welib_927d4aa0ccdf4c1ac9d1,React Native for iOS Development,Akshat Paul
+formal_production_C0195,2,1,welib_596c44e5e0271f24ea53,keep,welib_596c44e5e0271f24ea53,Statistics,"Murray R. Spiegel, M. Spiegel, Larry Stephens, Schaum, SPIEGEL"
+formal_production_C0195,2,1,welib_596c44e5e0271f24ea53,remove,welib_6d9a59ea2a31afe933e1,STATISTICS — Fourth Edition — Theory and Problems of,508 problems solved step-by-step
+formal_production_C0196,2,1,welib_597f6db27d164072c158,keep,welib_597f6db27d164072c158,Industrial Ecology — 1. Auflage 2008 — Danksagung,Arnim von Gleich
+formal_production_C0196,2,1,welib_597f6db27d164072c158,remove,welib_ad913f76e1785b550142,Industrial Ecology — 1. Auflage 2008 — Danksagung,Arnim von Gleich
+formal_production_C0197,2,1,welib_5a1304d254189e44e717,keep,welib_5a1304d254189e44e717,Urban Groundwater Pollution,David Lerner
+formal_production_C0197,2,1,welib_5a1304d254189e44e717,remove,welib_e51ba6af63e77dd47a6f,Urban Groundwater Pollution,David Lerner
+formal_production_C0198,2,1,welib_5b1d59d01a5520b0e801,keep,welib_5b1d59d01a5520b0e801,Plywood — Classification by surface appearance — — Cross-references — CEN,Part 3: Softwood
+formal_production_C0198,2,1,welib_5b1d59d01a5520b0e801,remove,welib_c6e8522d57d181d182d3,Plywood — Classification by surface appearance — — Cross-reference — CEN,Part 2: Hardwood
+formal_production_C0199,2,1,welib_5bdc46582c697cb230a0,keep,welib_5bdc46582c697cb230a0,Les visages de la police — Remerciements — Notes,Jean-Paul Brodeur
+formal_production_C0199,2,1,welib_5bdc46582c697cb230a0,remove,welib_be1e67a52cfbfceed961,Les visages de la police — Remerciements — Notes,Jean-Paul Brodeur
+formal_production_C0200,2,1,welib_5c33d9c2f3713e1d6271,keep,welib_5c33d9c2f3713e1d6271,Angehörige im Visier der Pflegepolitik — 1. Auflage 2009 — Inhalt,Matthias Dammert
+formal_production_C0200,2,1,welib_5c33d9c2f3713e1d6271,remove,welib_b6900060971aad615a34,Matthias Dammert — 1. Auflage 2009 — Inhalt,Angehörige im Visier der Pflegepolitik
+formal_production_C0201,2,1,welib_5c3b972911b265c94482,keep,welib_5c3b972911b265c94482,A great leap forward,Alexander J. Field
+formal_production_C0201,2,1,welib_5c3b972911b265c94482,remove,welib_9a7ba626ae43bda5b13e,A great leap forward,Alexander J. Field
+formal_production_C0202,2,1,welib_5cab562a292cb421b2f2,keep,welib_5cab562a292cb421b2f2,Essential C++,Stanley B. Lippman
+formal_production_C0202,2,1,welib_5cab562a292cb421b2f2,remove,welib_8a6e4889a32d08aaa208,Essential C++,Stanley B. Lippman
+formal_production_C0203,2,1,welib_5d2a9b46ef7060ef1a14,keep,welib_5d2a9b46ef7060ef1a14,There Is No Planet B,Mike Berners-Lee
+formal_production_C0203,2,1,welib_5d2a9b46ef7060ef1a14,remove,welib_fb6725e62f6ce8c3c978,There Is No Planet B,Mike Berners-Lee
+formal_production_C0204,2,1,welib_5d5e320de186bf35fa4f,keep,welib_5d5e320de186bf35fa4f,The phenomenon of science,Valentin Fedorovich Turchin
+formal_production_C0204,2,1,welib_5d5e320de186bf35fa4f,remove,welib_caf4b06a47d35a5225b4,The phenomenon of science,Valentin Fedorovich Turchin
+formal_production_C0205,2,1,welib_5d9fa96252d2c47184ac,keep,welib_5d9fa96252d2c47184ac,Conflicting agents,Catherine Tessier
+formal_production_C0205,2,1,welib_5d9fa96252d2c47184ac,remove,welib_d4240bc7bdc370d749da,Conflicting agents,Catherine Tessier
+formal_production_C0206,2,1,welib_5f6225f12426311ea30a,keep,welib_5f6225f12426311ea30a,Detection of Light,"G. H. Rieke, George Henry Rieke"
+formal_production_C0206,2,1,welib_5f6225f12426311ea30a,remove,welib_e4aed5e60853c21d7c58,Detection of Light,George Rieke
+formal_production_C0207,2,1,welib_5fe90d1efbd56cfdf34a,keep,welib_5fe90d1efbd56cfdf34a,The  Big Book of Concepts,Gregory L. Murphy
+formal_production_C0207,2,1,welib_5fe90d1efbd56cfdf34a,remove,welib_a4c17f4ee414a9dd01c8,The  Big Book of Concepts,Gregory L. Murphy
+formal_production_C0208,2,1,welib_5fea8f3baa59e469f64f,keep,welib_5fea8f3baa59e469f64f,Specification for thermal insulating materials,British Standards Institution.
+formal_production_C0208,2,1,welib_5fea8f3baa59e469f64f,remove,welib_99faa45a7b7d5d2f608c,Specification for thermal insulating materials,British Standards Institution.
+formal_production_C0209,2,1,welib_6005672a9840360d95cb,keep,welib_6005672a9840360d95cb,Urban Design,Cliff Moughtin
+formal_production_C0209,2,1,welib_6005672a9840360d95cb,remove,welib_acbbd40a64de9ebe8795,Urban Design,Cliff Moughtin
+formal_production_C0210,2,1,welib_60290f38643de0c7bb9a,keep,welib_60290f38643de0c7bb9a,The mathematical theory of finite element methods,Susanne C. Brenner
+formal_production_C0210,2,1,welib_60290f38643de0c7bb9a,remove,welib_78d169f0e34c217fdb5d,The mathematical theory of finite element methods,Susanne C. Brenner
+formal_production_C0211,2,1,welib_604895b5cf00c6db7d71,keep,welib_604895b5cf00c6db7d71,18th-Century Highlanders,Stuart Reid
+formal_production_C0211,2,1,welib_604895b5cf00c6db7d71,remove,welib_86322251808369861b56,18th-Century Highlanders,Stuart Reid
+formal_production_C0212,2,1,welib_6272b01e6d4f0661957b,keep,welib_6272b01e6d4f0661957b,AP professional graphics CD-ROM library,(书目库未提供作者)
+formal_production_C0212,2,1,welib_6272b01e6d4f0661957b,remove,welib_b86f2065002214d36afb,AP professional graphics CD-ROM library,(书目库未提供作者)
+formal_production_C0213,2,1,welib_632025b01a5b47e2b3e3,keep,welib_632025b01a5b47e2b3e3,SQL,"Jonathan Gennick, Alice Zhao"
+formal_production_C0213,2,1,welib_632025b01a5b47e2b3e3,remove,welib_eb6610f91b88df7552da,SQL,"Jonathan Gennick, Alice Zhao"
+formal_production_C0214,2,1,welib_633960858ea0e77ab8a3,keep,welib_633960858ea0e77ab8a3,Telecommunications Challenges in Developing Countries: Asymmetric Interconnection Charges for Rural Areas (World Bank Working Papers),Andrew Dymond
+formal_production_C0214,2,1,welib_633960858ea0e77ab8a3,remove,welib_a5ecd6956495c325eeac,Telecommunications Challenges in Developing Countries: Asymmetric Interconnection Charges for Rural Areas (World Bank Working Papers),Andrew Dymond
+formal_production_C0215,2,1,welib_633c132156fe383414ea,keep,welib_633c132156fe383414ea,The Cambridge companion to Old English literature,"Malcolm Godden, Michael Lapidge"
+formal_production_C0215,2,1,welib_633c132156fe383414ea,remove,welib_a78c2f1ca539254e1a4d,The Cambridge companion to Old English literature,"Malcolm Godden, Michael Lapidge"
+formal_production_C0216,2,1,welib_63ad6680b6e45c0d93a2,keep,welib_63ad6680b6e45c0d93a2,The pietist theologians,Carter Lindberg
+formal_production_C0216,2,1,welib_63ad6680b6e45c0d93a2,remove,welib_77663c4d3c816ac1bb37,The pietist theologians,Carter Lindberg
+formal_production_C0217,2,1,welib_63b82a40a5d48456aa30,keep,welib_63b82a40a5d48456aa30,Applying Domain-Driven Design and Patterns,Jimmy Nilsson
+formal_production_C0217,2,1,welib_63b82a40a5d48456aa30,remove,welib_99d01835875a894f1ef4,Applying Domain-Driven Design and Patterns,Jimmy Nilsson
+formal_production_C0218,2,1,welib_6420ab6999fc154bb7eb,keep,welib_6420ab6999fc154bb7eb,Social bodies,David G. Horn
+formal_production_C0218,2,1,welib_6420ab6999fc154bb7eb,remove,welib_a31883b556fd9cf8b679,SOCIAL BODIES — \* Contents \* — \* Acknowledgments \*,ITALIAN MODERNITY
+formal_production_C0219,2,1,welib_64af539a1b05bab81b06,keep,welib_64af539a1b05bab81b06,The diversity training handbook,Phillip Edward Clements
+formal_production_C0219,2,1,welib_64af539a1b05bab81b06,remove,welib_65f440bf318e39221e63,The diversity training handbook,Phillip Edward Clements
+formal_production_C0220,2,1,welib_64d06a01c70f42c850a9,keep,welib_64d06a01c70f42c850a9,Einführung in die Technische Mechanik — Inhaltsverzeichnis — Einführung 1,Mit 116 Abbildungen
+formal_production_C0220,2,1,welib_64d06a01c70f42c850a9,remove,welib_a32375b2066901f57e3e,Einfu hrung in die Technische Mechanik,Herbert Balke
+formal_production_C0221,2,1,welib_64d3ae3321e5d1be31e7,keep,welib_64d3ae3321e5d1be31e7,"TOCQUEVILLE, DEMOCRACY AND SOCIAL REFORM.",Michael Drolet
+formal_production_C0221,2,1,welib_64d3ae3321e5d1be31e7,remove,welib_ac864d21391ae91e64ea,"Tocqueville, Democracy and Social Reform",M. Drolet
+formal_production_C0222,2,1,welib_655ab862d6f979d206d2,keep,welib_655ab862d6f979d206d2,Knife skills,Bill Collins
+formal_production_C0222,2,1,welib_655ab862d6f979d206d2,remove,welib_f8fbf1707cb8c775c01f,Knife skills,Bill Collins
+formal_production_C0223,2,1,welib_655f7ff5fab5e22d1d1c,keep,welib_655f7ff5fab5e22d1d1c,Obsessive-compulsive disorder,Mario Maj
+formal_production_C0223,2,1,welib_655f7ff5fab5e22d1d1c,remove,welib_681f6ababe7c30be81d2,Obsessive-compulsive disorder,Mario Maj
+formal_production_C0224,2,1,welib_66dc432de645a3c200a9,keep,welib_66dc432de645a3c200a9,"Learning — Python — Learning Python, Fourth Edition",Mark Lutz
+formal_production_C0224,2,1,welib_66dc432de645a3c200a9,remove,welib_ea8710b4d2843f6d8aef,"Learning Python — Learning Python, Third Edition — Published by O'Reilly Media, Inc., 1005 Gravenstein Highway North, Sebastopol, CA 95472.",Mark Lutz
+formal_production_C0225,2,1,welib_675303aa5c6054926343,keep,welib_675303aa5c6054926343,Adapting information and communication technologies for effective education,Lawrence A. Tomei
+formal_production_C0225,2,1,welib_675303aa5c6054926343,remove,welib_f69b03e95e7b24552210,Adapting information and communication technologies for effective education,Lawrence A. Tomei
+formal_production_C0226,2,1,welib_68d83837989ceaa2772b,keep,welib_68d83837989ceaa2772b,The 7 Deadly Innocent Frauds of Economic Policy,Warren Mosler
+formal_production_C0226,2,1,welib_68d83837989ceaa2772b,remove,welib_c1a84f49717de32c17b4,The 7 Deadly Innocent Frauds of Economic Policy,Warren Mosler
+formal_production_C0227,2,1,welib_6909f0407ceeb840eee9,keep,welib_6909f0407ceeb840eee9,Advances in Geoinformatics — EDITORS: — Consistent Handling of Linear Features in Polyline Simplification.....1,Clodoveu Augusto Davis Jr.
+formal_production_C0227,2,1,welib_6909f0407ceeb840eee9,remove,welib_d99716365d02d4732c43,Advances in Geoinformatics — EDITORS: — Consistent Handling of Linear Features in Polyline Simplification.....1,Clodoveu Augusto Davis Jr.
+formal_production_C0228,2,1,welib_6a90610a49662d411578,keep,welib_6a90610a49662d411578,Ventilator Management Strategies for Critical Care (Lung Biology in Health and Disease),"Nicholas S. Hill, Mitchell M. Levy"
+formal_production_C0228,2,1,welib_6a90610a49662d411578,remove,welib_7bb917177278545ca387,Ventilator Management Strategies for Critical Care (Lung Biology in Health and Disease),"Nicholas S. Hill, Mitchell M. Levy"
+formal_production_C0229,2,1,welib_6bf23752201310b5f620,keep,welib_6bf23752201310b5f620,Foundations of Hyperbolic Manifolds (Graduate Texts in Mathematics),John Ratcliffe
+formal_production_C0229,2,1,welib_6bf23752201310b5f620,remove,welib_c651389414c66e6ffefa,Foundations of Hyperbolic Manifolds (Graduate Texts in Mathematics),John Ratcliffe
+formal_production_C0230,2,1,welib_6d6ed6b8eae3956e468e,keep,welib_6d6ed6b8eae3956e468e,Adenovirus methods and protocols,William S. M. Wold
+formal_production_C0230,2,1,welib_6d6ed6b8eae3956e468e,remove,welib_6f4d9ae5f00565174a36,Adenovirus methods and protocols,William S. M. Wold
+formal_production_C0231,2,1,welib_6d73cdc7905b5ef5f975,keep,welib_6d73cdc7905b5ef5f975,Chee Chee,Alvin L. Evans
+formal_production_C0231,2,1,welib_6d73cdc7905b5ef5f975,remove,welib_ee74559dc3bb381a4fc7,Chee Chee,Alvin L. Evans
+formal_production_C0232,2,1,welib_6d9df504b5f399669130,keep,welib_6d9df504b5f399669130,The Oil Palm — 1. The origin and development of the oil palm industry 1 — Fourth edition,Editorial Offices:
+formal_production_C0232,2,1,welib_6d9df504b5f399669130,remove,welib_d68fab97f90bae9f7806,The Oil Palm — 1. The origin and development of the oil palm industry 1 — 2. The classification and morphology of the oil palm 27,Editorial Offices:
+formal_production_C0233,2,1,welib_6e79d5e68f6c103e29bc,keep,welib_6e79d5e68f6c103e29bc,"Family Medicine PreTest Self-Assessment And Review, Fourth Edition",Doug Knutson
+formal_production_C0233,2,1,welib_6e79d5e68f6c103e29bc,remove,welib_6f2189bf6ed70c2991e8,"Family Medicine PreTest Self-Assessment And Review, Fourth Edition",Doug Knutson
+formal_production_C0234,2,1,welib_6f613b28241de296a623,keep,welib_6f613b28241de296a623,Beginning C++ through game programming,Michael Dawson
+formal_production_C0234,2,1,welib_6f613b28241de296a623,remove,welib_aeaa670a9c861f96c170,Beginning C++ through game programming,Michael Dawson
+formal_production_C0235,2,1,welib_70d5fec76b37b8931128,keep,welib_70d5fec76b37b8931128,"Moments, positive polynomials and their applications",Jean-Bernard Lasserre
+formal_production_C0235,2,1,welib_70d5fec76b37b8931128,remove,welib_ee201c8f8f22ebfe9494,"Moments, positive polynomials and their applications",Jean-Bernard Lasserre
+formal_production_C0236,2,1,welib_7105a014cf278aecdfe4,keep,welib_7105a014cf278aecdfe4,Beautiful boys/outlaw bodies,Katherine Mezur
+formal_production_C0236,2,1,welib_7105a014cf278aecdfe4,remove,welib_731e225610e5654058f0,Beautiful boys/outlaw bodies,Katherine Mezur
+formal_production_C0237,2,1,welib_716cf5418c2863211be5,keep,welib_716cf5418c2863211be5,Notfallmedizin,Franz Kehl
+formal_production_C0237,2,1,welib_716cf5418c2863211be5,remove,welib_9b10df942eb14b633be0,Notfallmedizin Fragen und Antworten,Franz Kehl
+formal_production_C0238,2,1,welib_71fbc9fbff5960615479,keep,welib_71fbc9fbff5960615479,Nursing 96 Drug Handbook,Springhouse Publishing
+formal_production_C0238,2,1,welib_71fbc9fbff5960615479,remove,welib_96f575c21ec9ac60de42,"Top sellers, U.S.A.",Molly Wade McGrath
+formal_production_C0239,2,1,welib_720d7512e8c71304f875,keep,welib_720d7512e8c71304f875,Geometry of Hessian Structures,Hirohiko Shima
+formal_production_C0239,2,1,welib_720d7512e8c71304f875,remove,welib_cbf4cdb51a5327aac617,Geometry of Hessian Structures,Hirohiko Shima
+formal_production_C0240,2,1,welib_7260353693ddc795ea88,keep,welib_7260353693ddc795ea88,SOCIOLOGY and SOCIAL CHANGE — 7 Distinguishing and connecting 1: capitals and the use of time 74 — 9 Enthusing 104,Series editors: Alan Warde and Nick Crossley
+formal_production_C0240,2,1,welib_7260353693ddc795ea88,remove,welib_b7f88231c2c0c3b26cef,SOCIOLOGY and SOCIAL CHANGE — 7 Distinguishing and connecting 1: capitals and the use of time 74 — 9 Enthusing 104,Series editors: Alan Warde and Nick Crossley
+formal_production_C0241,2,1,welib_73433d9f64e88b925c72,keep,welib_73433d9f64e88b925c72,Industrial Gas Turbines,A. M. Y. Razak
+formal_production_C0241,2,1,welib_73433d9f64e88b925c72,remove,welib_f527eb1984560b7b815e,Industrial Gas Turbines,A. M. Y. Razak
+formal_production_C0242,2,1,welib_740c2361101c2fa7205a,keep,welib_740c2361101c2fa7205a,Regulating football,Steve Greenfield
+formal_production_C0242,2,1,welib_740c2361101c2fa7205a,remove,welib_cb819e0be690989e177b,Regulating football,Steve Greenfield
+formal_production_C0243,2,1,welib_7541108c5f7ecc9fe6ea,keep,welib_7541108c5f7ecc9fe6ea,Maschinenelemente Aufgaben und Lösungen — Vorwort — Inhalt,Stefan Vöth
+formal_production_C0243,2,1,welib_7541108c5f7ecc9fe6ea,remove,welib_7da01807572e7a47262b,Maschinenelemente Aufgaben und Lösungen — Vorwort — Inhalt,Stefan Vöth
+formal_production_C0244,2,1,welib_7678f4325d5f41ccd2c9,keep,welib_7678f4325d5f41ccd2c9,"SEX, MURDER AND THE MEANING OF — LIFE — A Psychologist Investigates How Evolution, Cognition, and Complexity are Revolutionizing Our View of Human Nature",AND THE
+formal_production_C0244,2,1,welib_7678f4325d5f41ccd2c9,remove,welib_9d261e9e70e09d30b242,"SEX, MURDER AND THE MEANING OF LIFE — LIFE — Chapter 12 - BAD CROWDS, CHAOTIC ATTRACTORS, AND HUMANS AS ANTS",DOUGLAS T. KENRICK
+formal_production_C0245,2,1,welib_776138837ea75eb46ce5,keep,welib_776138837ea75eb46ce5,Practical Web 2.0 Applications with PHP (Practical),Quentin Zervaas
+formal_production_C0245,2,1,welib_776138837ea75eb46ce5,remove,welib_b80f9d96bd7f05a17aa4,Practical Web 2.0 Applications with PHP (Practical),Quentin Zervaas
+formal_production_C0246,2,1,welib_782881b19a96c21a739f,keep,welib_782881b19a96c21a739f,The Complete Idiot's Guide to Green Living,Trish Riley
+formal_production_C0246,2,1,welib_782881b19a96c21a739f,remove,welib_e306adf9e7d483c9c2a1,The Complete Idiot's Guide to Green Living,Trish Riley
+formal_production_C0247,2,1,welib_7857b685f8e147c1520d,keep,welib_7857b685f8e147c1520d,Leading Out Loud,Terry Pearce
+formal_production_C0247,2,1,welib_7857b685f8e147c1520d,remove,welib_e5d3e529e0e0c90bd065,Leading Out Loud,Terry Pearce
+formal_production_C0248,2,1,welib_78ecd4f6fad58df043b4,keep,welib_78ecd4f6fad58df043b4,Russian Masculinities iIn History and Culture,"Barbara Evans Clements, Rebecca Friedman"
+formal_production_C0248,2,1,welib_78ecd4f6fad58df043b4,remove,welib_a29522d56e6e62892a43,Russian Masculinities in History and Culture,"B. E. Clements, R. Friedman, D. Healey"
+formal_production_C0249,2,1,welib_7979d13dfe4baa0c9948,keep,welib_7979d13dfe4baa0c9948,Artificial Cells,Thomas Ming Swi Chang
+formal_production_C0249,2,1,welib_7979d13dfe4baa0c9948,remove,welib_fa7344ced11887430e43,Artificial Cells,Thomas Ming Swi Chang
+formal_production_C0250,2,1,welib_79a084441102aed9617b,keep,welib_79a084441102aed9617b,Vengeance in the Middle Ages,Susanna A. Throop
+formal_production_C0250,2,1,welib_79a084441102aed9617b,remove,welib_8c25514660cac45ab093,Vengeance in the Middle Ages,Susanna A. Throop
+formal_production_C0251,2,1,welib_7a6fa8c1940b96529f70,keep,welib_7a6fa8c1940b96529f70,TCP/IP sockets in C,"Michael J. Donahoo, Kenneth L. Calvert"
+formal_production_C0251,2,1,welib_7a6fa8c1940b96529f70,remove,welib_b93668c732c10db24baa,TCP/IP sockets in C,"Michael J. Donahoo, Kenneth L. Calvert"
+formal_production_C0252,2,1,welib_7af29027872bdece35d9,keep,welib_7af29027872bdece35d9,"Walter Breen's Encyclopedia of U.S. and colonial proof coins, 1722-1977",Walter H. Breen
+formal_production_C0252,2,1,welib_7af29027872bdece35d9,remove,welib_dc5d9e61b760fdbab886,"Walter Breen's Encyclopedia of U.S. and colonial proof coins, 1722-1977",Walter H. Breen
+formal_production_C0253,2,1,welib_7cb17e95aaa861e9bace,keep,welib_7cb17e95aaa861e9bace,Nutrition and metabolism,Christos S. Mantzoros
+formal_production_C0253,2,1,welib_7cb17e95aaa861e9bace,remove,welib_d6be84ff76ab671c7d02,Nutrition and metabolism,Christos S. Mantzoros
+formal_production_C0254,2,1,welib_7df1f9f8407818542789,keep,welib_7df1f9f8407818542789,Configuring Exchange 2000 Server (Mission Critical! Series),William C. Wade
+formal_production_C0254,2,1,welib_7df1f9f8407818542789,remove,welib_d2aac095587a0e4f6eff,Configuring Exchange 2000 Server (Mission Critical! Series),William C. Wade
+formal_production_C0255,2,1,welib_7f2864c07f335b8e831e,keep,welib_7f2864c07f335b8e831e,Iron ores — Determination of zinc content — Flame atomic absorption spectrometric method — Cross-references — ISO 13310,National foreword
+formal_production_C0255,2,1,welib_7f2864c07f335b8e831e,remove,welib_a12d82a67052fead99cf,Iron ores — Determination of lead content — Flame atomic absorption spectrometric method — Cross-references — ISO 13311,National foreword
+formal_production_C0256,2,1,welib_7f6ec95d53758f05c1b6,keep,welib_7f6ec95d53758f05c1b6,Methods of — Sampling and test for sodium hydroxide for industrial use — — 1 Scope,Part 12: Determination of copper content
+formal_production_C0256,2,1,welib_7f6ec95d53758f05c1b6,remove,welib_a300e643d85036e85ca2,Methods of — Sampling and test for sodium carbonate for industrial use — — 1 Scope,Part 7: Determination of copper content
+formal_production_C0257,2,1,welib_81b7b7d8efbce06bd7fa,keep,welib_81b7b7d8efbce06bd7fa,Alexandru Mărchidan — CENTRUL JUDEȚEAN PENTRU CONSERVAREA ȘI PROMOVAREA CULTURII TRADȚIONALE ARGEȘ — Perpendicular,EXIL ÎN INIMA
+formal_production_C0257,2,1,welib_81b7b7d8efbce06bd7fa,remove,welib_bb1484b3b574c78d9507,Alexandru Mărchidan — CENTRUL JUDEȚEAN PENTRU CONSERVAREA ȘI PROMOVAREA CULTURII TRADȚIONALE ARGEȘ — Perpendicular,EXIL ÎN INIMA
+formal_production_C0258,2,1,welib_82d9e4d6f8f3eda05b63,keep,welib_82d9e4d6f8f3eda05b63,802.1X port-based authentication,Edwin Lyle Brown
+formal_production_C0258,2,1,welib_82d9e4d6f8f3eda05b63,remove,welib_8450d9c5632db13b425d,802.1X port-based authentication,Edwin Lyle Brown
+formal_production_C0259,2,1,welib_84dbf96640e140aba5c7,keep,welib_84dbf96640e140aba5c7,Degenerate Diffusions — 1 Local regularity and approximation theory 9 — 4 The initial Dirichlet problem in an infinite cylinder 133,Panagiota Daskalopoulos
+formal_production_C0259,2,1,welib_84dbf96640e140aba5c7,remove,welib_aaeba489ba0713bc2888,EMS Tracts in Mathematics — 1 Local regularity and approximation theory 9 — 4 The initial Dirichlet problem in an infinite cylinder 133,Panagiota Daskalopoulos
+formal_production_C0260,2,1,welib_8528dd5577cbdef43edd,keep,welib_8528dd5577cbdef43edd,"Jellyfish Blooms: Causes, Consequences, and Recent Advances",K. Martens
+formal_production_C0260,2,1,welib_8528dd5577cbdef43edd,remove,welib_c92d34c05b5cb26f0d7b,"Jellyfish Blooms: Causes, Consequences, and Recent Advances",K. Martens
+formal_production_C0261,2,1,welib_85cbd841dc8f0c6dd323,keep,welib_85cbd841dc8f0c6dd323,INGLESE — TUTTO — DeAGOSTINI,"UN DIZIONARIO COMPLETO, UNA GRAMMATICA ESSENZIALE"
+formal_production_C0261,2,1,welib_85cbd841dc8f0c6dd323,remove,welib_c699825338bf3d13eb0e,INGLESE — Vocali — 40 000 vocaboli,Inglese - Italiano
+formal_production_C0262,2,1,welib_85e58df1fa018b5aeae9,keep,welib_85e58df1fa018b5aeae9,The Herb Garden Gourmet,Tim Haas
+formal_production_C0262,2,1,welib_85e58df1fa018b5aeae9,remove,welib_b23c29ff860f7644b4ed,The Herb Garden Gourmet,Tim Haas
+formal_production_C0263,2,1,welib_8689c77b2d22ee30c1e8,keep,welib_8689c77b2d22ee30c1e8,Critical Thinking,Tracy Bowell
+formal_production_C0263,2,1,welib_8689c77b2d22ee30c1e8,remove,welib_9564aeca8dffc2441611,Critical thinking,Tracy Bowell
+formal_production_C0264,2,1,welib_86d41d311582a4cc0095,keep,welib_86d41d311582a4cc0095,The extreme searcher's Internet handbook,Randolph Hock
+formal_production_C0264,2,1,welib_86d41d311582a4cc0095,remove,welib_eaaea024efd5ea609578,The extreme searcher's Internet handbook,Randolph Hock
+formal_production_C0265,2,1,welib_86d6e7b6528dc90c06a7,keep,welib_86d6e7b6528dc90c06a7,Civil engineering formulas,Tyler Gregory Hicks
+formal_production_C0265,2,1,welib_86d6e7b6528dc90c06a7,remove,welib_8836b7a1990d26c071c2,McGRAW-HILL POCKET REFERENCE — POCKET GUIDE — McGRAW-HILL,CIVIL ENGINEERING FORMULAS
+formal_production_C0266,2,1,welib_871b3b6441de897de90d,keep,welib_871b3b6441de897de90d,Theory of three-dimensional computer graphics,Laszlo Szirmay-Kalos
+formal_production_C0266,2,1,welib_871b3b6441de897de90d,remove,welib_9edd6e838d7388755a7e,1.1 Synthetic camera model — Modeling: — 1.3 Classification of graphics systems,"Szirmay-Kalos, Laszlo"
+formal_production_C0267,2,1,welib_8720978c3fab92cdc13b,keep,welib_8720978c3fab92cdc13b,Interpreting Visual Culture,"Ian Heywood, Barry Sandywell"
+formal_production_C0267,2,1,welib_8720978c3fab92cdc13b,remove,welib_d358ca57f88c5b62faf6,Interpreting Visual Culture,"Ian Heywood, Barry Sandywell"
+formal_production_C0268,2,1,welib_87381e7764b501f0d7d9,keep,welib_87381e7764b501f0d7d9,Insurance Regulation and Supervision in Latin America,Organisation for Economic Co-operation and Development
+formal_production_C0268,2,1,welib_87381e7764b501f0d7d9,remove,welib_d654c09caf4612c7c035,Insurance Regulation and Supervision in Latin America,Organisation for Economic Co-operation and Development
+formal_production_C0269,2,1,welib_89da258070e5112993fe,keep,welib_89da258070e5112993fe,Simply scheme,"Harvey, Brian"
+formal_production_C0269,2,1,welib_89da258070e5112993fe,remove,welib_968709b926cad2c818bd,Simply scheme,"Harvey, Brian"
+formal_production_C0270,2,1,welib_8a924dc4a5aabfffcdd8,keep,welib_8a924dc4a5aabfffcdd8,Capitalism,James Fulcher
+formal_production_C0270,2,1,welib_8a924dc4a5aabfffcdd8,remove,welib_9083e77133015242928b,Capitalism,James Fulcher
+formal_production_C0271,2,1,welib_8b6e03a011c173ad806a,keep,welib_8b6e03a011c173ad806a,Biogeochemical cycles in globalization and sustainable development,V. F. Krapivin
+formal_production_C0271,2,1,welib_8b6e03a011c173ad806a,remove,welib_9eb6bb00bb6c1cd6ce79,Biogeochemical cycles in globalization and sustainable development,V. F. Krapivin
+formal_production_C0272,2,1,welib_8ee1c34319c42d5ee1d6,keep,welib_8ee1c34319c42d5ee1d6,INFINITE ABELIAN GROUPS — Tulane University — VOLUME II,László Fuchs
+formal_production_C0272,2,1,welib_8ee1c34319c42d5ee1d6,remove,welib_9e4c2437808aa9b5c44b,INFINITE ABELIAN GROUPS — XII. $p$ -Groups with Elements of Infinite Height — Volume II,László Fuchs
+formal_production_C0273,2,1,welib_8f849a3a13e7c37fd75d,keep,welib_8f849a3a13e7c37fd75d,Intuitive CMOS electronics,Thomas M. Frederiksen
+formal_production_C0273,2,1,welib_8f849a3a13e7c37fd75d,remove,welib_9c6447b66a964ae00e9f,Intuitive CMOS electronics,Thomas M. Frederiksen
+formal_production_C0274,2,1,welib_9037a1d4b797f9761bc4,keep,welib_9037a1d4b797f9761bc4,Updating the Interpretive Turn,Michiel Meijer
+formal_production_C0274,2,1,welib_9037a1d4b797f9761bc4,remove,welib_d1b168b9f101c4cc3882,Updating the Interpretive Turn,Michiel Meijer
+formal_production_C0275,2,1,welib_92677f878e509ecbe1d5,keep,welib_92677f878e509ecbe1d5,Aluminium and aluminium alloys — Anodizing — — Cross-references — Aluminium and aluminium alloys - Anodizing - Part 16: Check for continuity of thin anodic oxydation coatings - Copper sulfate test,National foreword
+formal_production_C0275,2,1,welib_92677f878e509ecbe1d5,remove,welib_97ab20d9bc799743c8a2,Steel strip sheaths for prestressing tendons — Test methods — Cross-references — Steel strip sheaths for prestressing tendons — Test methods — Part 4: Determination of lateral load resistance,Part 4. Determination of lateral load resistance
+formal_production_C0276,2,1,welib_92b95e30665a933aa2f1,keep,welib_92b95e30665a933aa2f1,Working for yourself,Stephen Fishman
+formal_production_C0276,2,1,welib_92b95e30665a933aa2f1,remove,welib_b81e4d0f263f14ea0901,Working for Yourself,Stephen Fishman
+formal_production_C0277,2,1,welib_94b4592e12c3b00fe44c,keep,welib_94b4592e12c3b00fe44c,Towards the definition of philosophy,Martin Heidegger
+formal_production_C0277,2,1,welib_94b4592e12c3b00fe44c,remove,welib_db952876410ab9587e24,Towards the definition of philosophy,Martin Heidegger
+formal_production_C0278,2,1,welib_9550530cd805b868053d,keep,welib_9550530cd805b868053d,"Professional Refactoring in C  ASPNET
+            
+                Wrox Programmer to Programmer",Danijel Arsenovski
+formal_production_C0278,2,1,welib_9550530cd805b868053d,remove,welib_c46d2c8bd218b9a725b0,"Professional Refactoring in C  ASPNET
+            
+                Wrox Programmer to Programmer",Danijel Arsenovski
+formal_production_C0279,2,1,welib_95d011fa6f5fc5ef4130,keep,welib_95d011fa6f5fc5ef4130,ALGEBRA — Professional — The material in this eBook also appears in the print version of this title: 0-07-154617-0.,The McGraw-Hill Companies
+formal_production_C0279,2,1,welib_95d011fa6f5fc5ef4130,remove,welib_abb437191728a21d1e3f,ALGEBRA — Professional — The material in this eBook also appears in the print version of this title: 0-07-154617-0.,The McGraw-Hill Companies
+formal_production_C0280,2,1,welib_9636b187652310dc9232,keep,welib_9636b187652310dc9232,Pattern Oriented Software Architecture Volume 5,"Frank Buschmann, Kevlin Henney, Douglas C. Schmidt"
+formal_production_C0280,2,1,welib_9636b187652310dc9232,remove,welib_a4d7c080f56a608dc481,Pattern Oriented Software Architecture Volume 5,"Frank Buschmann, Kevlin Henney, Douglas C. Schmidt"
+formal_production_C0281,2,1,welib_97841755ccd84a1ab817,keep,welib_97841755ccd84a1ab817,Characterisation of waste — Leaching — Compliance test for leaching of granular waste materials and sludges — — Cross-references — Foreword....4,National foreword
+formal_production_C0281,2,1,welib_97841755ccd84a1ab817,remove,welib_f71b50ea76d8f9df242b,Characterisation of waste — Leaching — Compliance test for leaching of granular waste materials and sludges — — Cross-references — Foreword....3,National foreword
+formal_production_C0282,2,1,welib_987c040f6758a7563320,keep,welib_987c040f6758a7563320,"THE KEYS — Т. Ю. Дроздова, В. Г. Маилова, А. И. Берестова — Version 2.0",English Grammar: Reference & Practice
+formal_production_C0282,2,1,welib_987c040f6758a7563320,remove,welib_ccf19761767d0448d015,"THE KEYS — Т. Ю. Дроздова, В. Г. Маилова, А. И. Берестова — VERSION 2.0",English Grammar: Reference & Practice
+formal_production_C0283,2,1,welib_9944c520d5d1feca2b24,keep,welib_9944c520d5d1feca2b24,Engineering materials 1,M. F Ashby
+formal_production_C0283,2,1,welib_9944c520d5d1feca2b24,remove,welib_b2b8a48fc90f530d4f6b,Engineering materials 1,M. F Ashby
+formal_production_C0284,2,1,welib_99aff22f787407f5d5f3,keep,welib_99aff22f787407f5d5f3,"Egypt, Trunk of the Tree, Vol. 2",Simson Najovits
+formal_production_C0284,2,1,welib_99aff22f787407f5d5f3,remove,welib_ac5e3f03d93e8cdfa50c,"Egypt, Trunk of the Tree, Vol. 2",Simson Najovits
+formal_production_C0285,2,1,welib_99d3cfbad8b7aea8069f,keep,welib_99d3cfbad8b7aea8069f,"Nonlinear Time Series Semiparametric and Nonparametric Methods — V. Isham, N. Keiding, T. Louis, S. Murphy, R. L. Smith, and H. Tong — 1 Stochastic Population Models in Ecology and Epidemiology M.S. Barlett (1960)",Jiti Gao
+formal_production_C0285,2,1,welib_99d3cfbad8b7aea8069f,remove,welib_dbd5c85d0cbef864cd9d,"Nonlinear Time Series Semiparametric and Nonparametric Methods — V. Isham, N. Keiding, T. Louis, S. Murphy, R. L. Smith, and H. Tong — 1 Stochastic Population Models in Ecology and Epidemiology M.S. Barlett (1960)",MONOGRAPHS ON STATISTICS AND APPLIED PROBABILITY
+formal_production_C0286,2,1,welib_9a10601baebd757772e5,keep,welib_9a10601baebd757772e5,Introduction to the Standard Model of Particle Physics,"W. N. Cottingham, D. A. Greenwood"
+formal_production_C0286,2,1,welib_9a10601baebd757772e5,remove,welib_9da6bfe4e7b48126b6b3,Introduction to the Standard Model of Particle Physics,"W. N. Cottingham, D. A. Greenwood"
+formal_production_C0287,2,1,welib_9a16c34ba7cf1471c406,keep,welib_9a16c34ba7cf1471c406,"Etudes Penologiques Studies in Penology Dedicated to the Memory of Sir Lionel Fox, C. B. , M. C. / Etudes Penologiques dédiées à la Mémoire de Sir Lionel Fox, C. B. , M. C.","Manuel Lopez-Rey, Charles Germain, Lionel Fox"
+formal_production_C0287,2,1,welib_9a16c34ba7cf1471c406,remove,welib_aae331e8b6bb8112cbdb,Studies in Penology / Études Pénologiques,Manuel Lopez-Rey
+formal_production_C0288,2,1,welib_9a9c414dc9f349906f69,keep,welib_9a9c414dc9f349906f69,What is thought?,Eric B. Baum
+formal_production_C0288,2,1,welib_9a9c414dc9f349906f69,remove,welib_c03aa84b5154f6c17815,WHAT IS THOUGHT? — January 2004 — \$42.00/£27.95 (CLOTH),"7 x 9, 495 pp., 34 illus."
+formal_production_C0289,2,1,welib_9bc48b7ba4af8d0b8f56,keep,welib_9bc48b7ba4af8d0b8f56,"Special and General Relativity — 1 Introduction 1 — With Applications to White Dwarfs, Neutron Stars and Black Holes",Series Editors:
+formal_production_C0289,2,1,welib_9bc48b7ba4af8d0b8f56,remove,welib_baf8e8f5a100b4144c77,"Special and General Relativity — 1 Introduction 1 — With Applications to White Dwarfs, Neutron Stars and Black Holes",Series Editors:
+formal_production_C0290,2,1,welib_9e6e63f8f80f6509a850,keep,welib_9e6e63f8f80f6509a850,WELL-GROUNDED — Rubyist — 1 Bootstrapping your Ruby literacy 3 1.1 Basic Ruby language literacy 4,David A. Black
+formal_production_C0290,2,1,welib_9e6e63f8f80f6509a850,remove,welib_ab186c21a2db18d63794,THE WELL-GROUNDED — Rubyist — Praise for the First Edition,David A. Black
+formal_production_C0291,2,1,welib_9e9bee0323d7a9f46c69,keep,welib_9e9bee0323d7a9f46c69,Adaptive Atmospheric Modeling,Jörn Behrens
+formal_production_C0291,2,1,welib_9e9bee0323d7a9f46c69,remove,welib_d07a2b57583f322f945b,Adaptive Atmospheric Modeling,Jörn Behrens
+formal_production_C0292,2,1,welib_9f2097fed04078607cba,keep,welib_9f2097fed04078607cba,Dignified Dying,Boudewijn Chabot
+formal_production_C0292,2,1,welib_9f2097fed04078607cba,remove,welib_bc8e8b4c19861fa9665c,Dignified Dying,Boudewijn Chabot
+formal_production_C0293,2,1,welib_a0dc14ea2e18a2e745e1,keep,welib_a0dc14ea2e18a2e745e1,Let Run your Neurons — Analog and Digital Circuits for Electronic Control System Applications — ```txt,Jerry Luecke
+formal_production_C0293,2,1,welib_a0dc14ea2e18a2e745e1,remove,welib_ce7320dc8307fa157c36,Analog and Digital Circuits for Electronic Control System Applications — Digit 1 — Digit 2,Jerry Luecke
+formal_production_C0294,2,1,welib_a1b5d80fb3140b2a3870,keep,welib_a1b5d80fb3140b2a3870,Biological systems for testing sterilizers and sterilization processes — — Cross-references — CEN,National foreword
+formal_production_C0294,2,1,welib_a1b5d80fb3140b2a3870,remove,welib_bf71ee1ab2fd1a41783b,Biological systems for testing sterilizers and sterilization processes — — Cross-references — CEN,National foreword
+formal_production_C0295,2,1,welib_a237c3f644b28b97846e,keep,welib_a237c3f644b28b97846e,Principle advancements in database management technologies,Keng Siau
+formal_production_C0295,2,1,welib_a237c3f644b28b97846e,remove,welib_e0dd119f20039b746de4,Principle advancements in database management technologies,Keng Siau
+formal_production_C0296,2,1,welib_a38047d4a733488c28b4,keep,welib_a38047d4a733488c28b4,"Instructors Manual for Boundary Value Problems, Fifth Edition",(书目库未提供作者)
+formal_production_C0296,2,1,welib_a38047d4a733488c28b4,remove,welib_dfcbce6da4768ff97ce4,"Instructors Manual for Boundary Value Problems, Fifth Edition",(书目库未提供作者)
+formal_production_C0297,2,1,welib_a45a34bac1627cf8d7fc,keep,welib_a45a34bac1627cf8d7fc,Turn Left at Orion,"Guy Consolmagno, Dan M. Davis"
+formal_production_C0297,2,1,welib_a45a34bac1627cf8d7fc,remove,welib_fb3d69ce442efc57c2b0,Turn Left at Orion,"Guy Consolmagno, Dan M. Davis"
+formal_production_C0298,2,1,welib_a490b5a4a4e89fb2cd53,keep,welib_a490b5a4a4e89fb2cd53,Uncertainty and information,George J. Klir
+formal_production_C0298,2,1,welib_a490b5a4a4e89fb2cd53,remove,welib_ae97608507dbd9bae617,Uncertainty and information,George J. Klir
+formal_production_C0299,2,1,welib_a4d6552570ee2078be25,keep,welib_a4d6552570ee2078be25,Merleau-ponty,Eric Matthews
+formal_production_C0299,2,1,welib_a4d6552570ee2078be25,remove,welib_d5ab286f1fb0f8a29cae,Merleau-ponty,Eric Matthews
+formal_production_C0300,2,1,welib_a4ea26bc93891919b8f4,keep,welib_a4ea26bc93891919b8f4,Theory of Probability and Random Processes (Universitext),"Leonid Koralov, Yakov G. Sinai"
+formal_production_C0300,2,1,welib_a4ea26bc93891919b8f4,remove,welib_e3f3e62bfef03a8727b6,Theory of Probability and Random Processes (Universitext),"Leonid Koralov, Yakov G. Sinai"
+formal_production_C0301,2,1,welib_a837efcd65a5aabac92e,keep,welib_a837efcd65a5aabac92e,Bearing design in machinery,Avraham Harnoy
+formal_production_C0301,2,1,welib_a837efcd65a5aabac92e,remove,welib_d30051e9c0badf053b83,Bearing Design in Machinery,Avraham Harnoy
+formal_production_C0302,2,1,welib_a8f1d362c95f74ea8bfb,keep,welib_a8f1d362c95f74ea8bfb,"Grand Illusion — SEPTEMBER 11 — For Jack Newfield, who loved his city and his craft.",THE UNTOLD STORY OF RUDY GIULIANI AND 9/11
+formal_production_C0302,2,1,welib_a8f1d362c95f74ea8bfb,remove,welib_ae59e766aa3b47eb1e42,"Grand Illusion — SEPTEMBER 11 — For Jack Newfield, who loved his city and his craft.",THE UNTOLD STORY OF RUDY GIULIANI AND 9/11
+formal_production_C0303,2,1,welib_a9663d421d69ee34e8be,keep,welib_a9663d421d69ee34e8be,Speak English like an American,Amy Gillett
+formal_production_C0303,2,1,welib_a9663d421d69ee34e8be,remove,welib_d38b9f847f674a290541,Speak English like an American,Amy Gillett
+formal_production_C0304,2,1,welib_aa0b06d8c6fd1e5dd656,keep,welib_aa0b06d8c6fd1e5dd656,INTERNATIONAL MIGRATION — Very Short Introductions available now: — A Very Short Introduction,Khalid Koser
+formal_production_C0304,2,1,welib_aa0b06d8c6fd1e5dd656,remove,welib_b920d4acac6e50399146,INTERNATIONAL MIGRATION — Very Short Introductions available now: — A Very Short Introduction,Khalid Koser
+formal_production_C0305,2,1,welib_aa8fe17f6811a26cf536,keep,welib_aa8fe17f6811a26cf536,Exploring C++ 11: Second Edition (Expert's Voice in C++),Ray Lischner
+formal_production_C0305,2,1,welib_aa8fe17f6811a26cf536,remove,welib_c26d633b8ba719133317,Exploring C++ 11: Second Edition (Expert's Voice in C++),Ray Lischner
+formal_production_C0306,2,1,welib_abb3a50ab22fb55fd2a4,keep,welib_abb3a50ab22fb55fd2a4,COOKING — THE — ITALIAN,Lerner Publications Company
+formal_production_C0306,2,1,welib_abb3a50ab22fb55fd2a4,remove,welib_c28178d8f7bfb9ab033d,COOKING — THE — ITALIAN,Lerner Publications Company
+formal_production_C0307,2,1,welib_abdd283b9e63a7bb1a7a,keep,welib_abdd283b9e63a7bb1a7a,Principles of Network and System Administration,Mark Burgess
+formal_production_C0307,2,1,welib_abdd283b9e63a7bb1a7a,remove,welib_e2db591f6f5500ab8b25,Principles of Network and System Administration,Mark Burgess
+formal_production_C0308,2,1,welib_b16e5fdbf047c76ab4dd,keep,welib_b16e5fdbf047c76ab4dd,Iterated integrals and cycles on algebraic manifolds,Bruno Harris
+formal_production_C0308,2,1,welib_b16e5fdbf047c76ab4dd,remove,welib_fc1357b4f64a48746458,Iterated integrals and cycles on algebraic manifolds,Bruno Harris
+formal_production_C0309,2,1,welib_b2141a683cee1a5cee36,keep,welib_b2141a683cee1a5cee36,Gencler Icin Felsefe Tarihi,Afsar Timucin
+formal_production_C0309,2,1,welib_b2141a683cee1a5cee36,remove,welib_b6d87e86ebd08a4cae31,Gencler Icin Felsefe Tarihi,Afsar Timucin
+formal_production_C0310,2,1,welib_b2965947784690383ee8,keep,welib_b2965947784690383ee8,Quantum Language and the Migration of Scientific Concepts,Jennifer Burwell
+formal_production_C0310,2,1,welib_b2965947784690383ee8,remove,welib_e04ba1075867c3e13dec,Quantum Language and the Migration of Scientific Concepts,Jennifer Burwell
+formal_production_C0311,2,1,welib_b2f2ce89655672d8a0f7,keep,welib_b2f2ce89655672d8a0f7,The Finite Element Method for Three-Dimensional Thermomechanical Applications,Guido Dhondt
+formal_production_C0311,2,1,welib_b2f2ce89655672d8a0f7,remove,welib_d8ad9e6a1aba1de404e7,The Finite Element Method for Three-Dimensional Thermomechanical Applications,Guido Dhondt
+formal_production_C0312,2,1,welib_b43a372b64d10161604f,keep,welib_b43a372b64d10161604f,How to Write and Illustrate a Scientific Paper,Bjorn Gustavii
+formal_production_C0312,2,1,welib_b43a372b64d10161604f,remove,welib_efcdbe78c99211fc9d31,How to Write and Illustrate a Scientific Paper,Bjorn Gustavii
+formal_production_C0313,2,1,welib_b4f935766dc9810b935e,keep,welib_b4f935766dc9810b935e,Fighters from the Fringe,"Robert A., Jr. Hall"
+formal_production_C0313,2,1,welib_b4f935766dc9810b935e,remove,welib_cb25480d9ab03ed818ee,Fighters from the Fringe,"Robert A., Jr. Hall"
+formal_production_C0314,2,1,welib_ba0e51905951c35244f1,keep,welib_ba0e51905951c35244f1,Metaheuristics,Karl F. Doerner
+formal_production_C0314,2,1,welib_ba0e51905951c35244f1,remove,welib_f9c545c8f3bd274fb201,Metaheuristics,Karl F. Doerner
+formal_production_C0315,2,1,welib_bc6b355996887ef9057e,keep,welib_bc6b355996887ef9057e,"Physics and Chemistry Basis of Biotechnology, Volume 7.",Marcel De Cuyper
+formal_production_C0315,2,1,welib_bc6b355996887ef9057e,remove,welib_cf3f98c41672996d12ab,"Physics and Chemistry Basis of Biotechnology, Volume 7.",Marcel De Cuyper
+formal_production_C0316,2,1,welib_bfb8d876d12a07fda735,keep,welib_bfb8d876d12a07fda735,"Scurvy: How a Surgeon, a Mariner, and a Gentleman Solved the Greatest Medical Mystery of the Age of Sail",Stephen R. Bown
+formal_production_C0316,2,1,welib_bfb8d876d12a07fda735,remove,welib_e14deb2b41487465343d,"SCURVY — Scurvy — HOW A SURGEON, A MARINER, AND A GENTLEMAN SOLVED THE GREATEST MEDICAL MYSTERY OF THE AGE OF SAIL",The threat of the disease kept ships
+formal_production_C0317,2,1,welib_c0888ea02021c944afdd,keep,welib_c0888ea02021c944afdd,British politics and European elections 2004,David Butler
+formal_production_C0317,2,1,welib_c0888ea02021c944afdd,remove,welib_e596ec233d50c34f0fe2,British Politics and European Elections 2004,"Butler, D., M. Westlake"
+formal_production_C0318,2,1,welib_c12651875cbd70601016,keep,welib_c12651875cbd70601016,Threads primer,"Bill Lewis, Bil Lewis, Daniel J. Berg"
+formal_production_C0318,2,1,welib_c12651875cbd70601016,remove,welib_e2696b45032fda5b0544,Threads primer,"Bill Lewis, Bil Lewis, Daniel J. Berg"
+formal_production_C0319,2,1,welib_c136a54288a8d71bbbeb,keep,welib_c136a54288a8d71bbbeb,"Intramolecular Interconversions in Cyclosilazane Chemistry: A Joint Experimental–Theoretical Study — Metallacycloalkanes – Synthesis, Structure and Reactivity of Medium to Large Ring Compounds — The Chemistry of Cyclometallated Gold(III) Complexes with C,N-Donor Ligands",CONTRIBUTORS ix
+formal_production_C0319,2,1,welib_c136a54288a8d71bbbeb,remove,welib_f853d1a8f86af604547f,"Advances in Organometallic Chemistry, Vol. 54","Robert C. West, Anthony F. Hill, Mark J. Fink"
+formal_production_C0320,2,1,welib_c178c20281e09ca23e51,keep,welib_c178c20281e09ca23e51,Egalitarian politics in the age of globalization,"Björn Hettne, András Inotai, Osvaldo Sunkel"
+formal_production_C0320,2,1,welib_c178c20281e09ca23e51,remove,welib_e71124732cbd35e3ecb1,Egalitarian politics in the age of globalization,"Björn Hettne, András Inotai, Osvaldo Sunkel"
+formal_production_C0321,2,1,welib_c2221fe616a621616d9a,keep,welib_c2221fe616a621616d9a,A companion to epistemology,Jonathan Dancy
+formal_production_C0321,2,1,welib_c2221fe616a621616d9a,remove,welib_e2817db6211486d3ddd0,A companion to epistemology,Jonathan Dancy
+formal_production_C0322,2,1,welib_c5d1dc3d4d691032c484,keep,welib_c5d1dc3d4d691032c484,Mathematica for theoretical physics,"Baumann, Gerd."
+formal_production_C0322,2,1,welib_c5d1dc3d4d691032c484,remove,welib_d044bced250098de23b5,Mathematica for theoretical physics,"Baumann, Gerd."
+formal_production_C0323,2,1,welib_ca2a16f1168e1e7981d9,keep,welib_ca2a16f1168e1e7981d9,Statistics for lawyers,Michael O. Finkelstein
+formal_production_C0323,2,1,welib_ca2a16f1168e1e7981d9,remove,welib_dfa3bb07b203f1d8876c,"Statistics for Lawyers
+            
+                Statistics for Social and Behavioral Sciences",Bruce Levin
+formal_production_C0324,2,1,welib_cbcc81000c72f21f2a47,keep,welib_cbcc81000c72f21f2a47,Projective Geometry — Projective Geometry: An Introduction — OXFORD,Rey Casse
+formal_production_C0324,2,1,welib_cbcc81000c72f21f2a47,remove,welib_f05af5b740e0d8b52e56,Projective Geometry — Projective Geometry: An Introduction — OXFORD,Rey Casse
+formal_production_C0325,2,1,welib_ce3d54142866a24b067b,keep,welib_ce3d54142866a24b067b,A Catholic in the White House?,Thomas J. Carty
+formal_production_C0325,2,1,welib_ce3d54142866a24b067b,remove,welib_de6f834c5f2e07965373,A Catholic in the White House?,Thomas Carty
+formal_production_C0326,2,1,welib_cf64cb4291ac168794fc,keep,welib_cf64cb4291ac168794fc,Liquid Crystals,Iam-Choon Khoo
+formal_production_C0326,2,1,welib_cf64cb4291ac168794fc,remove,welib_f8effc13c38a56331669,Liquid Crystals,Iam-Choon Khoo
+formal_production_C0327,2,1,welib_d97bf7cb26026c3afbed,keep,welib_d97bf7cb26026c3afbed,The efficiency of theorem proving strategies,David A. Plaisted
+formal_production_C0327,2,1,welib_d97bf7cb26026c3afbed,remove,welib_e934a86a8f0ed214d6bf,The Efficiency of Theorem Proving Strategies,"David A. Plaisted, Yunshan Zhu"
+formal_production_C0328,2,1,welib_ddc9489abb82d435a0e3,keep,welib_ddc9489abb82d435a0e3,Short-range wireless communication,Alan Bensky
+formal_production_C0328,2,1,welib_ddc9489abb82d435a0e3,remove,welib_f293da52ad82047f0b6e,Short-range wireless communication,Alan Bensky
+formal_production_C0329,2,1,welib_def9cf7c85a31e46894c,keep,welib_def9cf7c85a31e46894c,Meditations on global first philosophy,Ashok K. Gangadean
+formal_production_C0329,2,1,welib_def9cf7c85a31e46894c,remove,welib_ee8ed6b7e8c939d6d2c7,Meditations on global first philosophy,Ashok K. Gangadean
+formal_production_C0330,2,1,welib_df6e4f9d700d5abf1059,keep,welib_df6e4f9d700d5abf1059,CYSTINOSIS — Disclaimer — FORWARD,ICON Group International
+formal_production_C0330,2,1,welib_df6e4f9d700d5abf1059,remove,welib_e5df3a0da69e4cb0b1a3,"TURNER SYNDROME — Disclaimer — A Bibliography and Dictionary for Physicians, Patients, and Genome Researchers",ICON Group International
+formal_production_C0331,2,1,welib_f5efb284c5d8249783c2,keep,welib_f5efb284c5d8249783c2,Growth theory of subharmonic functions,V. S. Azarin
+formal_production_C0331,2,1,welib_f5efb284c5d8249783c2,remove,welib_ff8302dbdd40f4850f92,Growth theory of subharmonic functions,V. S. Azarin
+formal_production_C0332,2,1,welib_fa3547975ae87ad9f39f,keep,welib_fa3547975ae87ad9f39f,Finite-Elemente-Methode,Peter Steinke
+formal_production_C0332,2,1,welib_fa3547975ae87ad9f39f,remove,welib_fe595dea9466d72c8bf4,Finite- Elemente- Methode — Vorwort — Updates,Peter Steinke
