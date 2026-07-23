@@ -62,7 +62,7 @@ tbody.addEventListener("click",e=>{
   else{fallbackCopy(txt);done()}
 });
 function fallbackCopy(t){const ta=document.createElement("textarea");ta.value=t;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy")}catch(e){}document.body.removeChild(ta)}
-fetch("formal_production_remove_ids.csv").then(r=>r.text()).then(t=>{data=parseCsv(t);render()});
+fetch("formal_production_remove_ids.csv?v="+Date.now(),{cache:"no-store"}).then(r=>r.text()).then(t=>{data=parseCsv(t);render()});
 q.addEventListener("input",render);action.addEventListener("change",render);
 </script>
 </body>
