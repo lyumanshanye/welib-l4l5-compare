@@ -21,7 +21,7 @@ th{position:sticky;top:134px;background:#f8fafc;z-index:1}code{overflow-wrap:any
 <header>
 <h1>Welib L2 历史 formal remove_ids</h1>
 <div class="muted">历史 OCR v1 formal production 快照：496 条候选边，708 本，332 个簇；按 DataTrove union-find 根节点规则删除 376 本。</div>
-<div class="warn"><b>风险口径：</b>这个清单只能说明旧 OCR v1 快照在“每簇保留字典序最小 book_id”规则下会删哪些书。去得太狠通常表现为大簇里混入不同标题/不同主题书；去得太宽松通常表现为同名同 ISBN 仍分散在多个小簇或没有候选边。最终目录仍必须在 <code>/inspire/hdd2/project/special-project-1/public/ruihang/ocr-vlm-pipeline-results/parquets/en_no_vlm/</code> 上重跑。</div>
+<div class="warn"><b>风险口径：</b>这个清单只能说明旧 OCR v1 快照在“每簇保留字典序最小 book_id”规则下会删哪些书。去得太狠通常表现为大簇里混入不同标题/不同主题书；去得太宽松通常表现为同名同 ISBN 仍分散在多个小簇或没有候选边。最终目录仍必须在 <code>/inspire/hdd2/project/special-project-1/public/ruihang/ocr-vlm-pipeline-results/parquets/en-no-vlm/</code> 上重跑。</div>
 <div class="links"><a href="formal_production_remove_ids.csv">下载 CSV</a><a href="l2_duplicate_review.html">完整 496 对审核页</a><a href="l2_duplicate_review_lite.html">轻量入口</a></div>
 <div class="controls"><input id="q" type="search" placeholder="搜索 book_id、keep_id、title、authors、cluster_id"><select id="action"><option value="all">全部 708 本</option><option value="remove" selected>只看 remove 376 本</option><option value="keep">只看 keep 332 本</option></select><span id="count" class="muted"></span></div>
 </header>
