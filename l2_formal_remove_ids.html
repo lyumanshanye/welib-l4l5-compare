@@ -14,6 +14,8 @@ h1{margin:0 0 6px;font-size:22px}.muted{color:#64748b}.warn{margin-top:12px;padd
 table{width:100%;border-collapse:collapse;background:#fff;border:1px solid #dbe3ef}
 th,td{border-bottom:1px solid #edf1f6;padding:8px 10px;text-align:left;vertical-align:top}
 th{position:sticky;top:134px;background:#f8fafc;z-index:1}code{overflow-wrap:anywhere}.keep{color:#13795b;font-weight:700}.remove{color:#9f1239;font-weight:700}
+.path{margin-top:5px;font:12px/1.45 ui-monospace,SFMono-Regular,Menlo,monospace;color:#475569;background:#f1f5f9;border:1px solid #e2e8f0;border-radius:6px;padding:5px 7px;overflow-wrap:anywhere;cursor:pointer}
+.path:hover{background:#e6efff;border-color:#93b4f0}.path .cp{color:#2457c5;font-weight:700;margin-left:6px;white-space:nowrap}.path.copied{background:#e7f8ef;border-color:#8ed6ac}
 @media(max-width:760px){th:nth-child(7),td:nth-child(7),th:nth-child(8),td:nth-child(8){display:none}input{min-width:100%}}
 </style>
 </head>
@@ -46,8 +48,20 @@ function render(){
   const query=q.value.trim().toLowerCase(), a=action.value;
   const rows=data.filter(r=>(a=="all"||r.action==a)&&(!query||Object.values(r).join(" ").toLowerCase().includes(query)));
   count.textContent=`显示 ${rows.length} / ${data.length}`;
-  tbody.innerHTML=rows.map(r=>`<tr><td class="${r.action}">${r.action}</td><td>${esc(r.cluster_id)}</td><td><code>${esc(r.book_id)}</code></td><td><code>${esc(r.keep_id)}</code></td><td>${esc(r.cluster_size)}</td><td>${esc(r.edge_count)}</td><td>${esc(r.title)}</td><td>${esc(r.authors)}</td></tr>`).join("");
+  tbody.innerHTML=rows.map(r=>{
+    const p=r.source_paths||"";
+    const pathHtml=p?`<div class="path" data-path="${esc(p)}" title="点击复制绝对路径">${esc(p)}<span class="cp">📋 复制</span></div>`:"";
+    return `<tr><td class="${r.action}">${r.action}</td><td>${esc(r.cluster_id)}</td><td><code>${esc(r.book_id)}</code></td><td><code>${esc(r.keep_id)}</code></td><td>${esc(r.cluster_size)}</td><td>${esc(r.edge_count)}</td><td>${esc(r.title)}${pathHtml}</td><td>${esc(r.authors)}</td></tr>`;
+  }).join("");
 }
+tbody.addEventListener("click",e=>{
+  const el=e.target.closest(".path"); if(!el) return;
+  const txt=el.getAttribute("data-path");
+  const done=()=>{el.classList.add("copied");const s=el.querySelector(".cp");const o=s.textContent;s.textContent="✓ 已复制";setTimeout(()=>{el.classList.remove("copied");s.textContent=o},1200)};
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(done).catch(()=>{fallbackCopy(txt);done()})}
+  else{fallbackCopy(txt);done()}
+});
+function fallbackCopy(t){const ta=document.createElement("textarea");ta.value=t;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();try{document.execCommand("copy")}catch(e){}document.body.removeChild(ta)}
 fetch("formal_production_remove_ids.csv").then(r=>r.text()).then(t=>{data=parseCsv(t);render()});
 q.addEventListener("input",render);action.addEventListener("change",render);
 </script>
