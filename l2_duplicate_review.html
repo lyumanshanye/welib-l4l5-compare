@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Welib L2 重复书对人工审阅</title>
+<title>Welib L2 去重全量审计与历史书对</title>
 <style>
 :root { color-scheme: light; --ink:#172033; --muted:#64748b; --line:#dbe3ef;
   --paper:#fff; --bg:#f4f7fb; --blue:#2457c5; --green:#13795b; --amber:#9a5b00; }
@@ -33,6 +33,28 @@ main { max-width:1500px;margin:18px auto;padding:0 18px }
   background:#fff1f2;border:1px solid #f2a7ad;color:#7f1d1d }
 .scope-note { max-width:1500px;margin:12px auto 0;padding:10px 14px;border-radius:8px;
   background:#fff7e6;border:1px solid #e6c47a;color:#704000 }
+.current-audit { max-width:1500px;margin:16px auto 0;padding:16px;border-radius:10px;
+  background:#f0f9ff;border:1px solid #7dd3fc;color:#0c4a6e }
+.current-audit h2 { margin:0 0 6px;font-size:20px;color:#0f3558 }
+.current-audit p { margin:7px 0 }
+.audit-grid { display:grid;grid-template-columns:repeat(4,minmax(150px,1fr));
+  gap:9px;margin:13px 0 }
+.audit-stat { padding:10px;border-radius:8px;background:#fff;border:1px solid #bae6fd }
+.audit-stat b { display:block;font-size:20px;color:#0f3558 }
+.audit-note { padding:10px 12px;border-radius:8px;background:#fff;border:1px solid #bae6fd }
+.audit-table-wrap { margin-top:12px;overflow-x:auto;background:#fff;border-radius:8px;
+  border:1px solid #bae6fd }
+.audit-table { width:100%;border-collapse:collapse;min-width:1050px;font-size:12px }
+.audit-table th,.audit-table td { padding:8px;border-bottom:1px solid #e0f2fe;
+  text-align:left;vertical-align:top }
+.audit-table th { position:sticky;top:0;background:#e0f2fe;color:#0f3558 }
+.audit-table tr:last-child td { border-bottom:0 }
+.audit-table code { max-width:720px;font-size:10px }
+.audit-table details { margin-top:5px;color:#64748b }
+.pill-high,.pill-medium { display:inline-block;border-radius:999px;padding:2px 7px;
+  white-space:nowrap;font-weight:700 }
+.pill-high { color:#991b1b;background:#fee2e2 }
+.pill-medium { color:#92400e;background:#fef3c7 }
 .books { display:grid;grid-template-columns:1fr 1fr;gap:14px }
 .books section { min-width:0;background:#f8fafc;border-radius:7px;padding:10px }
 h3 { margin:0 0 6px;font-size:14px } code { display:block;white-space:normal;
@@ -41,12 +63,15 @@ h3 { margin:0 0 6px;font-size:14px } code { display:block;white-space:normal;
 .book-author { margin-bottom:3px;font-size:14px;color:#334155 }
 .book-meta { margin-bottom:7px;font-size:11px;color:#64748b }
 .hidden { display:none } @media(max-width:850px) { .books { grid-template-columns:1fr }
-  input { min-width:100% } #shown { margin-left:0 } }
+  input { min-width:100% } #shown { margin-left:0 }
+  .audit-grid { grid-template-columns:1fr 1fr } }
 </style>
 </head>
 <body>
 <header>
-  <h1>Welib L2 重复书对人工审阅</h1>
+  <h1>Welib L2 去重全量审计与历史书对</h1>
+  <div class="sub"><a href="#current-audit">查看当前 en-no-vlm 全量 Verifier 与 300 本 STEM 召回 list</a>；
+  下方筛选器仅用于旧 OCR v1 的 496 对历史书对。</div>
   <div class="sub">共 496 组正式全书 14×8 候选边；这 496 组在正式管线中全部会进入重复图，
   随后通过 union-find 聚类并在每簇删除除根节点外的书。</div>
   <div class="sub">页面主分数是正式 112 位全书 MinHash 估计。12×9/10×10、局部 J5 与 exact gate
@@ -72,9 +97,158 @@ h3 { margin:0 0 6px;font-size:14px } code { display:block;white-space:normal;
     <span id="shown"></span>
   </div>
 </header>
-<div class="source-warning"><b>数据口径修正（2026-07-23）：</b>当前唯一权威输入根目录是
+<section class="current-audit" id="current-audit">
+  <h2>当前 en-no-vlm 正式全量：Jaccard Verifier + 300 本 STEM 召回审计</h2>
+  <p><b>更新时间：2026-07-24。</b>本节是当前正式全量结果；下方 496 对是旧 OCR v1 历史审核快照。
+  正式 Parquet 已冻结，以下 Verifier 结果仍是 shadow 审计，尚未写回正式 remove list 或 Parquet。</p>
+  <div class="audit-grid">
+    <div class="audit-stat"><b>452,673</b>全量 MinHash 候选边</div>
+    <div class="audit-stat"><b>25,115</b>被 exact J5&lt;0.72 拦下</div>
+    <div class="audit-stat"><b>12,427</b>净恢复唯一 doc ID</div>
+    <div class="audit-stat"><b>0 / 3,000</b>召回残留 exact J5≥0.72</div>
+  </div>
+  <div class="audit-note">
+    <b>“净恢复”口径：</b>正式删除、shadow 改为保留 12,515 本；正式保留、shadow 改为删除 88 本；
+    因而净恢复 12,515−88=12,427。本数来自两份唯一 doc ID 集合的精确差集，不是估算。
+    被拦下的 25,115 条候选边，exact J5 平均 0.6058、中位数 0.6251。
+    它们全部低于 0.72，因此结论是“相似度不足以支持删除”，不是“相似度太高所以恢复”。
+    若按每本恢复书的“最强候选边”统计，平均 0.6222、中位数 0.6364；Jaccard 本质是书对分数，
+    不是单本属性。
+  </div>
+  <div class="audit-note" style="margin-top:9px">
+    <b>为什么会新增移除 88 本：</b>这是拆掉弱连接后簇被拆分、保留代表本切换，不是多删 88 个簇。
+    88/88 都有 exact J5≥0.72 的接受边，88/88 所在新簇都仍保留至少一本；
+    它们最强接受边平均 0.8514、中位数 0.8360、最低 0.7213。
+    因此这 88 本仍属于应去重的簇，只是“留哪一本”发生变化。
+  </div>
+  <div class="audit-note" style="margin-top:9px">
+    <b>去重后 token / 存储：</b>当前正式 Parquet 为 33.828B 个英文 word-like token，
+    160 个 Parquet 共 106,335,279,877 bytes（106.335 GB / 99.03 GiB）。
+    若采用 Jaccard shadow，同口径 token 为 33.949B，比正式版多 0.121B；
+    shadow Parquet 尚未物化，按当前压缩比估算约 106.7 GB，不能视为精确磁盘值。
+    此处 token 口径为 <code style="display:inline">[a-z][a-z0-9]{2,}</code>，
+    不是任意指定模型的 BPE tokenizer。
+  </div>
+  <p><b>300 本 STEM 审计：</b>query 从正式 kept ∩ Jaccard-shadow kept 中确定性抽取，
+  每本至少命中两个 STEM 类别；只在去重后的保留库中做 BM25 Top10，并排除 self-hit。
+  3,000 对逐对计算完整正文 5-gram Jaccard（<code style="display:inline">norm_numbers=False</code>）。
+  结果为高度疑似 6 对、中度疑似 4 对、低相似 2,990 对。高疑似多数是短文章/章节被大合集包含，
+  因而 Jaccard 低但 containment 高；这类问题不应通过降低全局 Jaccard 阈值处理。</p>
+  <div class="audit-table-wrap">
+    <table class="audit-table">
+      <thead><tr>
+        <th>#</th><th>原 query</th><th>召回书</th><th>作者 / 年份</th>
+        <th>exact J5</th><th>最大 containment</th><th>判断</th>
+      </tr></thead>
+      <tbody>
+        <tr>
+          <td>3</td>
+          <td>Semantic Theory and Language: A Perspective — H. G. Callaway
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000143/K2026061000003_welib_700w_无isbn_pdf书籍_batch3/P2025092600003_书籍welib_9/p9_2/files/_mnt_nfs_storage1_sda_docker_data_2025-08-12_welib_data_44_batch_6/44bd0425abefe0e108c8961320c9579e.pdf</code></details>
+          </td>
+          <td>Proceedings of the Southwestern Philosophical Society
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000636/K2026061200007_welib_700w_无isbn_pdf书籍_batch7/P2025101300001_书籍welib_10/p10_1/files/_mnt_nfs_storage1_sda_docker_data_2025-09-04_welib_data_7d_batch_1/7d2e92e6c38277d6b7fb27ed3cc0a6a8.pdf</code></details>
+          </td>
+          <td>未识别 / 1945</td><td>0.0479</td><td>0.9803</td><td><span class="pill-high">高度疑似</span></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Critical and Historical Essays, Vol. 2 — Thomas Babington Macaulay
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000302/K2026061100005_welib_700w_无isbn_pdf书籍_batch5/P2025092600003_书籍welib_9/p9_4/files/_mnt_nfs_storage1_sda_docker_data_2025-08-23_welib_data_0a_batch_1/0ad227132ee6c36b0df37e1adf8bad5a.pdf</code></details>
+          </td>
+          <td>LORD MACAULAY'S ESSAYS
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000348/K2026061100005_welib_700w_无isbn_pdf书籍_batch5/P2025092600003_书籍welib_9/p9_6/files/_mnt_nfs_storage1_sdb_docker_data_2025-09-09_welib_data_a4_batch_1/a40728260ef7f9ad95b187e76466b44a.pdf</code></details>
+          </td>
+          <td>未识别 / 未识别</td><td>0.2479</td><td>0.9628</td><td><span class="pill-high">高度疑似</span></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Critical and Historical Essays, Vol. 2 — Thomas Babington Macaulay
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000302/K2026061100005_welib_700w_无isbn_pdf书籍_batch5/P2025092600003_书籍welib_9/p9_4/files/_mnt_nfs_storage1_sda_docker_data_2025-08-23_welib_data_0a_batch_1/0ad227132ee6c36b0df37e1adf8bad5a.pdf</code></details>
+          </td>
+          <td>Macaulay — T. Babington Macaulay
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000555/K2026061100006_welib_700w_无isbn_pdf书籍_batch6/P2025092600003_书籍welib_9/p9_9/files/_mnt_nfs_storage1_sdb_docker_data_2025-09-10_welib_data_f2_batch_1/f27676a24a6ea7f7763e8e568558b62d.pdf</code></details>
+          </td>
+          <td>T. Babington Macaulay / 未识别</td><td>0.1887</td><td>0.8783</td><td><span class="pill-medium">中度疑似</span></td>
+        </tr>
+        <tr>
+          <td>56</td>
+          <td>AP® Chemistry Premium
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000465/K2026061100006_welib_700w_无isbn_pdf书籍_batch6/P2025101300001_书籍welib_10/p10_4/files/_mnt_nfs_storage1_sdb_docker_data_2025-09-19_welib_data_13_batch_2/13474dde50418126c3d0d8ab069874e2.pdf</code></details>
+          </td>
+          <td>未识别书名
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000567/K2026061100006_welib_700w_无isbn_pdf书籍_batch6/P2025092600003_书籍welib_9/p9_9/files/_mnt_nfs_storage1_sda_docker_data_2025-08-30_welib_data_10_batch_1/10e0731be62e9317804e2d473c858035.pdf</code></details>
+          </td>
+          <td>未识别 / 2018</td><td>0.6264</td><td>0.7791</td><td><span class="pill-medium">中度疑似</span></td>
+        </tr>
+        <tr>
+          <td>56</td>
+          <td>AP® Chemistry Premium
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000465/K2026061100006_welib_700w_无isbn_pdf书籍_batch6/P2025101300001_书籍welib_10/p10_4/files/_mnt_nfs_storage1_sdb_docker_data_2025-09-19_welib_data_13_batch_2/13474dde50418126c3d0d8ab069874e2.pdf</code></details>
+          </td>
+          <td>BARRON'S — The Trusted Name in Test Prep — AP®
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000033/K2026060900001_welib_700w_无isbn_pdf书籍_batch1/P2025080100003_书籍welib_2/p2_1/welib/file/16T04_5/d532adf4c4c86a8c4584cf3af17ac7cb.pdf</code></details>
+          </td>
+          <td>未识别 / 2025</td><td>0.4934</td><td>0.7699</td><td><span class="pill-medium">中度疑似</span></td>
+        </tr>
+        <tr>
+          <td>84</td>
+          <td>Diabetes Care — January 2013
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000426/K2026061100005_welib_700w_无isbn_pdf书籍_batch5/P2025092600003_书籍welib_9/p9_7/files/_mnt_nfs_storage1_sda_docker_data_2025-08-29_welib_data_ad_batch_1/ada323e71ee2f6c8eee898d85b6b4e76.pdf</code></details>
+          </td>
+          <td>Diabetes Care — January 2012
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000570/K2026061100006_welib_700w_无isbn_pdf书籍_batch6/P2025092600003_书籍welib_9/p9_9/files/_mnt_nfs_storage1_sda_docker_data_2025-08-30_welib_data_c2_batch_1/c260e5d3973987750c562df3d639ba59.pdf</code></details>
+          </td>
+          <td>未识别 / 2012</td><td>0.3629</td><td>0.7608</td><td><span class="pill-medium">中度疑似</span></td>
+        </tr>
+        <tr>
+          <td>85</td>
+          <td>reasonable doubt — Volume One
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000180/K2026061000003_welib_700w_无isbn_pdf书籍_batch3/P2025092600003_书籍welib_9/p9_1/files/_mnt_nfs_storage1_sda_docker_data_2025-08-23_welib_data_1d_batch_1/1dc8da2069332282273e62ecc9ac85b9.pdf</code></details>
+          </td>
+          <td>a collection of erotic romances
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000116/K2026061000002_welib_700w_无isbn_pdf书籍_batch2/P2025091900010_书籍welib_8/p8_1/files/_mnt_nfs_storage1_sda_docker_data_2025-08-12_welib_data_40_batch_4/405a03347255dd8126592b295bd74e04.pdf</code></details>
+          </td>
+          <td>未识别 / 2014</td><td>0.0973</td><td>0.9658</td><td><span class="pill-high">高度疑似</span></td>
+        </tr>
+        <tr>
+          <td>112</td>
+          <td>The Great Keinplatz Experiment — Arthur Conan Doyle
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000507/K2026061100006_welib_700w_无isbn_pdf书籍_batch6/P2025101300001_书籍welib_10/p10_2/files/_mnt_nfs_storage1_sda_docker_data_2025-09-03_welib_data_1c_batch_2/1cc2850caf89e5824f0041eefa0a821f.pdf</code></details>
+          </td>
+          <td>CONAN DOYLE Stories — 6 Volumes in 1
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000196/K2026061000003_welib_700w_无isbn_pdf书籍_batch3/P2025092600003_书籍welib_9/p9_1/files/_mnt_nfs_storage1_sda_docker_data_2025-08-14_welib_data_f1_batch_12/f1a0a9802ee58861193de5f77ea06caa.pdf</code></details>
+          </td>
+          <td>Arthur Conan Doyle / 1929</td><td>0.1656</td><td>0.9749</td><td><span class="pill-high">高度疑似</span></td>
+        </tr>
+        <tr>
+          <td>134</td>
+          <td>Synthesis and characterization of a tetraaza macrocyclic ligand…
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000065/K2026061000002_welib_700w_无isbn_pdf书籍_batch2/P2025091900010_书籍welib_8/p8_2/files/_mnt_nfs_storage1_sda_docker_data_2025-08-12_welib_data_2e_batch_7/2eae8f50575ab050c4dda69594de856e.pdf</code></details>
+          </td>
+          <td>Journal of the Serbian Chemical Society — Vol. 75 No. 7
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000285/K2026061000004_welib_700w_无isbn_pdf书籍_batch4/P2025092600003_书籍welib_9/p9_5/files/_mnt_nfs_storage1_sda_docker_data_2025-08-14_welib_data_ea_batch_7/ea9dcf3d5caace41365d29b501b37c35.pdf</code></details>
+          </td>
+          <td>未识别 / 2010</td><td>0.0334</td><td>0.9861</td><td><span class="pill-high">高度疑似</span></td>
+        </tr>
+        <tr>
+          <td>177</td>
+          <td>Guidebook Contents — Part 2 of 3
+            <details><summary>原书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000081/K2026061000002_welib_700w_无isbn_pdf书籍_batch2/P2025091900010_书籍welib_8/p8_2/files/_mnt_nfs_storage1_sda_docker_data_2025-08-12_welib_data_28_batch_14/28f32c8ccad7364911d00f97482719b5.pdf</code></details>
+          </td>
+          <td>Classics of Russian Literature — Course Guidebook
+            <details><summary>召回书路径</summary><code>/shared/sdrz-worspace/hanning/ppu-production-v1/incoming/prod-v1-000601/K2026061100006_welib_700w_无isbn_pdf书籍_batch6/P2025092600003_书籍welib_9/p9_9/files/_mnt_nfs_storage1_sda_docker_data_2025-08-30_welib_data_5a_batch_1/5ad7b993237eb2c457cf0df160fbb7fd.pdf</code></details>
+          </td>
+          <td>未识别 / 2006</td><td>0.3650</td><td>0.9749</td><td><span class="pill-high">高度疑似</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<div class="source-warning"><b>数据口径说明（2026-07-24）：</b>当前唯一权威输入根目录是
 <code>/inspire/hdd2/project/special-project-1/public/ruihang/ocr-vlm-pipeline-results/parquets/en-no-vlm/</code>
-本页 496 对是旧 OCR v1 管线的历史审核快照，页面内逐书旧路径仅保留作来源追溯；在新 Parquet 根目录重跑完成前，不能把这些数量和书对当作当前正式结果。</div>
+当前全量重跑及审计结果见页面顶部；下方 496 对是旧 OCR v1 管线的历史审核快照，
+页面内逐书旧路径仅保留作来源追溯，不能把历史数量和书对当作当前正式结果。</div>
 <div class="scope-note"><b>正式删除清单：</b>历史 formal production 覆盖 708 本、332 个簇；按每簇保留 union-find 根节点一本，会删除 376 本。
 <a href="l2_formal_remove_ids.html">查看可搜索 remove_ids 页面</a> · <a href="formal_production_remove_ids.csv">下载 CSV</a>。</div>
 <div class="scope-note"><b>审核口径：</b>绿色“正式 14×8 已命中”才是生产管线事实；
