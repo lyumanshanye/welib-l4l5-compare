@@ -1,0 +1,51 @@
+batch,idx,doc_id,title,domain,formula_dens,orig_chars,review_chars,ins,del
+理工,1,03c9b8b6dfeea1dd8af1b103a044cd7e069003894a4474a23c0a6bfae0f2a3dc,Regular orbits of self-dual modules,数学,49.7,18013,49897,11392,770
+理工,2,036f20d242ff6070e18a9dd0574d96499483e2bcb808daf76d858e10dbe81618,"A FORMALISATION, USING NON-STANDARD RULES, OF A 5-VALUED PROPOSITIONAL CALCULUS",数学,42.7,18695,48289,10686,1123
+理工,3,04a546e91c51c09aa85b7f01dbbbff06fc9606bd5752a5b66b8f3b09da70af7b,Journal Pre-proof,数学,12.0,56981,94340,15964,5121
+理工,4,038982e65605a9479c15d6a5c56d467f1bbacba8e10e256ed3e2b584d9a7bfcd,Enhanced Intradermal Delivery of Nanosuspensions of Antifilariasis Drugs Using Dissolving Microneedles: A Proof of Conce,数学,8.5,58178,121503,22306,3916
+理工,5,04f513e4ce3d190149df9bb76b4a24d80f65c14adb94a11e18fe245d4664500a,The Differential Diagnosis and Bone Marrow Evaluation of New-Onset Pancytopenia,数学,7.9,48086,88129,14069,2313
+理工,6,032eb0be855ecddfab78d4d84e5a1695c5d5ec20214b37beaa7210adee8f57db,Accepted Manuscript,数学,5.9,12675,28015,4873,290
+理工,7,033ad59c838a0d954a758d8fb25b802d8e5fd66e0b3d1b7c5aa4930acc3ce0d1,Journal Pre-proof,数学,5.9,16070,26152,3727,763
+理工,8,0516aeb7a80ea51033e7311ff80ec44f8e7d176828d9fa8fd6439cf974d55db6,Disorders of Consciousness: Differential Diagnosis and Neuropathologic Features,数学,4.8,37875,64917,8963,757
+理工,9,030d01cf48478f956e61a44bbf12b4263d33fd892d69b792e8461c0bce7b8c42,Myeloma Multiplex versus Osteolytic Metastatic Carcinoma: Differential Diagnosis in Dry Bones,数学,4.1,17780,30833,4261,222
+理工,10,028b78f96d107d851f7ccf0c6dcb94b3b8dcc1ea5545e9a8efa50578af09a7ff,The massive scalar field in a closed Friedmann universe model — new rigorous results,物理,29.2,34717,87777,18936,2626
+理工,11,0266df01f5dc118f0c277e0e8c13c4e5561e76e6ae985501f9474578cbea44bd,Observation of Feshbach resonances in a Bose-Einstein condensate,物理,12.9,20040,40311,6975,730
+理工,12,0383df0529713d59523b013143383d9bb4ceb4b9f252e93bb186ffb330cab4fb,Optimal treatment for severe neurogenic bowel dysfunction after chronic spinal cord injury: a decision analysis,物理,12.0,41535,68503,9525,1480
+理工,13,04f2a24e6e5047f9461f59f2fb7129f9c655a1c4b16dd1281fa68dc28fac4e47,Conjugates of platinum nanoparticles with gallium tetra – (4-Carboxyphenyl) porphyrin and their use in photodynamic anti,物理,11.7,25156,50866,8957,1648
+理工,14,033cbb8f3b90d1aa010dea6d1668af4c77b5463a73b68294a85ecea743b3d4b1,Design and analysis of all optical $2 \times 4$ decoder based on kerr effect and beams interference procedure,物理,11.1,23503,33105,4219,1329
+理工,15,03aa9ce1cc5e7041ff6b3ff0f6b46ec7297e38deb1b7d524d277fa0d64efa6ae,Thinking locally: Reflections on Dynamical Mean-Field Theory from a high-temperature/high-energy perspective,物理,9.8,31965,56412,8437,1238
+理工,16,048b2b19ea1139a96bbf2f7aa4bba573c2092ca730ca8355647f95d6352a2043,Condensation enhancement on hydrophobic surfaces using electrophoretic method and hybrid paint coating,物理,9.6,39956,85233,18719,5234
+理工,17,022da8bdda70af5640b8f8c240c9759c7831c6324f4768e30b875a680902b59b,The properties of fossil groups of galaxies,物理,9.2,36359,67888,10768,1139
+理工,18,0330a41526740d95a22bc78f743c8d813e8993dc708cbbf38a3a5a791385f086,ORIGINAL PAPER,物理,8.7,52211,88015,12857,2361
+理工,19,0517fa08937e21373f267d9eee79a7c226e2f1971fd91a16707863c430f1601b,A Sequence Preference for Nucleation of $\alpha$ -Helix—Crystal Structure of Gly-L-Ala-L-Val and Gly-L-Ala-L-Leu: Some C,化学,29.5,30256,64007,11404,1186
+理工,20,036966f7a02be092d10eb726e1e4bcbf282303d40df90b3c4375d3e0db271281,Dynamic Light Scattering Studies of Porcine Submaxillary Mucin Fractions in Dilute Solution at Intermediate Scattering V,化学,26.9,29369,57553,9555,1190
+理工,21,042e37d551fbe4aee51b4fb10fa99081873421a7687c51f80fc5fac4144173b4,A Photochemical Dehydrogenative Strategy for Direct and Regioselective Dimerization of BODIPY Dyes,化学,25.2,33589,97605,20840,2821
+理工,22,04d249789cd55a1025822a8e47c02ef6195a01af5ffbc036e85c14e2bf2d3be4,Co-based molecular catalysts for efficient $CO_{2}$ reduction via regulating spin states,化学,24.3,37226,71651,11505,1458
+理工,23,03ce7767999ac98521e9eb220aae56e84a7aa28ccb115ee24738221aec19581d,"In competition experiments with heptanal/diethyl ketone (1:1) it could be shown that 1, 3b and 4b olefinate aldehyde gro",化学,23.6,10126,13122,1190,366
+理工,24,055bafddf33fb74099cfe508b16db2831ffdae96978c6acd5a27fd7d0f20fd1d,Oxygen Reduction at the Interface YSZ / LaMnO $_{3}$ prepared by a Vapor Phase Processes,化学,22.1,11654,22489,4022,1179
+理工,25,029639092b14f57d1825dafdf875c9b0b7f5ebe75c7990b4f67d6953655495da,Physicochemical properties of the mixtures 2-methoxyethanol and selected amines at various temperatures 298.15–318.15 K ,化学,21.0,22642,44806,7066,439
+理工,26,02628de06c2a6aa8b5dc16410963e285d3ddd10eb44fcf40584952aff535c5ca,"Evaluation of DNA and Nuclear Protein Features for Their Use in Describing Normal and Malignant Endometrium $^{1,2}$",化学,20.1,32293,64846,10378,619
+理工,27,02cdf9cc22ef2455528a5e62ea7894205fd28fd19f6ef993edf28a7a6d60b789,Supporting Information,化学,18.9,8517,23278,4735,281
+理工,28,02a5ddfec863b053934b16b73c2aa22230ed2e7e69f1e820028d4b2ddf8316c4,Journal Pre-proof,化学,18.3,20409,34584,5602,1461
+理工,29,05385a6fa1eb2b4d6f94442c75b3b8323b85cdb54ccf54ba2875fafcba1a1f17,Efficient and Secure Proxy re-signature Message Authentication Scheme in Vehicular Ad Hoc Network,CS/编程,24.2,17986,39611,8388,1935
+理工,30,046cf4802802a3152cd9e4341881c0f560465c2521c85d0484aedc0ac2a19b31,Utilizing Segment Partitioning Scheme for Hybrid Address Spaces,CS/编程,17.8,20011,32470,4834,916
+理工,31,0558e2b2424472279ccbb0416bd8923cab97d99df87ec60709c5d736c6e1abe0,Destination Prediction Based on Partial Trajectory Data,CS/编程,14.5,34745,69424,12996,2318
+理工,32,02cb8eb98f5675c7ffb585e0443f1edd8af1fffb787d596e60c72ebc7f12c1a5,A generalized procedure to identify three-dimensional rock blocks around complex excavations,CS/编程,12.8,53919,119027,23435,2816
+理工,33,0544a4fad6ac50ba02a15d75fff1d4092ed23a7a351710df07a6cc184b839a1f,Is a social network approach relevant to football results?☆,CS/编程,11.2,44110,69077,9160,1509
+理工,34,01f5806ec384816f5f88e5080cf914f905db817452cf724a482a3050da8df19d,Microbial interaction promotes desulfurization efficiency under high pH condition,CS/编程,10.8,28604,51219,9507,3027
+理工,35,02bd2b6738c4d6abe250ee95d9082ef8c2ddf2741530d9857dcdf399f3ec27d7,Data Formalization in Transport System Modeling Using a Graph Database,CS/编程,10.2,21570,37445,6041,1174
+理工,36,048004c419b7b1895a1a41283d743802d5a23ef4ef2667ee636d86785885ae51,A Modified Fast Buffer Reservation Algorithm (M-FBR) for Congestion Control in ATM Networks,CS/编程,10.1,29135,52767,8384,1148
+理工,37,02c9bb202642950fd8f61c6089bd15cc4a3b8cdcd6692642a906efc867d8259e,Dual-Slope Inductance-to-Digital Converter for Differential Reluctance Sensors,工程/EE,41.6,18131,32941,5990,1680
+理工,38,040e0043549f05c8a720cb135f7589c7c65ea0639ec88e87c6900db7bf4627dc,Facile Fabrication of MoSe₂ on Paper as an Electromechanical Piezoresistive Pressure–Strain Sensor,工程/EE,9.7,38343,62214,8754,1848
+理工,39,020eaa31e5725b42122aac657efc8ff3b8e34fd02dc6b025d0685982c4b90ea6,CFD Analysis of Supercritical CO₂ Turbine Shaft Supporting Device,工程/EE,9.3,15059,30551,5968,1458
+理工,40,03b258d8330a4e8bf3a3fac655bd74a4c6c414d404d7cef7f0377ae5c8435c6f,Analytical and Numerical Study of Consolidation Effect on Time Delayed Borehole Stability During Underbalanced Drilling ,工程/EE,9.2,48269,99602,20659,5496
+理工,41,035ba320a6cc48b58061d43caa3026e507dc27fd29c40a08658a99c4cf0c0607,Estimating Noise Hazard with the Sound-Level Meter,工程/EE,8.1,8108,14802,2185,175
+理工,42,0248d7f13f02106e81b4c9de1968275a94375741a030bf62d337e919502cf02d,Characterization of a Ducted Rotor Brushless Doubly Fed Reluctance Machine,工程/EE,8.0,31640,46752,5657,1313
+理工,43,0368b658ad02271120252aded22e9df01bd519de09c3a488484448b354c47158,Electrophoresis deposition and field emission characteristics of planar-gate-type electron source with carbon nanotubes,工程/EE,7.9,12925,19943,2629,525
+理工,44,04f9ab5bde423977c5c0102c16a39b4f5d11d612efe347ac05def8d787f5521d,Open Access,工程/EE,7.8,35409,80118,14983,1636
+理工,45,04eb175940fe6ccbd2a48ef81ba91dead90957da489c70eb0c3727ab34f74d24,Abstract# 2150,金融/经济,14.5,7255,16478,2983,448
+理工,46,038c6d3d55d32ef2aae884dd0cc370e679ec72f41d703b799198fcc736103927,A general model of demand-responsive transportation services: From taxi to ridesharing to dial-a-ride,金融/经济,11.5,42989,83148,14210,1690
+理工,47,045afce79d8aa3c1474a664b2bbdcf626a43e3ec24c435c0c2ae3f5af973b68c,Trigger Finger Adult and Pediatric Treatment Strategies,金融/经济,8.1,21186,37883,6251,1050
+理工,48,022b0e4139ab9c282f8718ef7d93247e1de98ead713d62f02a0b7d5fcf40b360,ORIGINAL ARTICLE,金融/经济,6.8,25971,37983,4834,1210
+理工,49,02a5ceaed2a02ad83c24fad99ce42a352964c266fbc4dc574e66afec0b4cfc56,Data-driven online service supply chain: a demand-side and supply-side perspective,金融/经济,5.8,40429,67878,10692,2420
+理工,50,04c8896cb6728fd58821120e69a713b22a22426dec57fa8fba321ad7515a3004,American Finance Association,金融/经济,5.8,14019,28564,5121,555
